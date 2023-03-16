@@ -16,6 +16,7 @@ function App() {
         </a>
       </div>
       <h1 className=' text-mytheme-redPrimary'>MONARQUIA PERRUNA</h1>
+      <p>Subtitulo dec pagina</p>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
