@@ -1,13 +1,14 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import './App.css'
+import { Button } from 'react-daisyui'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <div className="App">
-      <div>
+      <div className='bg-btnColor'>
         <a href="https://vitejs.dev" target="_blank">
           <img src="/vite.svg" className="logo" alt="Vite logo" />
         </a>
@@ -15,12 +16,14 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1 className=' text-mytheme-redPrimary'>MONARQUIA PERRUNA</h1>
-      <p>Subtitulo dec pagina</p>
+      <h1 className='bg-btnColor'>MONARQUIA PERRUNA</h1>
+      <p className='bg-basic-primary'>Subtitulo dec pagina</p>
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
+      <button className="btn btn-primary">Button</button>
+        <button onClick={() => setCount((count) => count + 1)} className='bg-btnColor'>
           count is {count}
         </button>
+        <Button color="btnColor">Click me!</Button>
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
         </p>
