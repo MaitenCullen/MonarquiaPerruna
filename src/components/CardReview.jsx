@@ -1,21 +1,37 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
+import { getReviews } from '../data/reviews'
 import '../styles.css'
-import perrito1 from '/img/perrito1.png'
+
 
 export const CardReview = () => {
+
+  const [ review, setReview] = useState([])
+
+  useEffect (() => {
+      getReviews()
+      .then((resp) => {
+          console.log(resp, "Las review")
+          setReview(resp);
+       })
+  },[]);
   return (
-    <div className='divReview'>
-      <img src={perrito1} className='imgDogReview'/>
-        <div className='divCardReview'>
-          <div className="divTextReview">
-              <text>
-              Me gustó, el chaleco es realmente lo que esperaba, algo moderno para mi perrito y que además sea fácil para ponérselo. Muy lindo diseño. Gracias.” 
-              </text>
-            <blockquote> Laura Rodriguez</blockquote>
-            <q>Doki</q>
+    <>
+      { review.map( review => (
+        <div className='divReview' key={review.id}>
+          <img src={review.img} className='imgDogReview'/>
+            <div className='divCardReview'>
+              <div className="divTextReview">
+                  <p>
+                {review.descripcion}
+                  </p>
+                <blockquote>{review.nombre}</blockquote>
+                <i>{review.icon}</i>
+                <q>{review.perro}</q>
+              </div>
           </div>
-      </div>
-    </div>
-    
+        </div>
+    ))}
+    </>
+  
   )
 }
