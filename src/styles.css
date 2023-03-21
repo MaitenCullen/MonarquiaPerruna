@@ -35,8 +35,9 @@
    radial-gradient(circle at 100% 0, #ffffff 0, #ffffff 14px, transparent 14px) 0% 100%/16px 16px no-repeat,
    radial-gradient(circle at 0 0, #ffffff 0, #ffffff 14px, transparent 14px) 100% 100%/16px 16px no-repeat,
    linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 4px) calc(100% - 32px) no-repeat,
-   linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 32px) calc(100% - 4  px) no-repeat,
+   linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 32px) calc(100% - 4px) no-repeat,
    conic-gradient(from 180deg at 50% 50%, #A01E12 0deg, rgba(160, 30, 18, 0) 180deg, #A01E12 360deg);
+   
 border-radius: 16px;
 padding: 9px;
 box-sizing: border-box;
@@ -46,7 +47,6 @@ box-sizing: border-box;
   align-items: center;
   justify-content: center;
 }
-
 
 
 
