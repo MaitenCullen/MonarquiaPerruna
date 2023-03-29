@@ -4,17 +4,18 @@ import img3 from '/img/img3.png'
 
 export const CardContact = () => {
   return (
-    <div>
-      <div>
+    <div className='divCardContact'>
+      <div className='divImgContact'>
          <img src={img3}/>
       </div>
-      <div>
+      <div className='divTextCotact'>
         <p>
           Si tienes alguna duda o consulta, comunícate con nosotros. Estaremos gustosos de atenderte.
         </p>
-        <button className="btn bg-redPrimary btn-xs sm:btn-sm md:btn-md lg:btn-lg buttonClass hover:bg-yellowPrimary border-current hover:border-current">
+        <button className="btn bg-redPrimary buttonClass hover:bg-yellowPrimary border-current hover:border-current">
           Contáctanos
         </button>
+
       </div>
     </div>
   )
