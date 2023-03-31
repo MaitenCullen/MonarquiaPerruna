@@ -12,7 +12,7 @@ module.exports = {
         greyPrimary: '#D1D1D1',
         greyText: '#666666',
         black:"#000000",
-        white:"#000000",
+        white:"#FFFFFF",
       },
     },
   },
