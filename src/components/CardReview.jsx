@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import { getReviews } from '../data/reviews'
 import '../styles.css'
+import "pure-react-carousel/dist/react-carousel.es.css";
+import { Slide } from 'pure-react-carousel';
 
 
 export const CardReview = () => {
@@ -17,19 +19,24 @@ export const CardReview = () => {
   return (
     <>
       { review.map( review => (
-        <div className='divReview' key={review.id}>
-          <img src={review.img} className='imgDogReview'/>
-            <div className='divCardReview'>
-              <div className="divTextReview">
-                  <p>
-                {review.descripcion}
-                  </p>
-                <blockquote>{review.nombre}</blockquote>
-                <i>{review.icon}</i>
-                <q>{review.perro}</q>
-              </div>
+        <Slide  key={review.id} index={review.id}>
+          <div className='divSlideCard'>
+            <div className='divReview'>
+            <img src={review.img} className='imgDogReview'/>
+              <div className='divCardReview '>
+                <div className="divTextReview">
+                    <p>
+                  {review.descripcion}
+                    </p>
+                  <blockquote>{review.nombre}</blockquote>
+                  <i>{review.icon}</i>
+                  <q>{review.perro}</q>
+                </div>
+            </div>
+            </div>
           </div>
-        </div>
+         
+        </Slide>
     ))}
     </>
   
