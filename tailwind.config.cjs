@@ -13,6 +13,8 @@ module.exports = {
         greyText: '#666666',
         black:"#000000",
         white:"#FFFFFF",
+        redLetters: "#9D0308",
+        blackLetters: "#191919"
       },
     },
   },
