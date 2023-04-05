@@ -4,13 +4,10 @@
 }
 
 .textCaracteristicas{
-    width: 30%;
+    width: 40%;
     height: 100vh;
-}
-
-.textCaracteristicas ol{
     display: flex;
     flex-direction: column;
-    height: 100vh;
     justify-content: space-evenly;
 }
+

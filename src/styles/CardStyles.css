@@ -115,12 +115,12 @@
   .divPContacto{
     width: 40%;
     display: flex;
-    height: 0%;
+    height: 40%;
     flex-direction: column;
     justify-content: space-evenly;
   }
+
   .divPContacto p {
-    
   font-family: 'Lato';
   font-style: normal;
   font-weight: 400;
@@ -133,10 +133,10 @@
     /*CARD DOGID*/ 
   /*////////////////////////////////////////////////////////////////*/
   .containerDOGID{
-    width: 694px;
-    height: 108px;    
+    width: 100%;
     display: flex;
     align-items: center;
+    justify-content: center;
   }
   .divCardDogId{
     position: relative;
