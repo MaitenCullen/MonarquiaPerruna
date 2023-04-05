@@ -23,6 +23,7 @@ const MainCarousel = () => {
                 <img src={ img3 } className="w-full" alt="Perros desfilando las últimas tendencias de la moda de perros diseñadas por Monarquia Perruna." title="Perros con los últimos productos de Monarquia perruna. Chalecos espectaculares para el invierno para tu perro."/>
                 <h2 className="index__carouselImg3__titulo">¡Completa el armario de tu mascota!</h2>
                 <h3 className="index__carouselImg3__subtitulo">Tenemos las prendas más lindas para que tu consentid@ brille y sorprenda</h3>
+                <button id="index__carouselImg3__btn" className="btn">Ver más</button>
             </div> 
         </div> 
         <div id="index__btnsCarousel__container" className="flex justify-center w-full py-2 gap-2">
