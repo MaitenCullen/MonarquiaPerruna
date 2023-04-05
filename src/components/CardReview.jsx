@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { getReviews } from '../data/reviews'
-import '../styles.css'
+import '../styles/CardStyles.css'
 import "pure-react-carousel/dist/react-carousel.es.css";
 import { Slide } from 'pure-react-carousel';
 

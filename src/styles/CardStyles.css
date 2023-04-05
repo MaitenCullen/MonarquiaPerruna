@@ -1,0 +1,182 @@
+/*CARD REVIEW*/ 
+/*--------------------------------------------------------------------------------*/
+.divReview{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin:0.5em;
+  }
+  .imgDogReview{
+    position: absolute;
+    bottom: calc(100% - 27px);
+  }
+  .divCardReview{
+     width: 274px;
+     height: 224px;
+     background:
+     radial-gradient(circle at 100% 100%, #ffffff 0, #ffffff 14px, transparent 14px) 0% 0%/16px 16px no-repeat,
+     radial-gradient(circle at 0 100%, #ffffff 0, #ffffff 14px, transparent 14px) 100% 0%/16px 16px no-repeat,
+     radial-gradient(circle at 100% 0, #ffffff 0, #ffffff 14px, transparent 14px) 0% 100%/16px 16px no-repeat,
+     radial-gradient(circle at 0 0, #ffffff 0, #ffffff 14px, transparent 14px) 100% 100%/16px 16px no-repeat,
+     linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 4px) calc(100% - 32px) no-repeat,
+     linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 32px) calc(100% - 4px) no-repeat,
+     conic-gradient(from 180deg at 50% 50%, #A01E12 0deg, rgba(160, 30, 18, 0) 180deg, #A01E12 360deg);
+    border-radius: 16px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    padding: 5px;
+    box-sizing: border-box;         
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  .divTextReview{
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: left;
+  padding: 3%;
+  width: 80%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  }
+  
+
+
+
+
+/*CARD CONTACTO degradado*/
+
+.buttonClass{
+    width: 272px;
+    height: 48;
+    padding: 10px;
+    gap: 10px;
+    color: #ffffff;
+    width: 100%;
+  }
+  .divCardContact{
+    background: radial-gradient(circle at 100% 100%, #ffffff 0, #ffffff 14px, transparent 14px) 0% 0%/16px 16px no-repeat,
+    radial-gradient(circle at 0 100%, #ffffff 0, #ffffff 14px, transparent 14px) 100% 0%/16px 16px no-repeat,
+    radial-gradient(circle at 100% 0, #ffffff 0, #ffffff 14px, transparent 14px) 0% 100%/16px 16px no-repeat,
+    radial-gradient(circle at 0 0, #ffffff 0, #ffffff 14px, transparent 14px) 100% 100%/16px 16px no-repeat,
+    linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 4px) calc(100% - 32px) no-repeat,
+    linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 32px) calc(100% - 4px) no-repeat,
+    conic-gradient(from 90deg, #a01e12 12%, #fceccb 28%, rgba(244,219,188,0.25) 74%, #a01e12 95%);
+  border-radius: 16px;
+  padding: 6px;
+  box-sizing: content-box;
+  width: 556px;
+  height: 240px;
+  border-radius: 16px;
+  box-sizing: content-box;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  }
+  
+  .divCardContact p{
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: left;
+  }
+  .divCardContact img{
+    position: absolute;
+    bottom: calc(100% - 311px);
+    right:  calc(100% - 280px);
+  }
+  .divImgContact{
+    width: 30%;
+  }
+  .divTextCotact{
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  
+  /*CARD CONTACTO*/ 
+  /*////////////////////////////////////////////////////////////////*/
+  
+  .imgDivContacto{
+    width: 50%;
+  }
+  .divPContacto{
+    width: 40%;
+    display: flex;
+    height: 40%;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .divPContacto p {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #191919;
+  }
+  
+
+    /*CARD DOGID*/ 
+  /*////////////////////////////////////////////////////////////////*/
+  .containerDOGID{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .divCardDogId{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin:0.5em;
+  }
+  .divDogID{
+    width: 694px;
+    height: 108px;
+    background:
+    radial-gradient(circle at 100% 100%, #ffffff 0, #ffffff 14px, transparent 14px) 0% 0%/16px 16px no-repeat,
+    radial-gradient(circle at 0 100%, #ffffff 0, #ffffff 14px, transparent 14px) 100% 0%/16px 16px no-repeat,
+    radial-gradient(circle at 100% 0, #ffffff 0, #ffffff 14px, transparent 14px) 0% 100%/16px 16px no-repeat,
+    radial-gradient(circle at 0 0, #ffffff 0, #ffffff 14px, transparent 14px) 100% 100%/16px 16px no-repeat,
+    linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 4px) calc(100% - 32px) no-repeat,
+    linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 32px) calc(100% - 4px) no-repeat,
+    conic-gradient(from 180deg at 50% 50%, #A01E12 0deg, rgba(160, 30, 18, 0) 180deg, #A01E12 360deg);
+   border-radius: 16px;
+   box-sizing: border-box;
+   border-radius: 16px;
+   padding: 5px;
+   box-sizing: border-box;         
+   display: flex;
+   align-items: center;
+   justify-content: center;
+  }
+
+  .divTextDogID{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    width: 90%;
+    height: 60%;
+    text-align: center;
+  }
+  .imgDOGID{
+    position: absolute;
+    bottom: calc(100% - 40px);
+    width: 60%;
+  }
