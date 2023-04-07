@@ -28,3 +28,13 @@
     font-size: 40px;
     line-height: 48px;
 }
+
+.navBarDogId{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    color: #A01E12;
+}
+.navBarDogId li:hover{
+    cursor: pointer;
+}
