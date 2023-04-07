@@ -2,7 +2,7 @@ import React from 'react';
 import img1 from "/img/Home-BannerProductos1.png";
 import img2 from "/img/Home-BannerDogId2.png";
 import img3 from "/img/Home-BannerRopa3.png";
-import carouselDot from "/img/black-circle.png";
+import carouselDot from "/img/greyCircle.png";
 
 const MainCarousel = () => {
     return (

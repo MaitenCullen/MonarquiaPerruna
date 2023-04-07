@@ -35,7 +35,7 @@
 background-color: grey;
 }
 
-<<<<<<< HEAD
+
 /*------------------------------------INDEX---------------------------------------*/
 /*--------------------------------------------------------------------------------*/
 
@@ -108,10 +108,6 @@ background-color: grey;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-#index__carouselImg2__btn:hover{
-  background-color: #E9B900;
-  border: solid 2px #191919;
-}
 
 /*Item 3*/
 
@@ -150,10 +146,6 @@ background-color: grey;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-#index__carouselImg3__btn:hover{
-  background-color: #E9B900;
-  border: solid 2px #191919;
-}
 /*Sobre nosotros*/
 
 .index__sobreNosotros__container{
@@ -183,12 +175,12 @@ background-color: grey;
   color: #191919;
   font-size: 2rem;
 }
-=======
->>>>>>> 394961506acb06807d294f808689d63368043bc0
 
-/*grid*/
 
-.index__aboutUs__grid {  display: grid;
+/*grid para cards de virtudes de Monarquia Perruna*/
+
+.index__aboutUs__grid {  
+  display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   grid-auto-columns: 1fr;
@@ -204,18 +196,87 @@ background-color: grey;
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 500px ;
 }
 
-.index__ProductosDeCalidad__container { grid-area: index__ProductosDeCalidad__container; }
+.index__ProductosDeCalidad__container { 
+  grid-area: index__ProductosDeCalidad__container; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+}
 
-.index__seguridadEnElProceso__container { grid-area: index__seguridadEnElProceso__container; }
+.index__seguridadEnElProceso__container { 
+  grid-area: index__seguridadEnElProceso__container; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+}
 
-.index__AtencionPersonalizada__container { grid-area: index__AtencionPersonalizada__container; }
+.index__AtencionPersonalizada__container { 
+  grid-area: index__AtencionPersonalizada__container;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+}
 
-.index__envios__container { grid-area: index__envios__container; }
+.index__envios__container { 
+  grid-area: index__envios__container;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 250px; 
+}
+
+/*Boton centrado*/
+
+.botonCentrado__container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0px 20px 0px;
+}
+
+.botonCentrado__container button{
+  width: 20%;
+  background-color: #A01E12;
+  border: solid 2px #A01E12;
+}
+
+/*SECCION PRODUCTOS INDEX*/
+
+.index__productos__container{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+}
 
 
+.index__productos__container div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  line-height: 45px;
+}
 
+.index__productos__container div p{
+  color: #A01E12;
+  font-size: 1rem;
+}
+
+.index__productos__container div p strong {
+  color: #191919;
+  font-size: 2rem;
+}
 
 
 /*FOOTER*/ 
