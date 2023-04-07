@@ -180,3 +180,64 @@
     bottom: calc(100% - 40px);
     width: 60%;
   }
+
+
+  /*CARD APP DOG ID*/
+  /*/////////////////////////////////////////////////////*/ 
+
+  .divAPP{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin:0.5em;
+  }
+
+  .APPdogID{
+    Width:260px;
+    Height:176px;
+    background: radial-gradient(circle at 100% 100%, #ffffff 0, #ffffff 14px, transparent 14px) 0% 0%/16px 16px no-repeat,
+    radial-gradient(circle at 0 100%, #ffffff 0, #ffffff 14px, transparent 14px) 100% 0%/16px 16px no-repeat,
+    radial-gradient(circle at 100% 0, #ffffff 0, #ffffff 14px, transparent 14px) 0% 100%/16px 16px no-repeat,
+    radial-gradient(circle at 0 0, #ffffff 0, #ffffff 14px, transparent 14px) 100% 100%/16px 16px no-repeat,
+    linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 4px) calc(100% - 32px) no-repeat,
+    linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 32px) calc(100% - 4px) no-repeat,
+    linear-gradient(0deg, #a01e12 0%, rgba(219, 158, 152, 1) 53%, rgba(254,188,182,0.57) 74%, rgba(255,216,212,0.65) 88%, rgba(255,236,234,1) 98%, rgba(255,255,255,0) 100%);
+   border-radius: 16px;
+   padding: 6px;
+   box-sizing: border-box;
+   border-radius: 16px;
+   box-sizing: border-box;
+   border-radius: 16px;
+   padding: 5px;
+   box-sizing: border-box;         
+   display: flex;
+   align-items: center;
+   justify-content: center;
+  }
+
+  .imgAPP{
+    position: absolute;
+    bottom: calc(100% - 20px);
+    width: 13%;
+  }
+
+  .divAPPInfo{
+    padding: 3%;
+  }
+
+  .divTextAPP{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+  }
+
+  .divTextAPP h4{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+  }

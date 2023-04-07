@@ -11,3 +11,20 @@
     justify-content: space-evenly;
 }
 
+.perdido p{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+}
+
+.perdido h4{
+    color:#A01E12;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+}
