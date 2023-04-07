@@ -5,7 +5,7 @@ import circulo from '/img/circulo.png'
 
 export const AppDogID = () => {
   return (
-    <div className='containerDOGID'>
+    <div className='containerDOGID h-screen'>
          <div className='divAPP'>
             <div className='APPdogID'>
             <img src={salud} className='imgAPP'/>
