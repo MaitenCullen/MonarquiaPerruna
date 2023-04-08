@@ -3,6 +3,7 @@ import DogIdImg from "/img/Home-ProductosDogId.png";
 import RopaImg from "/img/Home-ProductosRopa.png";
 import PerroIzquierdo from "/img/goldenRetrieverSinCorona.png";
 import PerroDerecho from "/img/LabradorSinCorona.png";
+import { Link } from 'react-router-dom';
 
 const ProductosIndex = () => {
     return (
@@ -21,7 +22,7 @@ const ProductosIndex = () => {
                         <img className="index__imagenProductos" src={ DogIdImg } alt="El mejor id para que tu perro pueda ser recononcido en cualquier lugar a traves de nuestra aplicación. Encontra nuestros modelos de Dog ID aa través de la imágen." />
                         <div className="index__DogIdCaption__container">
                             <h4>DOG ID</h4>
-                            <a href="">Ver más</a>
+                            <Link to="/dogId">Ver más</Link>
                         </div>
                     </div>
                 </div>
@@ -33,7 +34,7 @@ const ProductosIndex = () => {
                         <img className="index__imagenProductos" src={ RopaImg } alt="La mejor vestimenta para tu perro, encontra nuestros productos de ropa a traves de esta imágen." />
                         <div className="index__RopaCaption__container">
                             <h4>ROPA</h4>
-                            <a href="">Ver más</a>
+                            <Link to="/Chalecos">Ver más</Link>
                         </div>
                     </div>
                 </div>

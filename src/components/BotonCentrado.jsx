@@ -1,9 +1,10 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const BotonCentrado = () => {
   return (
     <div className="botonCentrado__container">
-        <button className="btn">Conócenos</button>
+        <Link to="/preguntasFrecuents" className="btn">Conócenos</Link>
     </div>
   )
 }

@@ -339,7 +339,7 @@
 
 .index__productosImagen__perroIzq{
   position: absolute;
-  top: -54%;
+  top: -54.5%;
   width: 300px;
   height: 200px;
 }
@@ -396,6 +396,65 @@
   font-weight: 700;
   font-family: "Lato";
 }
+
+
+/*Cards de la parte de Monarcas*/
+
+.index__MonarcasSlide__container{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.index__ImgyCaption__container{
+  position: relative;
+  width: 90%;
+}
+
+.index__imgMonarcas{
+  width: 400px ;
+  height: 220px ;
+  object-fit: cover;
+  border-radius: 7px;
+}
+
+.index__captionMonarcas__container{
+  position: absolute;
+  bottom: 0%;
+  background-color: rgba(25, 25, 25, 0.4);
+  width: 100%;
+  height: 30%;
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.index__captionMonarcas__container div{
+  width: 50%;
+  text-align: center;
+}
+
+.index__captionMonarcas__producto{
+  display: flex;
+  flex-direction: column;
+  border-left:2px white  solid;
+  height: 50%;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.index__captionMonarcas__container div h4{
+  color: white;
+}
+
+.index__captionMonarcas__container div h5{
+  color: white;
+}
+
 
 
 

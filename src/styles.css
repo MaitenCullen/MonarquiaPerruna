@@ -39,6 +39,10 @@ background-color: grey;
 /*------------------------------------INDEX---------------------------------------*/
 /*--------------------------------------------------------------------------------*/
 
+/*Acomodado de los textos en el Carousel principal*/
+
+
+
 /*Acomodado de los botones para mover las imagenes del carousel*/
 
 .index__mainCarousel__container{
@@ -241,7 +245,7 @@ background-color: grey;
   margin: 20px 0px 20px 0px;
 }
 
-.botonCentrado__container button{
+.botonCentrado__container a{
   width: 20%;
   background-color: #A01E12;
   border: solid 2px #A01E12;
@@ -278,8 +282,39 @@ background-color: grey;
   font-size: 2rem;
 }
 
+/*sector reyes y reinas*/
+
+.index__reyesYreinas__container{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+}
+
+.index__reyesYreinas__container div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  line-height: 45px;
+}
+
+.index__reyesYreinas__container div p{
+  color: #A01E12;
+  font-size: 1rem;
+}
+
+.index__reyesYreinas__container div p strong {
+  color: #191919;
+  font-size: 2rem;
+}
+
 
 /*FOOTER*/ 
+
 .footerClass{
   display: flex;
   justify-content: space-around;

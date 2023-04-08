@@ -4,9 +4,11 @@ import img2 from "/img/Home-BannerDogId2.png";
 import img3 from "/img/Home-BannerRopa3.png";
 import carouselDot from "/img/greyCircle.png";
 
+
 const MainCarousel = () => {
     return (
     <>
+
     <div className='index__mainCarousel__container'>
         <div className="carousel w-full">
             <div id="item1" className="carousel-item w-full">

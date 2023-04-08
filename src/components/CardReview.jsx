@@ -14,7 +14,7 @@ export const CardReview = () => {
       .then((resp) => {
           console.log(resp, "Las review")
           setReview(resp);
-       })
+        })
   },[]);
   return (
     <>
@@ -35,7 +35,6 @@ export const CardReview = () => {
             </div>
             </div>
           </div>
-         
         </Slide>
     ))}
     </>
