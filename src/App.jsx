@@ -7,17 +7,16 @@ import { Chalecos } from './screens/Chalecos';
 import { DogID } from './screens/DogID';
 import { Nosotros } from './screens/Nosotros';
 import { Preguntas } from './screens/Preguntas';
+import Navbar from './components/Navbar';
 
 
 function App() {
-
-
   return (
     <div  className="App">
-      {/* aca va la NavBar */}
+      <Navbar/>
       <section>
           <Routes>
-            <Route path='/' element={<Home />} />
+            <Route path='/' element={<Home/>} />
             <Route path='/Chalecos' element={<Chalecos />} />
             <Route path='/DogID' element={<DogID />} />
             <Route path='/Nosotros' element={<Nosotros />} />

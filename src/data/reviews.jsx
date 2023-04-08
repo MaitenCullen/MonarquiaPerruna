@@ -58,4 +58,4 @@ export const  getReviews =() =>  new Promise ((resolve, reject) => {
             } else {
                 reject ("algo salio mal")
             }
-        })
+ })

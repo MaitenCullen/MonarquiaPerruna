@@ -5,7 +5,6 @@ import wApp from '/img/wIcon.png';
 import mail from '/img/mailIcon.png';
 import facebook from '/img/fIcon.png';
 import instagram from '/img/iicon.png';
-
 import '../styles.css'
 
 export const Footer = () => {
