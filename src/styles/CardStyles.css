@@ -242,3 +242,219 @@
     font-size: 16px;
     line-height: 22px;
   }
+
+/*-------------------------------------------------------------------*/
+/*------------------------Cards Fortalezas---------------------------*/
+/*-------------------------------------------------------------------*/
+
+.index__cardFortaleza__container{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 75%;
+  height: 166px;
+  text-align: center;
+  background: radial-gradient(circle at 100% 100%, #ffffff 0, #ffffff 14px, transparent 14px) 0% 0%/16px 16px no-repeat,
+    radial-gradient(circle at 0 100%, #ffffff 0, #ffffff 14px, transparent 14px) 100% 0%/16px 16px no-repeat,
+    radial-gradient(circle at 100% 0, #ffffff 0, #ffffff 14px, transparent 14px) 0% 100%/16px 16px no-repeat,
+    radial-gradient(circle at 0 0, #ffffff 0, #ffffff 14px, transparent 14px) 100% 100%/16px 16px no-repeat,
+    linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 4px) calc(100% - 32px) no-repeat,
+    linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 32px) calc(100% - 4px) no-repeat,
+    linear-gradient(0deg, #a01e12 0%, rgba(219, 158, 152, 1) 53%, rgba(254,188,182,0.57) 74%, rgba(255,216,212,0.65) 88%, rgba(255,236,234,1) 98%, rgba(255,255,255,0) 100%);
+  border-radius: 16px;
+  position: relative;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.tituloCard__fortaleza{
+  font-weight: 700;
+  font-family: "Nunito";
+  font-size: 14px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.textoCard__fortaleza__container{
+    width: 80%;
+}
+
+.textoCard__fortaleza{
+  margin-bottom: 30px;
+  font-size: 14px;
+  font-family: "Nunito";
+}
+
+.icono__fortaleza{
+  position: absolute;
+  top: -10%;
+  right: 40%;
+  height: 48px;
+  width: 56px;
+}
+
+/*Cards de productos en el Index*/
+
+.index__productosCards__container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.index__productosCards__DOGID-container{
+  width: 50%;
+  display: flex;
+  justify-content: end;
+  padding-right: 20px;
+}
+
+.index__productosCards__ROPA-container{
+  width: 50%;
+  display: flex;
+  justify-content: start;
+  padding-left: 20px;
+}
+
+/*posicion de caption dentro de la card*/
+
+.index__DOGID__container{
+  width: 80%;
+  position:relative;
+}
+
+.index__Ropa__container{
+  width: 80%;
+  position:relative;
+}
+
+
+.index__DogIdCaption__container h4{
+  position: absolute;
+  top: 30%;
+  right: 27%;
+}
+
+.index__productosImagen__perroIzq{
+  position: absolute;
+  top: -54.5%;
+  width: 300px;
+  height: 200px;
+}
+
+.index__productosImagen__perroDer{
+  position: absolute;
+  top: -50%;
+  right: 0%;
+  width: 300px;
+  height: 200px;
+}
+
+.index__DogIdCaption__container a{
+  position: absolute;
+  top: 60%;
+  right: 40%;
+  text-decoration: underline grey;
+  color: white;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: "Lato";
+}
+
+.index__RopaCaption__container h4{
+  position: absolute;
+  top: 30%;
+  right: 30%;
+}
+
+.index__RopaCaption__container a{
+  position: absolute;
+  top: 60%;
+  right: 40%;
+  text-decoration: underline gray;
+  font-family: "Lato";
+  color: white;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+/*Texto de los captions de la card*/
+
+.index__DogIdCaption__container h4{
+  color: white;
+  font-size: 64px;
+  font-weight: 700;
+  font-family: "Lato";
+}
+
+
+.index__RopaCaption__container h4{
+  color: white;
+  font-size: 64px;
+  font-weight: 700;
+  font-family: "Lato";
+}
+
+
+/*Cards de la parte de Monarcas*/
+
+.index__MonarcasSlide__container{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.index__ImgyCaption__container{
+  position: relative;
+  width: 90%;
+}
+
+.index__imgMonarcas{
+  width: 400px ;
+  height: 220px ;
+  object-fit: cover;
+  border-radius: 7px;
+}
+
+.index__captionMonarcas__container{
+  position: absolute;
+  bottom: 0%;
+  background-color: rgba(25, 25, 25, 0.4);
+  width: 100%;
+  height: 30%;
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.index__captionMonarcas__container div{
+  width: 50%;
+  text-align: center;
+}
+
+.index__captionMonarcas__producto{
+  display: flex;
+  flex-direction: column;
+  border-left:2px white  solid;
+  height: 50%;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.index__captionMonarcas__container div h4{
+  color: white;
+}
+
+.index__captionMonarcas__container div h5{
+  color: white;
+}
+
+
+
+

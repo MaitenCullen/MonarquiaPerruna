@@ -7,6 +7,9 @@ import { Testimonios } from './../section/Testimonios';
 import { Contact } from './../section/Contact';
 import MainCarousel from '../components/MainCarousel';
 import Fortalezas from '../section/Fortalezas';
+import BotonCentrado from '../components/BotonCentrado';
+import ProductosIndex from '../section/ProductosIndex';
+import IndexReyesYReinas from '../section/IndexReyesYReinas';
 
 
 export const Home = () => {
@@ -14,6 +17,9 @@ export const Home = () => {
     <div>
       <MainCarousel/>
       <Fortalezas/>
+      <BotonCentrado/>
+      <ProductosIndex/>
+      <IndexReyesYReinas/>
       <Testimonios/>
       <Contact/>
     </div>

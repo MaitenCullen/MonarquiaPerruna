@@ -1,4 +1,5 @@
 import React from 'react'
+import FortalezasContainer from '../components/FortalezasContainer'
 
 const Fortalezas = () => {
   return (
@@ -9,6 +10,7 @@ const Fortalezas = () => {
                 <p><strong>¿Por qué elegir Monarquía Perruna?</strong></p>
         </div>
     </div>
+    <FortalezasContainer/>
     </>
     
   )
