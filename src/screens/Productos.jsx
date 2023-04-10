@@ -8,7 +8,7 @@ import { ChalecosImg } from '../components/ChalecosImg';
 import { Polar } from '../components/Polar';
 import { Pilotos } from '../components/Pilotos';
 
-export const Chalecos = () => {
+export const Productos = () => {
 
   const [seleccion, setSeleccion] = useState('chalecos');
 
@@ -32,15 +32,15 @@ export const Chalecos = () => {
         <img src={banner} alt='Banner principal' className='w-screen'/>
       </div>
       <div className='flex w-full justify-around '>
-        <div className='flex items-center flex-col cursor-pointer' onClick={()=> seleccionar('chalecos')}>
+        <div className='flex items-center flex-col cursor-pointer divCirculo' onClick={()=> seleccionar('chalecos')}>
           <img src={img1}/>
           <h4>Chalecos</h4>
         </div>
-        <div className='flex items-center flex-col cursor-pointer' onClick={()=> seleccionar('polar')}>
+        <div className='flex items-center flex-col cursor-pointer divCirculo' onClick={()=> seleccionar('polar')}>
            <img src={img2}/>
            <h4>Polar</h4>
         </div>
-        <div className='flex items-center flex-col cursor-pointer' onClick={()=> seleccionar('pilotos')}>
+        <div className='flex items-center flex-col cursor-pointer divCirculo' onClick={()=> seleccionar('pilotos')}>
           <img src={img3} />
           <h4 >Piloto</h4>
         </div>
