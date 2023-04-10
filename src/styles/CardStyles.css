@@ -133,7 +133,7 @@
     /*CARD DOGID*/ 
   /*////////////////////////////////////////////////////////////////*/
   .containerDOGID{
-    width: 40%;
+    width: 60%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -307,14 +307,14 @@
 .index__productosCards__DOGID-container{
   width: 50%;
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   padding-right: 20px;
 }
 
 .index__productosCards__ROPA-container{
   width: 50%;
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   padding-left: 20px;
 }
 
@@ -455,6 +455,80 @@
   color: white;
 }
 
+/*CARDS CHALECOS//////////////////////////////////////////*/
+.divProductos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.imgProducto{
+  height: 240px;
+  width: 331px;
+  border-radius: 16px;
+}
+#chaleco01{
+  background:  url('/img/ropa/ropa00.png');
+  transition: 1s;
+  background-repeat : no-repeat;
+  background-size : contain;
+}
+#chaleco01:hover{
+  background: url('/img/ropa/ropa00a.png');
+}
+#chaleco02{
+  background:  url('/img/ropa/ropa01.png');
+  background-repeat : no-repeat;
+  background-size : contain;
+  transition: 1s;
+}
+#chaleco02:hover{
+  background: url('/img/ropa/ropa01a.png');
+}
+#chaleco03{
+  background:  url('/img/ropa/ropa02.png');
+  background-repeat : no-repeat;
+  background-size : contain;
+  transition: 1s;
+}
+#chaleco03:hover{
+  background: url('/img/ropa/ropa02a.png');
+}
+#chaleco04{
+  background:  url('/img/ropa/ropa03.png');
+  background-repeat : no-repeat;
+  background-size : contain;
+  transition: 1s;
+}
+#chaleco04:hover{
+  background: url('/img/ropa/ropa03a.png');
+}
+#chaleco05{
+  background:  url('/img/ropa/ropa04.png');
+  background-repeat : no-repeat;
+  background-size : contain;
+  transition: 1s;
+}
+#chaleco05:hover{
+  background: url('/img/ropa/ropa04a.png');
+}
+#chaleco06{
+  background:  url('/img/ropa/ropa05.png');
+  background-repeat : no-repeat;
+  background-size : contain;
+  transition: 1s;
+}
+#chaleco06:hover{
+  background: url('/img/ropa/ropa05a.png');
+}
+
+/*CARDS CHALECOS Responsive//////////////////////////////////////////*/
 
 
-
+@media(max-width:780px){
+  .imgProducto{
+    height: 140px;
+    width: 200px;
+  }
+}
