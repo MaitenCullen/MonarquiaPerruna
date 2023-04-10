@@ -1,22 +1,22 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import logo from '/img/logo2.png';
-import facebook from '/img/fIcon.png';
-import instagram from '/img/iicon.png';
+import facebook from '/img/IconoFacebook.png';
+import instagram from '/img/instagramLoggo.png';
 
 
 const Navbar = () => {
     return (
     <div id="navBar" className="navbar bg-base-100">
         <div className="navbar__seccionIzq__container">
-            <a className="btn btn-ghost normal-case text-xl mx-16">
+            <Link to="/" className="btn btn-ghost normal-case text-xl mx-16">
                 <img src={ logo } alt="Logo de Monarquia Perruna" className="logoNavbar" />
-            </a>
+            </Link>
         </div>
         <div id="navBar__menu__container" className="flex-none">
             <ul className="menu menu-horizontal px-1">
                 <li>
-                    <a>Nosotros</a>
+                    <Link to="/Nosotros">Nosotros</Link>
                 </li>
                 <li tabIndex={0}>
                     <a>
@@ -25,15 +25,15 @@ const Navbar = () => {
                     </a>
                     <ul id="navBar__menuDesplegable" className="p-2 bg-base-100">
                         <li>
-                            <a>Chalecos</a>
+                            <Link to="/Chalecos">Chalecos</Link>
                         </li>
                         <li>
-                            <a>Dog ID</a>
+                            <Link to="/dogId">Dog ID</Link>
                         </li>
                     </ul>
                 </li>
                 <li>
-                    <a>Contáctanos</a>
+                    <Link to="/Contacto">Contáctanos</Link>
                 </li>
                 <li>
                     <a href="https://www.facebook.com/profile.php?id=100083939684486"><img src={ facebook } alt="Icono de facebook para acceder al perfil de Monarquía Perruna" /></a>

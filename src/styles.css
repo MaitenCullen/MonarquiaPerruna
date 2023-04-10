@@ -36,11 +36,285 @@ background-color: grey;
 }
 
 
+/*------------------------------------INDEX---------------------------------------*/
+/*--------------------------------------------------------------------------------*/
+
+/*Acomodado de los textos en el Carousel principal*/
 
 
+
+/*Acomodado de los botones para mover las imagenes del carousel*/
+
+.index__mainCarousel__container{
+  position:relative;
+}
+
+#index__btnsCarousel__container{
+  position: absolute;
+  top:85%;
+  right:0%;
+}
+
+.index__btnMainCarousel__img{
+  width:10px;
+  height:10px;
+}
+/*Acomodado de posicion de titulos y subtitulos en las imagenes del carousel*/
+
+/*Item 1*/
+
+#item1{
+  position:relative;
+}
+
+.index__carouselImg1__titulo{
+  position:absolute;
+  top:25%;
+  left: 10%;
+  font-size: 2.7rem;
+  width: 45%;
+  color: #ffffff;
+  line-height: 48px;
+}
+
+.index__carouselImg1__subtitulo{
+  position:absolute;
+  top:53%;
+  left: 10%;
+  font-size: 1.7rem;
+  width: 45%;
+  color: #ffffff;
+  font-weight: 400;
+}
+
+/*Item 2*/
+
+#item2{
+  position:relative;
+}
+
+.index__carouselImg2__titulo{
+  position:absolute;
+  top:20%;
+  left: 10%;
+  font-size: 2.7rem;
+  width: 41%;
+  color: #191919;
+}
+
+#index__carouselImg2__btn{
+  position:absolute;
+  top:75%;
+  left: 10%;
+  width: 25%;
+  background-color: #A01E12;
+  border: solid 2px #A01E12;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/*Item 3*/
+
+#item3{
+  position:relative;
+}
+
+.index__carouselImg3__titulo{
+  position:absolute;
+  top:21%;
+  left: 9.5%;
+  font-size: 2.7rem;
+  width: 40%;
+  color: #191919;
+  font-weight: 600;
+  line-height: 48px;
+}
+
+.index__carouselImg3__subtitulo{
+  position:absolute;
+  top:51%;
+  left: 10%;
+  font-size: 1.7rem;
+  font-weight: 400;
+  width: 45%;
+  color: #191919;
+}
+
+#index__carouselImg3__btn{
+  position:absolute;
+  top:75%;
+  left: 10%;
+  width: 25%;
+  background-color: #A01E12;
+  border: solid 2px #A01E12;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*Sobre nosotros*/
+
+.index__sobreNosotros__container{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+}
+
+.index__sobreNosotros__container div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  line-height: 45px;
+}
+
+.index__sobreNosotros__container div p{
+  color: #A01E12;
+  font-size: 1rem;
+}
+
+.index__sobreNosotros__container div p strong {
+  color: #191919;
+  font-size: 2rem;
+}
+
+
+/*grid para cards de virtudes de Monarquia Perruna*/
+
+.index__aboutUs__grid {  
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "index__ProductosDeCalidad__container index__aboutUsMainImg__container index__AtencionPersonalizada__container"
+    "index__seguridadEnElProceso__container index__aboutUsMainImg__container index__envios__container";
+}
+
+.index__aboutUsMainImg__container { 
+  grid-area: index__aboutUsMainImg__container;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px ;
+}
+
+.index__ProductosDeCalidad__container { 
+  grid-area: index__ProductosDeCalidad__container; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+}
+
+.index__seguridadEnElProceso__container { 
+  grid-area: index__seguridadEnElProceso__container; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+}
+
+.index__AtencionPersonalizada__container { 
+  grid-area: index__AtencionPersonalizada__container;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+}
+
+.index__envios__container { 
+  grid-area: index__envios__container;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 250px; 
+}
+
+/*Boton centrado*/
+
+.botonCentrado__container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0px 20px 0px;
+}
+
+.botonCentrado__container a{
+  width: 20%;
+  background-color: #A01E12;
+  border: solid 2px #A01E12;
+}
+
+/*SECCION PRODUCTOS INDEX*/
+
+.index__productos__container{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+}
+
+
+.index__productos__container div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  line-height: 45px;
+}
+
+.index__productos__container div p{
+  color: #A01E12;
+  font-size: 1rem;
+}
+
+.index__productos__container div p strong {
+  color: #191919;
+  font-size: 2rem;
+}
+
+/*sector reyes y reinas*/
+
+.index__reyesYreinas__container{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+}
+
+.index__reyesYreinas__container div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  line-height: 45px;
+}
+
+.index__reyesYreinas__container div p{
+  color: #A01E12;
+  font-size: 1rem;
+}
+
+.index__reyesYreinas__container div p strong {
+  color: #191919;
+  font-size: 2rem;
+}
 
 
 /*FOOTER*/ 
+
 .footerClass{
   display: flex;
   justify-content: space-around;

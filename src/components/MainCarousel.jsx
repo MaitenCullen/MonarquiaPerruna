@@ -2,11 +2,13 @@ import React from 'react';
 import img1 from "/img/Home-BannerProductos1.png";
 import img2 from "/img/Home-BannerDogId2.png";
 import img3 from "/img/Home-BannerRopa3.png";
-import carouselDot from "/img/black-circle.png";
+import carouselDot from "/img/greyCircle.png";
+
 
 const MainCarousel = () => {
     return (
     <>
+
     <div className='index__mainCarousel__container'>
         <div className="carousel w-full">
             <div id="item1" className="carousel-item w-full">
@@ -23,6 +25,7 @@ const MainCarousel = () => {
                 <img src={ img3 } className="w-full" alt="Perros desfilando las últimas tendencias de la moda de perros diseñadas por Monarquia Perruna." title="Perros con los últimos productos de Monarquia perruna. Chalecos espectaculares para el invierno para tu perro."/>
                 <h2 className="index__carouselImg3__titulo">¡Completa el armario de tu mascota!</h2>
                 <h3 className="index__carouselImg3__subtitulo">Tenemos las prendas más lindas para que tu consentid@ brille y sorprenda</h3>
+                <button id="index__carouselImg3__btn" className="btn">Ver más</button>
             </div> 
         </div> 
         <div id="index__btnsCarousel__container" className="flex justify-center w-full py-2 gap-2">
