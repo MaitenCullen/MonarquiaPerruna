@@ -9,9 +9,9 @@ import '../styles.css'
 
 export const Footer = () => {
   return (
-    <div className='bg-darkPrimary w-screen footerClass'>
-        <div>
-        <img src={logo} alt="" />
+    <div className='bg-darkPrimary w-full footerClass p-8'>
+        <div className='footerLogo'>
+        <img src={logo} alt="logoMonarquia" />
         </div>
         <div> 
           <p>
@@ -21,7 +21,7 @@ export const Footer = () => {
             Preguntas frecuentes
             </a>
         </div>
-        <div className='flex flex-col'>
+        <div className='flex flex-col footerContacto'>
           <p>
           Contáctanos
           </p>
@@ -35,13 +35,13 @@ export const Footer = () => {
               <img  src={shop}/> Mercado Shop - Monarquía Perruna
             </a>
         </div>
-        <div>
+        <div className='footerRedes'>
           <p>
           Síguenos en
           </p>
-          <div className='flex'>
-            <a><img  src={facebook}/></a>
-            <a><img  src={instagram}/></a>
+          <div className='flex sm:justify-start justify-center items-center'>
+            <a className='p-0.5'><img  src={facebook}/></a>
+            <a className='p-0.5'><img  src={instagram}/></a>
           </div>
         </div>
     </div>

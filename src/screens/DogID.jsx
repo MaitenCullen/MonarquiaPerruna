@@ -7,7 +7,7 @@ import { ComoSeUsa } from './../components/ComoSeUsa';
 
 export const DogID = () => {
 
-const [opcion, setOpcion] = useState('queEs?')
+const [opcion, setOpcion] = useState('queEs?');
 
   const renderComponents = () => {
     switch (opcion) {

@@ -25,7 +25,7 @@ const Navbar = () => {
                     </a>
                     <ul id="navBar__menuDesplegable" className="p-2 bg-base-100">
                         <li>
-                            <Link to="/Chalecos">Chalecos</Link>
+                            <Link to="/Productos">Chalecos</Link>
                         </li>
                         <li>
                             <Link to="/dogId">Dog ID</Link>

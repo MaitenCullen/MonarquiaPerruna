@@ -7,15 +7,15 @@ import { CardReview } from "./CardReview";
 
 export default function Carousel() {
     return (
-            <div className="w-4/5">
-                <CarouselProvider className="relative hidden sm:block " naturalSlideWidth={50} isIntrinsicHeight={true} naturalSlideHeight={100} totalSlides={6} visibleSlides={3} step={1} infinite={true} currentSlide={2} dragStep={1} interval={5000} isPlaying={true}>
-                    <div className="js-flickity flex justify-center items-center">
+            <div className="w-full">
+                <CarouselProvider className="relative  sm:block " naturalSlideWidth={50} isIntrinsicHeight={true} naturalSlideHeight={100} totalSlides={16} visibleSlides={3} step={1} infinite={true} currentSlide={2} dragStep={1} interval={5000} isPlaying={true}>
+                    <div className="js-flickity flex justify-center items-center ">
                         <ButtonBack role="button" aria-label="slide backward" className="w-12 h-12 md:w-14 md:h-14 rounded-full flex justify-center items-center border border-gray-300 hover:bg-gray-400 absolute z-30 left-0 ml-8 focus:outline-none focus:bg-gray-400 focus:ring-2 focus:ring-offset-2 focus:ring-gray-400 cursor-pointer" id="prev">
                             <svg width={8} height={14} viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M7 1L1 7L7 13" stroke="black" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" />
                             </svg>
                         </ButtonBack>
-                        <Slider className=" ">
+                        <Slider className=" w-4/5">
                             <CardReview/>
                         </Slider>
                         <ButtonNext role="button" aria-label="slide forward" className="w-12 h-12 md:w-14 md:h-14 rounded-full flex justify-center items-center border border-gray-300 hover:bg-gray-400 absolute z-30 right-0 mr-8 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800" id="next">
