@@ -1,30 +1,38 @@
 import React from 'react';
-import Lore from '/img/nosotros/Lore.png';
+import Lore from '/img/nosotros/loreSimba.png';
 import perrito1 from '/img/nosotros/perro0.png';
 import perrito2 from '/img/nosotros/perro1.png';
-import '../styles/Nosotros.css'
+
+import '../styles/Nosotros.css'; 
 export const Nosotros = () => {
   return (
-    <div>
-      <div>
-        Banner1
+    <div className='sectionNosotros'> 
+      <div className='divBanner1 bg-greyLight w-full'>
+        <h3>Nosotros</h3>
       </div>
-      <div className='flex justify-center'>
-        <div  className='flex items-center w-10/12 justify-center'>
+        <div  className='flex items-center justify-center flex-col py-9'>
+          <div className='text-center'>
+            <h5 className='text-redLetters'>Las mascotas están en el corazón de cada producto que elaboramos</h5>
+            <h4>Somos Monarquía Perruna</h4>
+          </div>
+          <div className='divLoreSimba'>
           <img src={Lore} alt='Imagen Lore y Simon'/>
           <div>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta quaerat perspiciatis quis expedita repellendus sunt, nam dolor repellat laboriosam odit explicabo cupiditate voluptate eum delectus, a impedit voluptas rem veniam.
             </p>
           </div>
+          </div>
+        </div>
+      <div className='divBanner2  bg-greyLight'>
+        <div className='divTextBanner2'>
+        <h5 className='text-redLetters'>Lo que aspiramos a ser</h5>
+        <h4>Nuestra visión</h4>
         </div>
       </div>
-      <div>
-        Banner2
-      </div>
-      <div className='flex justify-center flex-col' >
+      <div className='flex justify-center flex-col py-9' >
         <div className='text-center'>
-          <h5>¿Quiénes somos? ¿Qué hacemos?</h5>
+          <h5 className='text-redLetters'>¿Quiénes somos? ¿Qué hacemos?</h5>
           <h4>Nuestra misión</h4>
         </div>
         <div className='divCardDogId'>
@@ -35,12 +43,12 @@ export const Nosotros = () => {
           </div>
         </div>
       </div>
-      <div>
+      <div className='bg-greyLight divNosotrosGris pt-14'>
         <div className='text-center'>
-          <h5>¿Qué nos define?</h5>
-          <h4>Nuestros valores</h4>
+          <h5 className='p-2 text-redLetters'>¿Qué nos define?</h5>
+          <h4 className='p-2'>Nuestros valores</h4>
         </div>
-        <div className='flex'>
+        <div className='flex items-end justify-center'>
           <img src={perrito1} alt='perrito1'/>
           <div className='divNosotros'>
           <div className='divAPP'>

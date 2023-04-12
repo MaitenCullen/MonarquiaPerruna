@@ -26,13 +26,16 @@ export const Productos = () => {
   const seleccionar = (seleccionado) => {
     setSeleccion(seleccionado)
   }
+  const activar = (button, e) => {
+    console.log(button, e)
+  }
   return (
     <div>
       <div >
         <img src={banner} alt='Banner principal' className='w-screen'/>
       </div>
       <div className='flex w-full justify-around '>
-        <div className='flex items-center flex-col cursor-pointer divCirculo' onClick={()=> seleccionar('chalecos')}>
+        <div className='flex items-center flex-col cursor-pointer divCirculo' onClick={(e)=> seleccionar('chalecos')}>
           <img src={img1}/>
           <h4>Chalecos</h4>
         </div>

@@ -1,5 +1,142 @@
+.sectionNosotros h4{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38px;
+}
+.sectionNosotros h5{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+.sectionNosotros p {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+}
+.divBanner1{
+    background: url('/img/nosotros/NosotrosFondo.png');
+    background-repeat : no-repeat;
+    background-size:contain;
+    background-position: center;
+    height: 385px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.divBanner1 h3{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77px;
+}
+
+.divLoreSimba{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+.divBanner2 {
+    background: url('/img/nosotros/FondoVision.png');
+    background-repeat : no-repeat;
+    background-size : contain;
+    background-position: center;
+    height: 480px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.divTextBanner2{
+    text-align: center;
+}
 .divNosotros{
     width: 50%;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+}
+
+.divNosotrosGris{
+    margin:10% 0 10% 0;
+}
+.divNosotrosGris img {
+    width: 20%;
+    height: 20%;
+}
+
+@media(max-width:1100px){
+    .divNosotros{
+        width: 100%;
+    }
+    .APPdogID{
+        Width: 213px;
+        Height: 153px;
+    }
+    .sectionNosotros h4{
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .sectionNosotros p{
+        font-size: 14px;
+        line-height: 18px;
+    }
+}
+
+@media(max-width:780px){
+    .divBanner1{
+        height: 235px;
+    }
+    .divBanner2{
+        height: 300px;
+    }
+    .divLoreSimba img{
+        width: 60%;
+    }
+    .divTextBanner2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 70%;
+        justify-content: flex-start;
+    }
+    .divNosotros{
+        width: 60%;
+    }
+    .divAPP{
+        Width:210px;
+        Height:180px;
+        padding: 2px;
+    }
+    .divTextAPP{
+        font-size: 14px;
+        line-height: 19px;
+    }
+    .divTextAPP h4{
+        font-size: 14px;
+        line-height: 20px;
+      }
+}
+
+@media(max-width:481px){
+    .divBanner1{
+        height: 146px;
+    }
+    .divBanner2{
+        height: 180px;
+    }
+    .divBanner1 h3{
+        font-size: 45px;
+        line-height: 60px;
+    }
 }
