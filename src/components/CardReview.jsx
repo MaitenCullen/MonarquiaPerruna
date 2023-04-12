@@ -28,9 +28,6 @@ export const CardReview = () => {
                     <p>
                   {review.descripcion}
                     </p>
-                  <blockquote>{review.nombre}</blockquote>
-                  <i>{review.icon}</i>
-                  <q>{review.perro}</q>
                 </div>
             </div>
             </div>

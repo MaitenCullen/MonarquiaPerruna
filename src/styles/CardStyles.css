@@ -47,6 +47,26 @@
   justify-content: space-evenly;
   }
   
+@media(max-width:1100px){
+  .divCardReview{
+    width: 180px;
+    height: 160px;
+    padding: 3px;
+  }
+  .divTextReview{
+    font-size: 14px;
+    line-height: 14px;
+  }
+}
+@media(max-width:480px){
+  .divReview{
+    margin:1em;
+  }
+  .divTextReview{
+    font-size: 14px;
+    line-height: 14px;
+  }
+}
 
 
 
@@ -118,22 +138,36 @@
     height: 40%;
     flex-direction: column;
     justify-content: space-evenly;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #191919;
   }
 
-  .divPContacto p {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
-  color: #191919;
+
+  .divPContacto button{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
   }
   
+  @media (max-width:481px) {
+    .divPContacto {
+      width: 50%;
+    }
+    .imgDivContacto{
+      width: 40%;
+    }
+  }
 
     /*CARD DOGID*/ 
   /*////////////////////////////////////////////////////////////////*/
   .containerDOGID{
-    width: 40%;
+    width: 60%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -166,6 +200,7 @@
    justify-content: center;
   }
 
+
   .divTextDogID{
     font-family: 'Nunito';
     font-style: normal;
@@ -181,7 +216,19 @@
     bottom: calc(100% - 40px);
     width: 60%;
   }
-
+  @media(max-width:481px){
+    .divDogID{
+     width:350px;
+     height: 150px;
+    }
+    .divTextDogID{
+      font-size: 15px;
+      line-height: 20px;
+      width: 90%;
+      height: 100%;
+      text-align: center;
+    }
+   }
 
   /*CARD APP DOG ID*/
   /*/////////////////////////////////////////////////////*/ 
@@ -204,17 +251,14 @@
     linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 32px) calc(100% - 4px) no-repeat,
     linear-gradient(0deg, #a01e12 0%, rgba(219, 158, 152, 1) 53%, rgba(254,188,182,0.57) 74%, rgba(255,216,212,0.65) 88%, rgba(255,236,234,1) 98%, rgba(255,255,255,0) 100%);
    border-radius: 16px;
-   padding: 6px;
    box-sizing: border-box;
-   border-radius: 16px;
-   box-sizing: border-box;
-   border-radius: 16px;
    padding: 5px;
    box-sizing: border-box;         
    display: flex;
    align-items: center;
    justify-content: center;
   }
+
 
   .imgAPP{
     position: absolute;
@@ -307,14 +351,14 @@
 .index__productosCards__DOGID-container{
   width: 50%;
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   padding-right: 20px;
 }
 
 .index__productosCards__ROPA-container{
   width: 50%;
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   padding-left: 20px;
 }
 
@@ -455,6 +499,94 @@
   color: white;
 }
 
+/*CARDS CHALECOS//////////////////////////////////////////*/
+.divProductos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.imgProducto{
+  height: 240px;
+  width: 331px;
+  border-radius: 16px;
+}
+#chaleco01{
+  background:  url('/img/ropa/ropa00.png');
+  transition: 1s;
+  background-repeat : no-repeat;
+  background-size : contain;
+}
+#chaleco01:hover{
+  background: url('/img/ropa/ropa00a.png');
+}
+#chaleco02{
+  background:  url('/img/ropa/ropa01.png');
+  background-repeat : no-repeat;
+  background-size : contain;
+  transition: 1s;
+}
+#chaleco02:hover{
+  background: url('/img/ropa/ropa01a.png');
+}
+#chaleco03{
+  background:  url('/img/ropa/ropa02.png');
+  background-repeat : no-repeat;
+  background-size : contain;
+  transition: 1s;
+}
+#chaleco03:hover{
+  background: url('/img/ropa/ropa02a.png');
+}
+#chaleco04{
+  background:  url('/img/ropa/ropa03.png');
+  background-repeat : no-repeat;
+  background-size : contain;
+  transition: 1s;
+}
+#chaleco04:hover{
+  background: url('/img/ropa/ropa03a.png');
+}
+#chaleco05{
+  background:  url('/img/ropa/ropa04.png');
+  background-repeat : no-repeat;
+  background-size : contain;
+  transition: 1s;
+}
+#chaleco05:hover{
+  background: url('/img/ropa/ropa04a.png');
+}
+#chaleco06{
+  background:  url('/img/ropa/ropa05.png');
+  background-repeat : no-repeat;
+  background-size : contain;
+  transition: 1s;
+}
+#chaleco06:hover{
+  background: url('/img/ropa/ropa05a.png');
+}
+
+/*CARDS CHALECOS Responsive//////////////////////////////////////////*/
 
 
+.divCirculo:active{
+  border:solid 10px red;
+}
+@media(max-width:780px){
+  .imgProducto{
+    height: 140px;
+    width: 200px;
+  }
+  .divCirculo img{
+    width: 150px;
+    height: 150px;
+  }
+}
 
+@media(max-width:480px){
+  .divCirculo img{
+    width: 100px;
+    height: 100px;
+  }
+}
