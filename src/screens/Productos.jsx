@@ -37,7 +37,7 @@ export const Productos = () => {
       <div className='flex w-full justify-around '>
         <div className='flex items-center flex-col cursor-pointer divCirculo' onClick={(e)=> seleccionar('chalecos')}>
           <img src={img1}/>
-          <h4>Chalecos</h4>
+          <h4>PROBANDO</h4>
         </div>
         <div className='flex items-center flex-col cursor-pointer divCirculo' onClick={()=> seleccionar('polar')}>
            <img src={img2}/>

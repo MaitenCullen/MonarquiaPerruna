@@ -1,7 +1,7 @@
 
 import { useState } from 'react'
 import { AppDogID } from '../components/AppDogID'
-import '../styles/DogIdStyles.css'
+import '../styles/DogIDStyles.css'
 import { CaracteriticasDogId } from './../components/CaracteriticasDogId';
 import { ComoSeUsa } from './../components/ComoSeUsa';
 
