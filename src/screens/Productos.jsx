@@ -7,6 +7,8 @@ import img3 from '/img/ropa/cir03.png';
 import { ChalecosImg } from '../components/ChalecosImg';
 import { Polar } from '../components/Polar';
 import { Pilotos } from '../components/Pilotos';
+import CaracteristicasRopa from './CaracteristicasRopa';
+import ProductosTallesContainer from '../components/ProductosTallesContainer';
 
 export const Productos = () => {
 
@@ -30,6 +32,7 @@ export const Productos = () => {
     console.log(button, e)
   }
   return (
+    <>
     <div>
       <div >
         <img src={banner} alt='Banner principal' className='w-screen'/>
@@ -66,5 +69,9 @@ export const Productos = () => {
       </div>
     
     </div>
+    <CaracteristicasRopa/>
+    <ProductosTallesContainer/>
+    </>
+    
   )
 }
