@@ -341,7 +341,7 @@
   width: 56px;
 }
 
-/*Cards de productos en el Index*/
+/*------------Cards de productos en el Index------------------*/
 
 .index__productosCards__container{
   display: flex;
@@ -386,14 +386,14 @@
 
 .index__productosImagen__perroIzq{
   position: absolute;
-  top: -54.5%;
+  top: -51%;
   width: 300px;
   height: 200px;
 }
 
 .index__productosImagen__perroDer{
   position: absolute;
-  top: -50%;
+  top: -49%;
   right: 0%;
   width: 300px;
   height: 200px;
@@ -502,7 +502,7 @@
   color: white;
 }
 
-/*CARDS CHALECOS//////////////////////////////////////////*/
+/*CARDS CHALECOS--------------------------*/
 .divProductos{
   display: flex;
   justify-content: center;
@@ -636,3 +636,88 @@
     display: none;
   }
 } */
+
+/*-----Cards de caracteristicas en seccion ROPA--------------*/
+
+.caracteristica__card__container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 250px;
+}
+
+.caracteristica__item__img{
+  width: 200px;
+  height: 200px;
+}
+
+.caracteristica__cardCaption__container{
+  display: flex;
+  width: 75%;
+  padding-top: 15px;
+  align-items: center;
+}
+
+.caracteristica__cardCaption__container p{
+  font-family: "Nunito";
+}
+
+.caracteristica__cardCaption__container p strong{
+  font-size: 45px;
+  padding-right: 10px;
+  color: #A01E12;
+  font-family: "Lato";
+}
+
+
+
+/*---------------Cards de contacto----------------*/
+
+.contacto__card__container{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 280px;
+  height: 180px;
+  text-align: center;
+  background: radial-gradient(circle at 100% 100%, #ffffff 0, #ffffff 14px, transparent 14px) 0% 0%/16px 16px no-repeat,
+    radial-gradient(circle at 0 100%, #ffffff 0, #ffffff 14px, transparent 14px) 100% 0%/16px 16px no-repeat,
+    radial-gradient(circle at 100% 0, #ffffff 0, #ffffff 14px, transparent 14px) 0% 100%/16px 16px no-repeat,
+    radial-gradient(circle at 0 0, #ffffff 0, #ffffff 14px, transparent 14px) 100% 100%/16px 16px no-repeat,
+    linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 4px) calc(100% - 32px) no-repeat,
+    linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 32px) calc(100% - 4px) no-repeat,
+    linear-gradient(0deg, #a01e12 0%, rgba(219, 158, 152, 1) 53%, rgba(254,188,182,0.57) 74%, rgba(255,216,212,0.65) 88%, rgba(255,236,234,1) 98%, rgba(255,255,255,0) 100%);
+  border-radius: 16px;
+  position: relative;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.contacto__icono__card{
+  position: absolute;
+  top: -10%;
+  right: 40%;
+  height: 48px;
+  width: 56px;
+}
+
+.tituloCard__contacto{
+  font-weight: 700;
+  font-family: "Nunito";
+  font-size: 14px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.textoCard__contacto__container{
+  width: 80%;
+}
+
+.textoCard__contacto{ 
+  margin-bottom: 30px;
+  font-size: 14px;
+  font-family: "Nunito";
+}

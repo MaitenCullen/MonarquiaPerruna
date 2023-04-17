@@ -4,6 +4,8 @@ import { AppDogID } from '../components/AppDogID'
 import '../styles/DogIDStyles.css'
 import { CaracteriticasDogId } from './../components/CaracteriticasDogId';
 import { ComoSeUsa } from './../components/ComoSeUsa';
+import DogIdFirstContainer from '../components/DogIdFirstContainer';
+import imgPrincipal from "/img/DogId-Banner.png"
 
 export const DogID = () => {
 
@@ -25,6 +27,7 @@ const seleccionar = (nombre) => {
 }
   return (
     <>
+    <DogIdFirstContainer bannerDogId={ imgPrincipal }/>
      <div className=' '>
       <ul className='navBarDogId'>
         <li onClick={()=> seleccionar("queEs?")}>que es?</li>
