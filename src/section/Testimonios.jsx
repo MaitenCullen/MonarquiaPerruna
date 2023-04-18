@@ -4,10 +4,10 @@ import Carousel from './../components/Carousel';
 export const Testimonios = () => {
   return (
     <div className='divTestimony'>
-    <p className='text-redLetters font-normal text-base  not-italic leading-5'>
+    <p className='text-redLetters font-normal text-base font-Nunito text-xl not-italic leading-5 leading-6'>
     ¡Gracias por confiar en Monarquía perruna!
     </p>
-    <p className='font-semibold not-italic text-2xl leading-7  text-blackLetters'>
+    <p className='font-semibold not-italic text-2xl leading-7 font-Lato text-blackLetters' id='testimonio'>
       Testimonios
     </p>
     <Carousel/>

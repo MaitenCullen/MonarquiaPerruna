@@ -37,10 +37,10 @@ export const Productos = () => {
       <div >
         <img src={banner} alt='Banner principal' className='w-screen'/>
       </div>
-      <div className='flex w-full justify-around '>
+      <div className='flex w-full justify-around  p-4 '>
         <div className='flex items-center flex-col cursor-pointer divCirculo' onClick={(e)=> seleccionar('chalecos')}>
           <img src={img1}/>
-          <h4>PROBANDO</h4>
+          <h4>Chalecos</h4>
         </div>
         <div className='flex items-center flex-col cursor-pointer divCirculo' onClick={()=> seleccionar('polar')}>
            <img src={img2}/>
@@ -51,12 +51,12 @@ export const Productos = () => {
           <h4 >Piloto</h4>
         </div>
       </div>
-      <div className='divProductos'>
-        <div className='text-center'>
-          <h4 className='text-redLetters '>
+      <div className='divProductos p-4'>
+        <div className='text-center p-10'>
+          <h4 className='text-redLetters leading-6 text-xl font-normal not-italic p-2.5'>
           Para que tu consentid@ se sienta abrigado, cómodo y con el mejor estilo
           </h4>
-          <h3>
+          <h3 className='not-italic font-semibold p-2.5'>
           Elije el modelo para tu mascota
           </h3>
         </div>

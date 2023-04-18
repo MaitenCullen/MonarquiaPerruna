@@ -5,7 +5,7 @@ import '../styles/CardStyles.css';
 export const CardDogs = () => {
   return (
     <div>
-           <div className='containerDOGID'>
+           <div className='containerDOGID m-16 p-6'>
             <div className='divCardDogId'>
             <img src={perritos} className='imgDOGID'/>
               <div className='divDogID '>
