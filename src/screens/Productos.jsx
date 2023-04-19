@@ -25,6 +25,16 @@ export const Productos = () => {
   }
   }
 
+  function action() {
+    console.log('boton andando')
+    let link = document.getElementsByClassName('navLink');
+    for(var i = 0; i < link.length; i++){
+      link[i].classList.toggle('clean')
+    }
+  }
+
+
+
   const seleccionar = (seleccionado) => {
     setSeleccion(seleccionado)
   }
@@ -38,15 +48,15 @@ export const Productos = () => {
         <img src={banner} alt='Banner principal' className='w-screen'/>
       </div>
       <div className='flex w-full justify-around  p-4 '>
-        <div className='flex items-center flex-col cursor-pointer divCirculo' onClick={(e)=> seleccionar('chalecos')}>
+        <div className='flex items-center flex-col cursor-pointer divCirculo clean navLink' onClick={(e)=> {seleccionar('chalecos'), action()}}>
           <img src={img1}/>
           <h4>Chalecos</h4>
         </div>
-        <div className='flex items-center flex-col cursor-pointer divCirculo' onClick={()=> seleccionar('polar')}>
+        <div className='flex items-center flex-col cursor-pointer divCirculo clean navLink' onClick={()=> {seleccionar('polar'),  action()}}>
            <img src={img2}/>
            <h4>Polar</h4>
         </div>
-        <div className='flex items-center flex-col cursor-pointer divCirculo' onClick={()=> seleccionar('pilotos')}>
+        <div className='flex items-center flex-col cursor-pointer divCirculo clean navLink' onClick={()=> {seleccionar('pilotos'),  action()}}>
           <img src={img3} />
           <h4 >Piloto</h4>
         </div>

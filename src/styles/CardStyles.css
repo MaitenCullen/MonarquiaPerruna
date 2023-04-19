@@ -733,3 +733,13 @@
   font-size: 14px;
   font-family: "Nunito";
 }
+
+/*PRODUCTOS*/ 
+
+
+.navLink{
+  border: solid 10px #A01E12;
+}
+.clean{
+  border: none;
+}
