@@ -41,13 +41,13 @@ const seleccionar = (nombre) => {
      <div className='divNavBarID'>
       <div className='borderBottom'>
         <ul className='navBarDogId'>
-          <li className='link' id='1' onClick={()=> {seleccionar("queEs?"), activado(1)}}>que es?</li>
+          <li className='link' id='1' onClick={()=> {seleccionar("queEs?"), activado(1)}}>Que es?</li>
           <li className='link' id='2' onClick={()=>{seleccionar('Usar'), activado(2)}}>Como se usa?</li>
           <li className='link' id='3' onClick={()=> {seleccionar('App'), activado(3)}}>App Dog Id</li>
         </ul>
       </div>
       </div>
-          <div className='w-screen flex justify-center'>
+          <div className=' flex justify-center items-center w-screen'>
              {renderComponents()}
           </div>
     </>

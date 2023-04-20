@@ -5,14 +5,14 @@ import circulo from '/img/circulo.png'
 
 export const AppDogID = () => {
   return (
-    <div className='containerDOGID h-screen'>
+    <div className='containerDOGID w-7/12 h-screen'>
          <div className='divAPP'>
             <div className='APPdogID'>
             <img src={salud} className='imgAPP'/>
               <div className='divAPPInfo '>
                 <div className="divTextAPP">
                     <h4>HISTORIA MÉDICA</h4>
-                    <p>
+                    <p >
                     Con solo acercar tu celular al DOG ID podrás ver la historia médica de tu mascota como enfermedades o cuidados especiales.
                     </p>
                 </div>

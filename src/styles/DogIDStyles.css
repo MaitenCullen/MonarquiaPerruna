@@ -20,7 +20,7 @@
 
 
 .perdido p{
-    font-family: 'Nunito';
+
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -50,15 +50,19 @@
     justify-content: space-evenly;
     width: 50%;
     color: #A01E12;
-    font-family: 'Lato';
+
+}
+.navBarDogId li{
+    text-decoration: none;
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
     line-height: 24px;
+   
 }
 .navBarDogId li:hover{
     cursor: pointer;
-  
+    text-decoration: none;
 }
 
 .bordeRojo{
