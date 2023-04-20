@@ -25,12 +25,15 @@ export const Productos = () => {
   }
   }
 
-  function action() {
+  function action(id) {
     console.log('boton andando')
-    let link = document.getElementsByClassName('navLink');
-    for(var i = 0; i < link.length; i++){
-      link[i].classList.toggle('clean')
-    }
+    Array.from(document.getElementsByClassName('navLink')).map(item => {
+      if (item.id == id){
+        item.classList.add('seleccionado')
+      } else {
+        item.classList.remove('seleccionado')
+      }
+    })
   }
 
 
@@ -48,17 +51,17 @@ export const Productos = () => {
         <img src={banner} alt='Banner principal' className='w-screen'/>
       </div>
       <div className='flex w-full justify-around  p-4 '>
-        <div className='flex items-center flex-col cursor-pointer divCirculo clean navLink' onClick={(e)=> {seleccionar('chalecos'), action()}}>
+        <div className='flex items-center flex-col cursor-pointer divCirculo  navLink' id='1' onClick={()=> {seleccionar('chalecos'), action(1)}}>
           <img src={img1}/>
-          <h4>Chalecos</h4>
+          <h4 className='leading-6 text-xl font-normal not-italic p-2.5' >Chalecos</h4>
         </div>
-        <div className='flex items-center flex-col cursor-pointer divCirculo clean navLink' onClick={()=> {seleccionar('polar'),  action()}}>
+        <div className='flex items-center flex-col cursor-pointer divCirculo  navLink ' id='2' onClick={()=> {seleccionar('polar'),  action(2)}}>
            <img src={img2}/>
-           <h4>Polar</h4>
+           <h4 className='leading-6 text-xl font-normal not-italic p-2.5'>Polar</h4>
         </div>
-        <div className='flex items-center flex-col cursor-pointer divCirculo clean navLink' onClick={()=> {seleccionar('pilotos'),  action()}}>
+        <div className='flex items-center flex-col cursor-pointer divCirculo  navLink ' id='3' onClick={()=> {seleccionar('pilotos'),  action(3)}}>
           <img src={img3} />
-          <h4 >Piloto</h4>
+          <h4 className='leading-6 text-xl font-normal not-italic p-2.5'>Piloto</h4>
         </div>
       </div>
       <div className='divProductos p-4'>

@@ -737,9 +737,14 @@
 /*PRODUCTOS*/ 
 
 
-.navLink{
-  border: solid 10px #A01E12;
+.seleccionado img{
+  border: solid 2px #9D0308;
+  border-radius: 50%;
 }
+.seleccionado h4{
+  color: #9D0308;
+}
+
 .clean{
   border: none;
 }

@@ -37,6 +37,14 @@
     line-height: 48px;
 }
 
+.divNavBarID{
+    display: flex;
+    justify-content: center;
+}
+.borderBottom{
+    border-bottom: solid 2px #D1D1D1;
+    width: 70%;
+}
 .navBarDogId{
     display: flex;
     justify-content: space-evenly;
@@ -50,4 +58,9 @@
 }
 .navBarDogId li:hover{
     cursor: pointer;
+  
+}
+
+.bordeRojo{
+    border-bottom:solid 2px #A01E12;
 }
