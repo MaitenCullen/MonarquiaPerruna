@@ -22,7 +22,7 @@ const [ appData, setAppData] = useState([])
         </div>
           <div className='flex flex-col items-center justify-center p-2'>
             <div className=' flex items-center justify-center'>
-              <img src={app.img} className=''/>
+              <img src={app.img} className='laimagen'/>
             </div>
             <div className=' items-center flex'> 
               <p className=''>{app.descripcion}</p>

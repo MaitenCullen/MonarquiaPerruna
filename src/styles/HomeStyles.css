@@ -143,7 +143,11 @@
     flex-direction: column;
     background-color: #F9EAB3;
   }
-  
+  .divTestimony #testimonio{
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38px;
+  }
 
   /*CAROUSEL REVIEWS*/
 /*--------------------------------------------------------------------------------*/
