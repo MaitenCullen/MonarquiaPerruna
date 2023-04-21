@@ -32,8 +32,12 @@ const Navbar = () => {
                         </li>
                     </ul>
                 </li>
+                
                 <li>
                     <Link to="/Contacto">Contáctanos</Link>
+                </li>
+                <li>
+                    <Link to="/PreguntasFrecuentes">Preguntas frecuentes</Link>
                 </li>
                 <li>
                     <a href="https://www.facebook.com/profile.php?id=100083939684486"><img src={ facebook } alt="Icono de facebook para acceder al perfil de Monarquía Perruna" /></a>

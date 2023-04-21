@@ -8,6 +8,8 @@ import { Nosotros } from './screens/Nosotros';
 import { Preguntas } from './screens/Preguntas';
 import Navbar from './components/Navbar';
 import { Productos } from './screens/Productos';
+import Contacto from './screens/Contacto';
+import 'animate.css';
 
 
 
@@ -24,6 +26,7 @@ function App() {
             <Route path='/DogID' element={<DogID />} />
             <Route path='/Nosotros' element={<Nosotros />} />
             <Route path='/PreguntasFrecuentes' element={<Preguntas />} />
+            <Route path="/Contacto" element={<Contacto />} />
           </Routes>
         </section>
         <div className='footerDiv'>

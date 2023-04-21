@@ -126,6 +126,8 @@
     justify-content: space-evenly;
     flex-direction: column;
     align-items: center;
+    font-size: 20px;
+    font-family: 'Nunito';
   }
   
   
@@ -170,7 +172,6 @@
     /*CARD DOGID*/ 
   /*////////////////////////////////////////////////////////////////*/
   .containerDOGID{
-    width: 60%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -219,17 +220,31 @@
     bottom: calc(100% - 40px);
     width: 60%;
   }
+
+  @media(max-width:710px){
+    .divDogID{
+      width:400px;
+      height: 200px;
+    }
+    .imgDOGID{
+      position: absolute;
+      bottom: calc(100% - 24px);
+      width: 66%;
+    }
+  }
   @media(max-width:481px){
     .divDogID{
-     width:350px;
+     width:330px;
      height: 150px;
     }
     .divTextDogID{
-      font-size: 15px;
+      font-size: 14px;
       line-height: 20px;
       width: 90%;
       height: 100%;
       text-align: center;
+      display: flex;
+      align-items: center;
     }
    }
 
@@ -240,7 +255,7 @@
     position: relative;
     display: flex;
     justify-content: center;
-    margin:0.5em;
+    margin:2.5em;
   }
 
   .APPdogID{
@@ -265,10 +280,16 @@
 
   .imgAPP{
     position: absolute;
-    bottom: calc(100% - 20px);
+    bottom: calc(100% - 14px);
     width: 13%;
   }
 
+  @media(max-width:400px){
+    .imgAPP{
+      bottom: calc(100% - 9px);
+      width: 12%;
+    }
+  }
   .divAPPInfo{
     padding: 3%;
   }
@@ -286,7 +307,6 @@
     font-family: 'Nunito';
     font-style: normal;
     font-weight: 700;
-    font-size: 16px;
     line-height: 22px;
   }
 
@@ -341,7 +361,7 @@
   width: 56px;
 }
 
-/*Cards de productos en el Index*/
+/*------------Cards de productos en el Index------------------*/
 
 .index__productosCards__container{
   display: flex;
@@ -386,14 +406,14 @@
 
 .index__productosImagen__perroIzq{
   position: absolute;
-  top: -54.5%;
+  top: -51%;
   width: 300px;
   height: 200px;
 }
 
 .index__productosImagen__perroDer{
   position: absolute;
-  top: -50%;
+  top: -49%;
   right: 0%;
   width: 300px;
   height: 200px;
@@ -502,7 +522,7 @@
   color: white;
 }
 
-/*CARDS CHALECOS//////////////////////////////////////////*/
+/*CARDS CHALECOS--------------------------*/
 .divProductos{
   display: flex;
   justify-content: center;
@@ -510,6 +530,10 @@
   flex-direction: column;
 }
 
+.divProductos h3{
+  font-size: 32px;
+  line-height: 38px;
+}
 .imgProducto{
   height: 240px;
   width: 331px;
@@ -572,10 +596,15 @@
 
 /*CARDS CHALECOS Responsive//////////////////////////////////////////*/
 
-
-.divCirculo:active{
-  border:solid 10px red;
+.divCirculo h4{
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
 }
+
+
 @media(max-width:780px){
   .imgProducto{
     height: 140px;
@@ -636,3 +665,103 @@
     display: none;
   }
 } */
+
+/*-----Cards de caracteristicas en seccion ROPA--------------*/
+
+.caracteristica__card__container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 250px;
+}
+
+.caracteristica__item__img{
+  width: 200px;
+  height: 200px;
+}
+
+.caracteristica__cardCaption__container{
+  display: flex;
+  width: 75%;
+  padding-top: 15px;
+  align-items: center;
+}
+
+.caracteristica__cardCaption__container p{
+  font-family: "Nunito";
+}
+
+.caracteristica__cardCaption__container p strong{
+  font-size: 45px;
+  padding-right: 10px;
+  color: #A01E12;
+  font-family: "Lato";
+}
+
+
+
+/*---------------Cards de contacto----------------*/
+
+.contacto__card__container{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 280px;
+  height: 180px;
+  text-align: center;
+  background: radial-gradient(circle at 100% 100%, #ffffff 0, #ffffff 14px, transparent 14px) 0% 0%/16px 16px no-repeat,
+    radial-gradient(circle at 0 100%, #ffffff 0, #ffffff 14px, transparent 14px) 100% 0%/16px 16px no-repeat,
+    radial-gradient(circle at 100% 0, #ffffff 0, #ffffff 14px, transparent 14px) 0% 100%/16px 16px no-repeat,
+    radial-gradient(circle at 0 0, #ffffff 0, #ffffff 14px, transparent 14px) 100% 100%/16px 16px no-repeat,
+    linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 4px) calc(100% - 32px) no-repeat,
+    linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 32px) calc(100% - 4px) no-repeat,
+    linear-gradient(0deg, #a01e12 0%, rgba(219, 158, 152, 1) 53%, rgba(254,188,182,0.57) 74%, rgba(255,216,212,0.65) 88%, rgba(255,236,234,1) 98%, rgba(255,255,255,0) 100%);
+  border-radius: 16px;
+  position: relative;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.contacto__icono__card{
+  position: absolute;
+  top: -10%;
+  right: 40%;
+  height: 48px;
+  width: 56px;
+}
+
+.tituloCard__contacto{
+  font-weight: 700;
+  font-family: "Nunito";
+  font-size: 14px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.textoCard__contacto__container{
+  width: 80%;
+}
+
+.textoCard__contacto{ 
+  margin-bottom: 30px;
+  font-size: 14px;
+  font-family: "Nunito";
+}
+
+/*PRODUCTOS*/ 
+
+
+.seleccionado img{
+  border: solid 1px #9D0308;
+  border-radius: 50%;
+}
+.seleccionado h4{
+  color: #9D0308;
+}
+
+.clean{
+  border: none;
+}
