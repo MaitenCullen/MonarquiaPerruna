@@ -25,10 +25,10 @@ export const CaracteriticasDogId = () => {
     <div className='w-screen flex flex-col'>
         <CardDogs/>
         <div className='flex justify-center items-center flex-col'>
-            <h5  className="leading-6 text-xl font-normal not-italic font-Lato text-redLetters p-1">¿Qué más necesitamos saber sobre Dog Id?</h5>
-            <h4  className="font-semibold font-Lato not-italic text-3xl leading-9 text-blackLetters p-1">Características</h4>
+            <h5  className="leading-6 sm:text-2xl text-lg font-normal text-center not-italic font-Lato text-redLetters p-1">¿Qué más necesitamos saber sobre Dog Id?</h5>
+            <h4  className="font-semibold font-Lato not-italic text-3xl  text-lg leading-9 text-blackLetters p-1">Características</h4>
         </div>
-        <div className='flex justify-evenly items-center m-1.5'>
+        <div className=' m-1.5 divCaracteristicas01'>
             <div className='caracteristicasIMG'>
                 <img src={perrito}/>
             </div>
@@ -39,24 +39,27 @@ export const CaracteriticasDogId = () => {
                 </div> )) }
              </div>
         </div>
-        <div className='flex justify-around items-center flex-col m-1.5'>
-            <h5 className="leading-6 text-xl font-normal not-italic font-Lato text-redLetters p-1">¿Qué usamos?</h5>
-            <h4 className="font-semibold font-Lato not-italic text-3xl leading-9 text-blackLetters p-1">Tecnología NFC</h4>
-        </div>
-        <div className='flex justify-evenly items-center'>
-            <div className='textCaracteristicas'>
-            { caracteristica.map( nfc => (
-                nfc.nfc && nfc.iconNFC? ( <div  index={nfc.id} className='list-none flex items-center w-full p-1'>
-                <img src={nfc.iconNFC} className='p-1.5'/><li className='p-1.5 liClass'>{nfc.nfc}</li>
-            </div>) : null
-               
-            ))}
-           
+        <div className='flex justify-between flex-col '> 
+            <div className='flex justify-around items-center flex-col m-1.5'>
+                <h5 className="leading-6 text-xl font-normal not-italic font-Lato text-redLetters p-1">¿Qué usamos?</h5>
+                <h4 className="font-semibold font-Lato not-italic sm:text-3xl text-lg leading-9 text-blackLetters p-1">Tecnología NFC</h4>
             </div>
-            <div className='caracteristicasIMG'>
-                <img src={perrito2} />
+            <div className='flex justify-evenly items-center'>
+                <div className='textCaracteristicas'>
+                { caracteristica.map( nfc => (
+                    nfc.nfc && nfc.iconNFC? ( <div  index={nfc.id} className='list-none flex items-center w-full p-1'>
+                    <img src={nfc.iconNFC} className='p-1.5'/><li className='p-1.5 liClass'>{nfc.nfc}</li>
+                </div>) : null
+                
+                ))}
+            
+                </div>
+                <div className='caracteristicasIMG'>
+                    <img src={perrito2} />
+                </div>
             </div>
         </div>
+
     </div>
   )
 }
