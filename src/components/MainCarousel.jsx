@@ -1,14 +1,63 @@
-import React from 'react';
+import React, { useState } from 'react';
 import img1 from "/img/Home-BannerProductos1.png";
 import img2 from "/img/Home-BannerDogId2.png";
 import img3 from "/img/Home-BannerRopa3.png";
-import carouselDot from "/img/greyCircle.png";
+import carouselDotGrey from "/img/greyCircle.png";
+import carouselDotWhite from "/img/whiteCircle.png";
+
 
 
 const MainCarousel = () => {
+    const [ active , setActive ] = useState()
+    
+    const SetView = ( active ) => {
+            setActive( active );
+    };
+    const View1 = () => {
+        return(
+            <>
+            <a onClick={() => SetView(1)} href="#item1"><img className="index__btnMainCarousel__img" src={ carouselDotWhite } alt="Botón de carousel para ver los diferentes productos de Monarquia Perruna"/></a> 
+            <a onClick={() => SetView(2)} href="#item2"><img className="index__btnMainCarousel__img" src={ carouselDotGrey } alt="Botón de carousel para ver los diferentes productos de Monarquia Perruna"/></a> 
+            <a onClick={() => SetView(3)} href="#item3"><img className="index__btnMainCarousel__img" src={ carouselDotGrey } alt="Botón de carousel para ver los diferentes productos de Monarquia Perruna"/></a> 
+            </>
+        )
+    }
+    
+    const View2 = () => {
+        return(
+            <>
+            <a onClick={() => SetView(1)} href="#item1"><img className="index__btnMainCarousel__img" src={ carouselDotGrey } alt="Botón de carousel para ver los diferentes productos de Monarquia Perruna"/></a> 
+            <a onClick={() => SetView(2)} href="#item2"><img className="index__btnMainCarousel__img" src={ carouselDotWhite } alt="Botón de carousel para ver los diferentes productos de Monarquia Perruna"/></a> 
+            <a  onClick={() => SetView(3)}href="#item3"><img className="index__btnMainCarousel__img" src={ carouselDotGrey } alt="Botón de carousel para ver los diferentes productos de Monarquia Perruna"/></a> 
+            </>
+        )
+    }
+    
+    const View3 = () => {
+        return(
+            <>
+            <a onClick={() => SetView(1)} href="#item1"><img className="index__btnMainCarousel__img" src={ carouselDotGrey } alt="Botón de carousel para ver los diferentes productos de Monarquia Perruna"/></a> 
+            <a onClick={() => SetView(2)} href="#item2"><img className="index__btnMainCarousel__img" src={ carouselDotGrey } alt="Botón de carousel para ver los diferentes productos de Monarquia Perruna"/></a> 
+            <a onClick={() => SetView(3)} href="#item3"><img className="index__btnMainCarousel__img" src={ carouselDotWhite } alt="Botón de carousel para ver los diferentes productos de Monarquia Perruna"/></a> 
+            </>
+        )
+    }
+
+    const ActiveView = () => {
+        switch ( active ) {
+            case 1:
+                return <View1/>;
+            case 2:
+                return <View2/>;
+            case 3:
+                return <View3/>
+            default:
+                return <View1/>;
+        }
+    };
+
     return (
     <>
-
     <div className='index__mainCarousel__container'>
         <div className="carousel w-full">
             <div id="item1" className="carousel-item w-full">
@@ -28,10 +77,8 @@ const MainCarousel = () => {
                 <button id="index__carouselImg3__btn" className="btn">Ver más</button>
             </div> 
         </div> 
-        <div id="index__btnsCarousel__container" className="flex justify-center w-full py-2 gap-2">
-            <a href="#item1"><img className="index__btnMainCarousel__img" src={carouselDot} alt="Botón de carousel para ver los diferentes productos de Monarquia Perruna"/></a> 
-            <a href="#item2"><img className="index__btnMainCarousel__img" src={carouselDot} alt="Botón de carousel para ver los diferentes productos de Monarquia Perruna"/></a> 
-            <a href="#item3"><img className="index__btnMainCarousel__img" src={carouselDot} alt="Botón de carousel para ver los diferentes productos de Monarquia Perruna"/></a> 
+        <div  id="index__btnsCarousel__container" className="flex justify-center w-full py-2 gap-2">
+            {ActiveView()}
         </div>
     </div>
     

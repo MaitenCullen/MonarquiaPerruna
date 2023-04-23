@@ -8,7 +8,19 @@ const DogIdFirstContainer = ({ bannerDogId }) => {
         <div className="dogId__banner__container">
             <img src={ bannerDogId } alt="Imágen de introducción a la sección de productos Dog ID de la marca Monarquía Perruna " />
             <div className="dogId__bannerCaption__container">
-                <h1>DOG ID</h1>
+                <div className="dogId__titleList__container">
+                    <ul>
+                        <li>
+                            DOG ID
+                        </li>
+                        <li>
+                            Identificación Digital
+                        </li>
+                        <li>
+                            Tecnología NFC
+                        </li>
+                    </ul>
+                </div>
                 <h2>SEGURIDAD para tu mascota, TRANQUILIDAD para vos</h2>
             </div>
         </div>
