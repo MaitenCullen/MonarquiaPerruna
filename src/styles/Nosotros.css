@@ -24,10 +24,12 @@
     background-repeat : no-repeat;
     background-size:contain;
     background-position: center;
-    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    height: calc(100vw / 3);
+    background-size: 100%;
+    width: 100vw;
 }
 .divBanner1 h3{
     font-family: 'Lato';
@@ -49,12 +51,18 @@
     width: 80%;
 }
 
+.containBanner2{
+    height: calc(100vw / 3);
+    background-size: 100%;
+    width: 100vw;
+}
 .divBanner2 {
     background: url('/img/nosotros/FondoVision.png');
     background-repeat : no-repeat;
-    background-size : contain;
+    background-size : inherit;
     background-position: center;
-    width: 100%;
+    height: inherit;
+    width: inherit;
     display: flex;
     align-items: center;
     flex-direction: column;

@@ -26,7 +26,7 @@ export const Nosotros = () => {
           </div>
           </div>
         </div>
-        <div className=' h-screen w-full'>
+        <div className='containBanner2'>
           <div className='divBanner2 h-full'>
             <div className='divTextBanner2'>
             <h5 className='text-redLetters'>Lo que aspiramos a ser</h5>
