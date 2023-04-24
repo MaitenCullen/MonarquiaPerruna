@@ -36,13 +36,10 @@ const Navbar = () => {
                 <li>
                     <Link to="/Contacto">Contáctanos</Link>
                 </li>
-                <li>
-                    <Link to="/PreguntasFrecuentes">Preguntas frecuentes</Link>
+                <li className="navbar__logo__facebook">
+                    <a  href="https://www.facebook.com/profile.php?id=100083939684486"><img src={ facebook } alt="Icono de facebook para acceder al perfil de Monarquía Perruna" /></a>
                 </li>
-                <li>
-                    <a href="https://www.facebook.com/profile.php?id=100083939684486"><img src={ facebook } alt="Icono de facebook para acceder al perfil de Monarquía Perruna" /></a>
-                </li>
-                <li>
+                <li className="navbar__logo__instagram">
                     <a href="https://www.instagram.com/monarquia_perruna/"><img src={ instagram } alt="Icono de instagram para acceder al perfil de Monarquía Perruna" /></a>
                 </li>
             </ul>

@@ -6,6 +6,7 @@ import mail from '/img/mailIcon.png';
 import facebook from '/img/fIcon.png';
 import instagram from '/img/iicon.png';
 import '../styles.css'
+import { Link } from 'react-router-dom';
 
 export const Footer = () => {
   return (
@@ -17,9 +18,9 @@ export const Footer = () => {
           <p>
           Atención al cliente
           </p>
-            <a>
+            <Link to="/PreguntasFrecuentes">
             Preguntas frecuentes
-            </a>
+            </Link>
         </div>
         <div className='flex flex-col footerContacto'>
           <p>

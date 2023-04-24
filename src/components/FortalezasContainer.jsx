@@ -9,7 +9,7 @@ import iconoSeguridadEnElProceso from "/img/IconoSeguridadEnElProceso.jpg";
 const FortalezasContainer = () => {
     return (
         <>
-        <div class="index__aboutUs__grid">
+        <div className="index__aboutUs__grid">
             <div className="index__aboutUsMainImg__container">
                 <img src={imgPrincipal} alt="Una dueña disfruta de jugar tranquila con su perro gracias al DOG ID" />
             </div>
