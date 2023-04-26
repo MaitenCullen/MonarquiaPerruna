@@ -19,22 +19,25 @@ export const Nosotros = () => {
             <div className='divimgLore'>
               <img src={Lore} alt='Imagen Lore y Simon'/>
             </div>
-          <div>
+          <div className='w-1/2'>
             <p>
             Somos una empresa fundada por por personas que aman a los animales y se preocupan por la salud, cuidado y bienestar de los amigos más fieles que existen, nuestras mascotas. Nuestro compromiso con la seguridad, comodidad y la moda para las mascotas comenzó durante la pandemia cuando llegó a nuestra casa Simba. Después de buscar por todas partes ropa adecuada para protegerlo del frío invierno, nos dimos cuenta de que no habían muchas opciones que combinaran funcionalidad y estilo. Así fue como nació la idea de crear nuestro propio modelo de chaleco para perros que sea cómodo, abrigador y con estilo. Desde entonces, hemos seguido diseñando productos con amor y pasión, y estamos comprometidos en ayudarte a encontrar el mejor producto para tu mascota. En Monarquía Perruna, amamos a las mascotas tanto como tú. ¡Únete a nuestra comunidad y haz que tu perro luzca más adorable y ase que nunca!
             </p>
           </div>
           </div>
         </div>
-      <div className='divBanner2  bg-greyLight'>
-        <div className='divTextBanner2'>
-        <h5 className='text-redLetters'>Lo que aspiramos a ser</h5>
-        <h4 >Nuestra visión</h4>
-        <h3>
-        Ser una marca confiable y respetada en el mercado de productos para perros, reconocida por ofrecer productos de alta calidad, comodidad y seguridad que mejoren la vida de las mascotas y sus dueños o dueñas.
-        </h3>
-        </div>
+        <div className='containBanner2'>
+          <div className='divBanner2 h-full'>
+            <div className='divTextBanner2'>
+            <h5 className='text-redLetters'>Lo que aspiramos a ser</h5>
+            <h4 >Nuestra visión</h4>
+            <h3>
+            Ser una marca confiable y respetada en el mercado de productos para perros, reconocida por ofrecer productos de alta calidad, comodidad y seguridad que mejoren la vida de las mascotas y sus dueños o dueñas.
+            </h3>
+          </div>
       </div>
+        </div>
+      
       <div className='flex justify-center flex-col py-9' >
         <div className='text-center'>
           <h5 className='text-redLetters'>¿Quiénes somos? ¿Qué hacemos?</h5>
@@ -42,7 +45,7 @@ export const Nosotros = () => {
         </div>
         <div className='divCardDogId'>
           <div className='divDogID'>
-            <div className="divTextDogID">
+            <div className="textNosotros">
               <p>Proporcionar productos para mascotas que sean funcionales, cómodos, seguros y con estilo, que mejoren su calidad de vida y la de sus dueños o dueñas.</p>
             </div>
           </div>
@@ -56,7 +59,7 @@ export const Nosotros = () => {
         <div className='flex items-end justify-center'>
           <img src={perrito1} alt='perrito1'/>
           <div className='divNosotros'>
-          <div className='divAPP'>
+          <div className='divAPPNos'>
             <div  className='APPdogID'>
               <div className='divAPPInfo '>
                 <div className="divTextAPP">
@@ -68,7 +71,7 @@ export const Nosotros = () => {
               </div>
             </div>
           </div>
-          <div className='divAPP'>
+          <div className='divAPPNos'>
             <div  className='APPdogID'>
               <div className='divAPPInfo '>
                 <div className="divTextAPP">
@@ -80,7 +83,7 @@ export const Nosotros = () => {
               </div>
             </div>
           </div>
-          <div className='divAPP'>
+          <div className='divAPPNos'>
             <div  className='APPdogID'>
               <div className='divAPPInfo '>
                 <div className="divTextAPP">
@@ -92,7 +95,7 @@ export const Nosotros = () => {
               </div>
             </div>
           </div>
-          <div className='divAPP'>
+          <div className='divAPPNos'>
             <div  className='APPdogID'>
               <div className='divAPPInfo '>
                 <div className="divTextAPP">
