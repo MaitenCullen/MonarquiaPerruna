@@ -23,6 +23,11 @@
   justify-content: space-between;
 }
 
+#navBar__menuMobile__container{
+  display: none;
+}
+
+
 #navBar__menuDesplegable{
   z-index: 1000;
 }
@@ -35,6 +40,10 @@
 background-color: grey;
 }
 
+.navbar__logo__margen{
+  margin-right: 4rem;
+  margin-left: 4rem;
+}
 
 /*------------------------------------INDEX---------------------------------------*/
 /*--------------------------------------------------------------------------------*/
@@ -97,6 +106,7 @@ background-color: grey;
   position:relative;
 }
 
+
 #index__btnsCarousel__container{
   position: absolute;
   top:85%;
@@ -111,13 +121,9 @@ background-color: grey;
 
 /*Item 1*/
 
-#item1{
-  position:relative;
-}
-
 .index__carouselImg1__titulo{
   position:absolute;
-  top:25%;
+  top:31%;
   left: 10%;
   font-size: 2.7rem;
   width: 45%;
@@ -125,9 +131,10 @@ background-color: grey;
   line-height: 48px;
 }
 
+
 .index__carouselImg1__subtitulo{
   position:absolute;
-  top:53%;
+  top:55%;
   left: 10%;
   font-size: 1.7rem;
   width: 45%;
@@ -137,9 +144,6 @@ background-color: grey;
 
 /*Item 2*/
 
-#item2{
-  position:relative;
-}
 
 .index__carouselImg2__titulo{
   position:absolute;
@@ -162,10 +166,6 @@ background-color: grey;
 
 
 /*Item 3*/
-
-#item3{
-  position:relative;
-}
 
 .index__carouselImg3__titulo{
   position:absolute;
@@ -627,3 +627,6 @@ justify-content: space-between;
   75%{ margin-top: -111px }
   100%{ margin-top: -15px }  
 } 
+
+
+
