@@ -9,7 +9,7 @@
   
   #index__btnsCarousel__container{
     position: absolute;
-    top:85%;
+    top:90%;
     right:0%;
   }
   
@@ -18,11 +18,22 @@
     height:10px;
   }
   /*Acomodado de posicion de titulos y subtitulos en las imagenes del carousel*/
-  
+
+  /*Carousel*/
+  .index__mainCarousel__carousel{
+    height: 40vh;
+    overflow-y: hidden;
+  }
+
   /*Item 1*/
   
   #item1{
     position:relative;
+    background-image: url("/img/Home-BannerProductos1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-size: 100%;
   }
   
   .index__carouselImg1__titulo{
@@ -37,7 +48,7 @@
   
   .index__carouselImg1__subtitulo{
     position:absolute;
-    top:53%;
+    top:55%;
     left: 10%;
     font-size: 1.7rem;
     width: 45%;
@@ -49,11 +60,16 @@
   
   #item2{
     position:relative;
+    background-image: url("/img/Home-BannerDogId2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-size: 100%;
   }
   
   .index__carouselImg2__titulo{
     position:absolute;
-    top:20%;
+    top:19%;
     left: 10%;
     font-size: 2.7rem;
     width: 41%;
@@ -79,6 +95,11 @@
   
   #item3{
     position:relative;
+    background-image: url("/img/Home-BannerRopa3.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-size: 100%;
   }
   
   .index__carouselImg3__titulo{
@@ -95,7 +116,7 @@
   .index__carouselImg3__subtitulo{
     position:absolute;
     top:51%;
-    left: 10%;
+    left: 9.5%;
     font-size: 1.7rem;
     font-weight: 400;
     width: 45%;
@@ -215,3 +236,369 @@
       width: 80%;
     }
   }
+
+  /*------------Media Queries DELF---------------------*/
+
+@media (max-width: 1201px) {
+  /*---INDEX---*/
+
+  /*Titulos del carrousel*/
+  .index__carouselImg1__titulo{
+    font-size: 2.4rem;
+  }
+  .index__carouselImg1__subtitulo {
+    font-size: 1.6rem;
+  }
+  .index__carouselImg2__titulo{
+    font-size: 2.4rem;
+  }
+  .index__carouselImg3__titulo{
+    font-size: 2.4rem;
+  }
+  .index__carouselImg3__subtitulo {
+    font-size: 1.6rem;
+  }
+  
+}
+
+@media (max-width: 1101px) {
+  /*---INDEX---*/
+
+  /*Titulos del carrousel*/
+  .index__carouselImg1__titulo{
+    font-size: 2.2rem;
+    top:27%;
+  }
+  .index__carouselImg1__subtitulo {
+    font-size: 1.5rem;
+    top: 57%;
+  }
+  .index__carouselImg2__titulo{
+    font-size: 2.2rem;
+    top: 23%;
+  }
+  .index__carouselImg3__titulo{
+    font-size: 2.2rem;
+    top: 24%;
+  }
+  .index__carouselImg3__subtitulo {
+    font-size: 1.5rem;
+  }
+  #index__btnsCarousel__container{
+    top:85%;
+  }
+}
+
+@media (max-width: 1001px) {
+  /*---INDEX---*/
+
+  /*Titulos del carrousel*/
+  .index__carouselImg1__titulo{
+    font-size: 2rem;
+    line-height: 40px;
+    top:31%;
+  }
+  .index__carouselImg1__subtitulo {
+    font-size: 1.4rem;
+    line-height: 27px;
+  }
+  .index__carouselImg2__titulo{
+    font-size: 2rem;
+    line-height: 40px;
+    top:27%;
+  }
+  .index__carouselImg3__titulo{
+    font-size: 2rem;
+    line-height: 40px;
+    top:26%;
+  }
+  .index__carouselImg3__subtitulo {
+    font-size: 1.4rem;
+    line-height: 30px;
+    top: 50%;
+  }
+  #index__btnsCarousel__container{
+    top:80%;
+  }
+  /*Fotalezas*/
+  .textoCard__fortaleza {
+    font-size: 13px;
+}
+}
+
+@media (max-width: 901px) {
+  /*---INDEX---*/
+
+  /*Titulos del carrousel*/
+  .index__carouselImg1__titulo{
+    font-size: 1.8rem;
+  }
+  .index__carouselImg1__subtitulo {
+    font-size: 1.3rem;
+    line-height: 27px;
+    top: 57%;
+  }
+  .index__carouselImg2__titulo{
+    font-size: 1.8rem;
+  }
+  .index__carouselImg3__titulo{
+    font-size: 1.8rem;
+  }
+  .index__carouselImg3__subtitulo {
+    font-size: 1.3rem;
+    line-height: 30px;
+    top: 52%;
+    width: 44%;
+  }
+  #index__btnsCarousel__container{
+    top:77%;
+  }
+  /*Botones del Main carousel*/
+  #index__carouselImg2__btn {
+    top: 65%;
+  }
+  #index__carouselImg3__btn {
+    top: 70%;
+  }
+  /*Fortalezas*/
+  .tituloCard__fortaleza {
+    font-size: 13px;
+}
+}
+
+@media (max-width: 801px) {
+  /*---INDEX---*/
+
+  /*Titulos del carrousel*/
+  .index__carouselImg1__titulo{
+    font-size: 1.6rem;
+    width: 50%;
+    line-height: 35px;
+    top:35%;
+  }
+  .index__carouselImg1__subtitulo {
+    font-size: 1.2rem;
+  }
+  .index__carouselImg2__titulo{
+    font-size: 1.6rem;
+    line-height: 35px;
+    top:31%;
+  }
+  .index__carouselImg3__titulo{
+    font-size: 1.6rem;
+    width: 50%;
+    line-height: 35px;
+    top:31%;
+  }
+  .index__carouselImg3__subtitulo {
+    font-size: 1.2rem;
+  }
+  #index__btnsCarousel__container{
+    top:73%;
+  }
+  /*Botones de banners*/
+  #index__carouselImg3__btn {
+    min-height: 0rem!important;
+    height: 25px;
+  }
+  /*Fortalezas*/
+  .icono__fortaleza {
+    height: 38px;
+    width: 48px;
+}
+}
+
+@media (max-width: 701px) {
+  /*---NAVBAR--*/
+  .navbar__logo__margen{
+    margin-right: 0rem;
+    margin-left: 0rem;
+  }
+
+
+  /*---INDEX---*/
+
+  /*Titulos del carrousel*/
+  .index__carouselImg1__titulo{
+    font-size: 1.4rem;
+    line-height: 28px;
+    top: 37%;
+  }
+  .index__carouselImg1__subtitulo {
+    font-size: 1rem;
+    line-height: 24px;
+  }
+  .index__carouselImg2__titulo{
+    font-size: 1.4rem;
+    line-height: 28px;
+    top:33%;
+  }
+  .index__carouselImg3__titulo{
+    font-size: 1.4rem;
+    line-height: 28px;
+    top:33%;
+  }
+  .index__carouselImg3__subtitulo {
+    font-size: 1rem;
+    line-height: 24px;
+    top: 50%;
+  }
+  /*Botones de banners*/
+  #index__carouselImg2__btn {
+    min-height: 0rem!important;
+    height: 25px;
+  }
+}
+
+@media (max-width: 601px) {
+  /*---NAVBAR--*/
+  .navbar__menu__texto{
+    font-size: 12px;
+  }
+
+  /*---INDEX---*/
+  .index__mainCarousel__carousel{
+    height: 30vh;
+  }
+
+  /*Titulos del carrousel*/
+  .index__carouselImg1__titulo{
+    font-size: 1.2rem;
+    line-height: 22px;
+    top: 36%;
+    left: 11%;
+  }
+  .index__carouselImg1__subtitulo {
+    font-size: 0.9rem;
+    line-height: 18px;
+    left:11%;
+  }
+  .index__carouselImg2__titulo{
+    font-size: 1.2rem;
+    top: 32%;
+    left: 11%;
+  }
+  .index__carouselImg3__titulo{
+    font-size: 1.2rem;
+    line-height: 20px;
+    top: 33%;
+    left: 10%;
+  }
+  .index__carouselImg3__subtitulo {
+    font-size: 0.9rem;
+    line-height: 18px;
+    width: 43%;
+    left: 10%;
+  }
+  #index__btnsCarousel__container{
+    top:72%;
+  }
+}
+
+@media (max-width: 501px) {
+  /*---NAVBAR---*/
+  #navBar__menu__container{
+    display: none;
+  }
+
+  #navBar__menuMobile__container{
+    display: flex;
+  }
+
+  /*---INDEX---*/
+
+  /*Titulos del carrousel*/
+  .index__carouselImg1__titulo{
+    font-size: 1rem;
+    line-height: 20px;
+    top: 28%;
+    left: 11%;
+  }
+  .index__carouselImg1__subtitulo {
+    font-size: 0.8rem;
+    line-height: 17px;
+    top:60%;
+    left: 11%;
+  }
+  .index__carouselImg2__titulo{
+    font-size: 1rem;
+    line-height: 20px;
+    width: 45%;
+    top: 25%;
+    left: 11%;
+  }
+  .index__carouselImg3__titulo{
+    font-size: 1rem;
+    line-height: 20px;
+    top:24%;
+    left: 11%;
+  }
+  .index__carouselImg3__subtitulo {
+    font-size: 0.8rem;
+    line-height: 17px;
+    top: 53%;
+    left: 11%;
+  }
+  /*Tamaño carousel*/
+  .index__mainCarousel__carousel{
+    height: 146px;
+  }
+  /*Botones main carousel*/
+  #index__btnsCarousel__container {
+    top: 80%;
+  }
+}
+
+@media (max-width: 401px) {
+  /*---INDEX---*/
+
+  /*Titulos del carrousel*/
+  .index__carouselImg1__titulo{
+    font-size: 0.8rem;
+    line-height: 20px;
+    left:11%;
+    top: 31%;
+    }
+  .index__carouselImg1__subtitulo {
+    display: none;
+  }
+  .index__carouselImg2__titulo{
+    font-size: 0.8rem;
+    line-height: 17px;
+    top: 31%;
+    left:11%;
+  }
+  .index__carouselImg3__titulo{
+    font-size: 0.8rem;
+    line-height: 20px;
+    top:31%;
+    left:11%;
+    }
+  .index__carouselImg3__subtitulo {
+    display: none;
+  }
+  /*Botones main carousel*/
+  #index__btnsCarousel__container {
+    top: 72%;
+  }
+}
+
+@media (max-width:321px) {
+  .index__carouselImg2__titulo{
+    top: 35%;
+    }
+
+  .index__carouselImg2__titulo{
+    top: 35%;
+    }
+
+  .index__carouselImg3__titulo{
+    width:48%;
+    left:10%;
+    top: 35%;
+  }
+  /*Botones main carousel*/
+  #index__btnsCarousel__container {
+    top: 65%;
+  }
+}
