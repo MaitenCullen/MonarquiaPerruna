@@ -212,7 +212,7 @@
     font-size: 18px;
     line-height: 22px;
     width: 90%;
-    height: 60%;
+    height: 90%;
     text-align: center;
   }
   .imgDOGID{
@@ -239,7 +239,7 @@
     }
     .divTextDogID{
       font-size: 14px;
-      line-height: 20px;
+      line-height: 16px;
       width: 90%;
       height: 100%;
       text-align: center;
@@ -284,10 +284,10 @@
     width: 13%;
   }
 
-  @media(max-width:400px){
+  @media(max-width:430px){
     .imgAPP{
-      bottom: calc(100% - 9px);
-      width: 12%;
+      bottom: calc(100% - 3px);
+      width: 10%;
     }
   }
   .divAPPInfo{
@@ -529,7 +529,7 @@
   align-items: center;
   flex-direction: column;
 }
-
+/*productos*/
 .divProductos h3{
   font-size: 32px;
   line-height: 38px;
@@ -593,6 +593,59 @@
 #chaleco06:hover{
   background: url('/img/ropa/ropa05a.png');
 }
+/*Pilotos*/
+
+#piloto01{
+  background:  url('/img/ropa/piloto1.png');
+  background-repeat : no-repeat;
+  background-size : contain;
+  transition: 1s;
+}
+#piloto01:hover{
+  background: url('/img/ropa/piloto1H.png');
+}
+#piloto02{
+  background:  url('/img/ropa/gris.png');
+  background-repeat : no-repeat;
+  background-size : contain;
+
+}
+
+#piloto03{
+  background:  url('/img/ropa/fuscia.png');
+  background-repeat : no-repeat;
+  background-size : contain;
+
+}
+
+/*polar*/
+
+#polar01{
+  background:  url('/img/ropa/polar1.png');
+  background-repeat : no-repeat;
+  background-size : contain;
+  transition: 1s;
+}
+#polar01:hover{
+  background: url('/img/ropa/polar1H.png');
+}
+
+#polar02{
+  background:  url('/img/ropa/polar2.png');
+  background-repeat : no-repeat;
+  background-size : contain;
+  transition: 1s;
+}
+#polar02:hover{
+  background: url('/img/ropa/polar2H.png');
+}
+
+#polar03{
+  background:  url('/img/ropa/fuscia.png');
+  background-repeat : no-repeat;
+  background-size : contain;
+ 
+}
 
 /*CARDS CHALECOS Responsive//////////////////////////////////////////*/
 
@@ -633,21 +686,30 @@
 }
 
 
-@media(min-width:541px){
+@media(max-width:540px){
   .carouselResponsiveDestokp{
-    display: block;
+    display: none;
   }
+  .carouselMobile{
+    display: block;
+    width: 85%;
+  }
+
+}
+
+
+@media(min-width:541px){
   .carouselMobile{
     display: none;
   }
+  .carouselResponsiveDestokp{
+    display: block;
+  }
+
   
 }
 
-@media(max-width:540px){
-  .carouselMobile{
-    display: block;
-  }
-}
+
 
 /* 
 

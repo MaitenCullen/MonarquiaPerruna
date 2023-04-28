@@ -4,7 +4,7 @@ const appDOGID = [
         descripcion: 'Adquiere tu Dog Id.',
         icon:'./img/01.png',
         img:'./img/app01.png',
-        descripcion2: 'Se perdió tu mascota, pero tiene un DOG ID',
+        descripcion2: 'Se perdió tu mascota, ¡qué suerte que tiene un DOG ID!',
         img2: './img/dog1.png',
         num:'1'
     },

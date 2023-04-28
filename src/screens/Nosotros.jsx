@@ -19,8 +19,8 @@ export const Nosotros = () => {
             <div className='divimgLore'>
               <img src={Lore} alt='Imagen Lore y Simon'/>
             </div>
-          <div className='w-1/2'>
-            <p>
+          <div className='sm:w-1/2 my-2'>
+            <p className=''>
             Somos una empresa fundada por por personas que aman a los animales y se preocupan por la salud, cuidado y bienestar de los amigos más fieles que existen, nuestras mascotas. Nuestro compromiso con la seguridad, comodidad y la moda para las mascotas comenzó durante la pandemia cuando llegó a nuestra casa Simba. Después de buscar por todas partes ropa adecuada para protegerlo del frío invierno, nos dimos cuenta de que no habían muchas opciones que combinaran funcionalidad y estilo. Así fue como nació la idea de crear nuestro propio modelo de chaleco para perros que sea cómodo, abrigador y con estilo. Desde entonces, hemos seguido diseñando productos con amor y pasión, y estamos comprometidos en ayudarte a encontrar el mejor producto para tu mascota. En Monarquía Perruna, amamos a las mascotas tanto como tú. ¡Únete a nuestra comunidad y haz que tu perro luzca más adorable y ase que nunca!
             </p>
           </div>

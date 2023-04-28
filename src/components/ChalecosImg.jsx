@@ -10,6 +10,6 @@ export const ChalecosImg = () => {
         <div className='p-1 m-1 imgProducto' id='chaleco04'></div>
         <div className='p-1 m-1 imgProducto' id='chaleco05'></div>
         <div className='p-1 m-1 imgProducto' id='chaleco06'></div>
-  </div>
+   </div>
   )
 }

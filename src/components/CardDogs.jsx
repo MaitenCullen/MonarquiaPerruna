@@ -11,7 +11,7 @@ export const CardDogs = () => {
               <div className='divDogID '>
                 <div className="divTextDogID">
                     <p>
-                    DOG ID es un identificador digital con tecnología NFC que permite mantener a tu mascota más segura en todo momento. Con DOG ID, tu mascota siempre llevará toda su información para identificarla, cuidarla y poder contactarte en caso que se necesite.
+                    DOG ID es una identificación digital con tecnología NFC que permite que los reyes y reinas del hogar estén seguros en todo momento ya que siempre llevarán toda su información para poder identificarlos, cuidarlos y poder contactarte en caso de que se necesite.                    
                     </p>
                 </div>
             </div>
