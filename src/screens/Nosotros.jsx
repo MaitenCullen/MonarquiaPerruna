@@ -7,7 +7,7 @@ import '../styles/Nosotros.css';
 export const Nosotros = () => {
   return (
     <div className='sectionNosotros'> 
-      <div className='divBanner1 w-full'>
+      <div className='divBanner1 w-full '>
         <h3>Nosotros</h3>
       </div>
         <div  className='flex items-center justify-center flex-col py-9'>
@@ -29,7 +29,7 @@ export const Nosotros = () => {
         <div className='containBanner2'>
           <div className='divBanner2 h-full'>
             <div className='divTextBanner2'>
-            <h5 className='text-redLetters'>Lo que aspiramos a ser</h5>
+            <h5 className='text-redLetters p-2'>Lo que aspiramos a ser</h5>
             <h4 >Nuestra visión</h4>
             <h3>
             Ser una marca confiable y respetada en el mercado de productos para perros, reconocida por ofrecer productos de alta calidad, comodidad y seguridad que mejoren la vida de las mascotas y sus dueños o dueñas.
