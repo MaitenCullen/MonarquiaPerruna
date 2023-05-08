@@ -11,7 +11,7 @@ const CaracteristicasRopaContainer = () => {
     <section>
         <div>
             <div>
-                <div className="index__sobreNosotros__container">
+                <div className="chalecos__caracteristicasTitulo__container">
                     <div>
                         <p>¿Qué más necesitamos saber sobre los chalecos?</p>
                         <p><strong>Características</strong></p>

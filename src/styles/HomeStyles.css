@@ -9,7 +9,7 @@
   
   #index__btnsCarousel__container{
     position: absolute;
-    top:90%;
+    top:85%;
     right:0%;
   }
   
@@ -38,7 +38,7 @@
   
   .index__carouselImg1__titulo{
     position:absolute;
-    top:25%;
+    top:28%;
     left: 10%;
     font-size: 2.7rem;
     width: 45%;
@@ -69,17 +69,17 @@
   
   .index__carouselImg2__titulo{
     position:absolute;
-    top:19%;
+    top:22%;
     left: 10%;
     font-size: 2.7rem;
-    width: 41%;
+    width: 43%;
     color: #191919;
   }
   
   #index__carouselImg2__btn{
     position:absolute;
-    top:75%;
-    left: 10%;
+    top: 68%;
+    left: 13%;
     width: 25%;
     background-color: #A01E12;
     border: solid 2px #A01E12;
@@ -104,7 +104,7 @@
   
   .index__carouselImg3__titulo{
     position:absolute;
-    top:21%;
+    top:24%;
     left: 9.5%;
     font-size: 2.7rem;
     width: 40%;
@@ -115,13 +115,24 @@
   
   .index__carouselImg3__subtitulo{
     position:absolute;
-    top:51%;
+    top:40%;
     left: 9.5%;
     font-size: 1.7rem;
     font-weight: 400;
     width: 45%;
     color: #191919;
   }
+
+  #index__carouselImg3__btn{
+    position:absolute;
+    top: 68%;
+    left: 13%;
+    width: 25%;
+    background-color: #A01E12;
+    border: solid 2px #A01E12;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
   
   /*Sobre nosotros*/
   /*--------------------------------------------------------------------------------*/
@@ -132,8 +143,28 @@
     align-items: center;
     height: 20vh;
   }
+
+  .chalecos__tallesTitulo__container div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    line-height: 45px;
+  }
   
   .index__sobreNosotros__container div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    line-height: 45px;
+  }
+
+  .chalecos__caracteristicasTitulo__container div{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -147,8 +178,28 @@
     color: #A01E12;
     font-size: 1rem;
   }
+
+  .chalecos__caracteristicasTitulo__container div p{
+    color: #A01E12;
+    font-size: 1rem;
+  }
+
+  .chalecos__tallesTitulo__container div p{
+    color: #A01E12;
+    font-size: 1rem;
+  }
   
   .index__sobreNosotros__container div p strong {
+    color: #191919;
+    font-size: 2rem;
+  }
+
+  .chalecos__caracteristicasTitulo__container div p strong{
+    color: #191919;
+    font-size: 2rem;
+  }
+
+  .chalecos__tallesTitulo__container div p strong{
     color: #191919;
     font-size: 2rem;
   }
@@ -224,18 +275,7 @@
     
 }
 
-  @media (max-width:781px) {
-    .divCardContacto {
-      width: 60%;
-    }
-  }
 
-
-  @media (max-width:481px) {
-    .divCardContacto {
-      width: 80%;
-    }
-  }
 
   /*------------Media Queries DELF---------------------*/
 
@@ -251,6 +291,7 @@
   }
   .index__carouselImg2__titulo{
     font-size: 2.4rem;
+    top:25%;
   }
   .index__carouselImg3__titulo{
     font-size: 2.4rem;
@@ -258,7 +299,22 @@
   .index__carouselImg3__subtitulo {
     font-size: 1.6rem;
   }
-  
+  /*Fortalezas*/
+  .index__productosImagen__perroIzq {
+    top: -55%;
+  }
+  .index__productosImagen__perroDer {
+    top: -52%;
+  }
+  /*----CONTACTO-----*/
+  .contacto__titulo__container {
+    right: 35%;
+}
+/*------------------CHALECOS-----------------------*/
+.talles__imagen__container img {
+  width: 340px;
+  height: 320px;
+}
 }
 
 @media (max-width: 1101px) {
@@ -267,7 +323,7 @@
   /*Titulos del carrousel*/
   .index__carouselImg1__titulo{
     font-size: 2.2rem;
-    top:27%;
+    top:31%;
   }
   .index__carouselImg1__subtitulo {
     font-size: 1.5rem;
@@ -275,7 +331,10 @@
   }
   .index__carouselImg2__titulo{
     font-size: 2.2rem;
-    top: 23%;
+    top: 28%;
+  }
+  #index__carouselImg2__btn{
+    top: 64%;
   }
   .index__carouselImg3__titulo{
     font-size: 2.2rem;
@@ -284,9 +343,47 @@
   .index__carouselImg3__subtitulo {
     font-size: 1.5rem;
   }
-  #index__btnsCarousel__container{
-    top:85%;
+  #index__carouselImg3__btn{
+    top: 64%;
   }
+  #index__btnsCarousel__container{
+    top:80%;
+  }
+  .tituloCard__fortaleza{
+    font-size: 13px;
+  }
+  .textoCard__fortaleza {
+    font-size: 13px;
+  }
+  .index__productosImagen__perroIzq {
+    top: -61%;
+  }
+  .index__productosImagen__perroDer {
+    top: -57%;
+  }
+  /*----CONTACTO-------*/
+  .contacto__cards__container {
+    width: 90%;
+  }
+  .contacto__titulo__container {
+    right: 34%;
+  }
+  /*-------PREGUNTAS FRECUENTES----------*/
+  .preguntasFrecuentes__tituloSeccion__container {
+    right: 23%;
+  }
+  /*--------------CHALECOS---------------*/
+  .caracteristica__item__img {
+    width: 190px;
+    height: 190px;
+  }
+  .caracteristicasRopa__items__container {
+    margin-top: 0px;
+  }
+  .talles__imagen__container img {
+    width: 330px;
+    height: 310px;
+}
 }
 
 @media (max-width: 1001px) {
@@ -296,33 +393,117 @@
   .index__carouselImg1__titulo{
     font-size: 2rem;
     line-height: 40px;
-    top:31%;
+    top:33%;
   }
   .index__carouselImg1__subtitulo {
     font-size: 1.4rem;
     line-height: 27px;
+    top:56%;
   }
   .index__carouselImg2__titulo{
     font-size: 2rem;
     line-height: 40px;
-    top:27%;
+    top:30%;
   }
   .index__carouselImg3__titulo{
     font-size: 2rem;
     line-height: 40px;
-    top:26%;
+    top:30%;
   }
   .index__carouselImg3__subtitulo {
     font-size: 1.4rem;
     line-height: 30px;
-    top: 50%;
+    top: 42%;
   }
   #index__btnsCarousel__container{
-    top:80%;
+    top:76%;
   }
-  /*Fotalezas*/
+  /*Index Fortalezas*/
   .textoCard__fortaleza {
     font-size: 13px;
+  }
+  .index__sobreNosotros__container div p strong {
+  font-size: 1.8rem;
+  }
+  .index__reyesYreinas__container div p strong {
+    font-size: 1.8rem;
+  }
+  .index__sobreNosotros__container div{
+  margin-top: -100px;
+  }
+  .tituloCard__fortaleza{
+  font-size: 12px;
+  }
+  .textoCard__fortaleza {
+  font-size: 12px;
+  }
+  .index__aboutUs__grid {
+  margin-top: -100px;
+  }
+  /*Index Productos*/
+  .index__productosImagen__perroIzq {
+    width: 250px;
+    height: 175px;
+    top: -59%;
+  }
+  .index__productosImagen__perroDer {
+    width: 250px;
+    height: 175px;
+    top: -56%;
+  }
+  .index__productos__container div p strong {
+    font-size: 1.8rem;
+  }
+  .index__DogIdCaption__container h4 {
+    font-size: 56px;
+  }
+  .index__RopaCaption__container h4 {
+    font-size: 56px;
+  }
+  /*------------CONTACTO-----------------*/
+  .contacto__cards__container {
+    width: 100%;
+    justify-content: space-evenly;
+  }
+  .contacto__banner__img {
+    height: 34vh;
+  }
+  .contacto__banner__containerGeneral {
+    height: 35vh;
+  }
+  .contacto__cards__sectionContainer {
+    height: 45vh;
+  }
+  .contacto__card__container {
+    width: 270px;
+  }
+  .contacto__titulo__container {
+    right: 32%;
+}
+/*-------------PREGUNTAS FRECUENTES-------------*/
+.preguntasFrecuentes__tituloSeccion__container {
+  right: 22%;
+}
+.preguntasFrecuentes__tituloSeccion__container h1 {
+  font-size: 60px;
+}
+/*----------------CHALECOS--------------------*/
+.caracteristica__item__img {
+  width: 175px;
+  height: 175px;
+}
+.chalecos__caracteristicasTitulo__container div p strong{
+  font-size: 1.8rem;
+}
+.chalecos__caracteristicasTitulo__container div{
+  margin-top: 0px;
+}
+.chalecos__tallesTitulo__container div p strong{
+  font-size: 1.8rem;
+}
+.talles__imagen__container img {
+  width: 320px;
+  height: 300px;
 }
 }
 
@@ -340,29 +521,75 @@
   }
   .index__carouselImg2__titulo{
     font-size: 1.8rem;
+    top:33%;
   }
   .index__carouselImg3__titulo{
     font-size: 1.8rem;
+    top:33%
   }
   .index__carouselImg3__subtitulo {
     font-size: 1.3rem;
     line-height: 30px;
-    top: 52%;
-    width: 44%;
+    top: 44%;
+    width: 45%;
   }
   #index__btnsCarousel__container{
-    top:77%;
+    top:70%;
   }
-  /*Botones del Main carousel*/
-  #index__carouselImg2__btn {
-    top: 65%;
-  }
-  #index__carouselImg3__btn {
-    top: 70%;
-  }
-  /*Fortalezas*/
+  /*Index Fortalezas*/
   .tituloCard__fortaleza {
     font-size: 13px;
+  }
+  .index__sobreNosotros__container div{
+  margin-top: -150px;
+  }
+  .index__sobreNosotros__container {
+  height: 15vh;
+  }
+  /*Index Productos*/
+  .index__productosImagen__perroIzq {
+  top: -66%;
+  }
+  .index__productosImagen__perroDer {
+    top: -62%;
+  }
+  .index__RopaCaption__container h4 {
+    font-size: 50px;
+  }
+  .index__DogIdCaption__container h4 {
+    font-size: 50px;
+  }
+  /*--------------CONTACTO--------------*/
+  .contacto__banner__img {
+    height: 30vh;
+  }
+  .contacto__cards__sectionContainer {
+    height: 42vh
+  }
+  .contacto__card__container {
+    width: 260px;
+  }
+  .contacto__titulo__container {
+    right: 29%;
+  }
+  .contacto__banner__containerGeneral {
+    height: 30vh;
+}
+/*-------------PREGUNTAS FRECUENTES-----------*/
+.preguntasFrecuentes__tituloSeccion__container {
+  right: 21%;
+}
+.preguntasFrecuentes__tituloSeccion__container h1 {
+  font-size: 55px;
+}
+/*--------------CHALECOS----------------------*/
+.caracteristica__item__img {
+  width: 160px;
+  height: 160px;
+}
+.talles__imagen__container img {
+  width: 310px;
+  height: 290px;
 }
 }
 
@@ -378,35 +605,134 @@
   }
   .index__carouselImg1__subtitulo {
     font-size: 1.2rem;
+    top:55%;
   }
   .index__carouselImg2__titulo{
     font-size: 1.6rem;
     line-height: 35px;
-    top:31%;
+    top:35%;
+    width: 44%;
+  }
+  #index__carouselImg2__btn{
+    top: 62%;
   }
   .index__carouselImg3__titulo{
     font-size: 1.6rem;
     width: 50%;
     line-height: 35px;
-    top:31%;
+    top:35%;
   }
   .index__carouselImg3__subtitulo {
     font-size: 1.2rem;
   }
+  #index__carouselImg3__btn{
+    top: 62%;
+  }
   #index__btnsCarousel__container{
-    top:73%;
+    top:70%;
   }
-  /*Botones de banners*/
-  #index__carouselImg3__btn {
-    min-height: 0rem!important;
-    height: 25px;
-  }
-  /*Fortalezas*/
+
+  /*Index Fortalezas*/
   .icono__fortaleza {
     height: 38px;
     width: 48px;
+  }
+  .index__sobreNosotros__container div p strong {
+    font-size: 1.7rem;
+  }
+  /*Index Productos*/
+  .index__productosImagen__perroIzq {
+    width: 220px;
+    height: 160px;
+    top:-68%;
+  }
+  .index__productosImagen__perroDer {
+    width: 220px;
+    height: 160px;
+      top: -64%;
+  }
+  .index__productos__container div p strong {
+    font-size: 1.7rem;
+  }
+  .index__RopaCaption__container h4 {
+    font-size: 42px;
+  }
+  .index__DogIdCaption__container h4 {
+    font-size: 42px;
+  }
+  /*Index Reyes y Reinas*/
+  .index__reyesYreinas__container div p strong {
+    font-size: 1.7rem;
+  }
+  /*----------CONTACTO--------------*/
+  .contacto__card__container {
+    width: 230px;
+  }
+  .contacto__banner__img {
+    height: 30vh;
+  }
+  .contacto__banner__containerGeneral {
+    height: 30vh;
+  }
+  .textoCard__contacto {
+    font-size: 13px;
+  }
+  .contacto__card__container {
+    height: 160px;
+  }
+  .contacto__titulo__container {
+    right: 28%;
+}
+/*--------------PREGUNTAS FRECUENTES----------------*/
+.preguntasFrecuentes__tituloSeccion__container h1 {
+  font-size: 50px;
+}
+.preguntasFrecuentes__tituloSeccion__container {
+  right: 20%;
+}
+/*-----------------CHALECOS-------------------------*/
+.caracteristica__item__img {
+  width: 140px;
+  height: 140px;
+}
+.chalecos__caracteristicasTitulo__container div p strong{
+  font-size: 1.7rem;
+}
+.chalecos__tallesTitulo__container div p strong{
+  font-size: 1.7rem;
+}
+.talles__imagen__container img {
+  width: 290px;
+  height: 270px;
 }
 }
+
+@media (max-width:768px) {
+  .index__aboutUs__grid {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 0.5fr 1fr;
+    grid-auto-columns: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "index__ProductosDeCalidad__container index__AtencionPersonalizada__container"
+        "index__aboutUsMainImg__container index__aboutUsMainImg__container"
+        "index__seguridadEnElProceso__container index__envios__container"
+  }
+  .index__aboutUsMainImg__container { 
+    height: 300px ;
+  }
+  .index__aboutUsMainImg__container img{ 
+    height: 100% ;
+  }
+  .index__RopaCaption__container a {
+    right: 35%;
+  }
+  .index__DogIdCaption__container a {
+    right: 37%;
+  }
+}
+
 
 @media (max-width: 701px) {
   /*---NAVBAR--*/
@@ -422,7 +748,7 @@
   .index__carouselImg1__titulo{
     font-size: 1.4rem;
     line-height: 28px;
-    top: 37%;
+    top: 39%;
   }
   .index__carouselImg1__subtitulo {
     font-size: 1rem;
@@ -431,23 +757,119 @@
   .index__carouselImg2__titulo{
     font-size: 1.4rem;
     line-height: 28px;
-    top:33%;
+    top:37%;
+  }
+  #index__carouselImg2__btn{
+    top: 60%;
   }
   .index__carouselImg3__titulo{
     font-size: 1.4rem;
     line-height: 28px;
-    top:33%;
+    top:36%;
   }
   .index__carouselImg3__subtitulo {
     font-size: 1rem;
     line-height: 24px;
-    top: 50%;
+    top: 45%;
+  }
+  #index__carouselImg3__btn{
+    top: 60%;
   }
   /*Botones de banners*/
   #index__carouselImg2__btn {
     min-height: 0rem!important;
-    height: 25px;
+    height: 40px;
+  } 
+  #index__carouselImg3__btn {
+    min-height: 0rem!important;
+    height: 45px;
+  } 
+  #index__btnsCarousel__container{
+    top:68%;
   }
+  /*Index Fortalezas*/
+  .index__sobreNosotros__container div {
+    margin-top: -180px;
+  }
+  /*Index Productos*/
+  .index__productosImagen__perroIzq {
+    top: -32%;
+    left: -3%;
+    width: 200px;
+    height: 140px;
+}
+  .index__productosCards__ROPA-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    padding-left: 0px;
+  }
+  .index__productosImagen__perroDer {
+    top: -30%;
+    width: 200px;
+    height: 140px;
+  }
+  .index__productosCards__DOGID-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-right: 0px;
+    align-items: center;
+  }
+  .index__productosCards__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 0px;
+    flex-direction: column;
+  }
+  .index__DogIdCaption__container h4 {
+    font-size: 64px;
+  }
+  .index__RopaCaption__container h4 {
+    font-size: 64px;
+  }
+  .index__DogIdCaption__container h4 {
+    right: 33%;
+  }
+  .index__RopaCaption__container h4 {
+    right: 37%;
+  }
+  /*------------CONTACTO--------------*/
+  .contacto__cards__sectionContainer {
+    height: 83vh;
+  }
+  .contacto__cards__container {
+    flex-direction: column;
+  }
+  .contacto__titulo__container {
+    right: 24%;
+}
+/*-------------PREGUNTAS FRECUENTES-------------*/
+.preguntasFrecuentes__tituloSeccion__container h1 {
+  font-size: 45px;
+}
+/*---------------------CHALECOS-------------------*/
+.caracteristica__item__img {
+  width: 170px;
+  height: 170px;
+}
+.caracteristicasRopa__items__container {
+  height: 120vh;
+  margin-top: 0px;
+  flex-direction: column;
+}
+.caracteristica__card__container {
+  width: 260px;
+  height: 280px;
+}
+.talles__imagen__container img {
+  width: 280px;
+  height: 260px;
+}
 }
 
 @media (max-width: 601px) {
@@ -477,6 +899,7 @@
     font-size: 1.2rem;
     top: 32%;
     left: 11%;
+    width:46%;
   }
   .index__carouselImg3__titulo{
     font-size: 1.2rem;
@@ -487,12 +910,90 @@
   .index__carouselImg3__subtitulo {
     font-size: 0.9rem;
     line-height: 18px;
-    width: 43%;
+    width: 55%;
     left: 10%;
   }
   #index__btnsCarousel__container{
-    top:72%;
+    top:69%;
   }
+  /*Botones de banners*/
+  #index__carouselImg2__btn {
+    height: 35px;
+  } 
+  #index__carouselImg3__btn {
+    height: 35px;
+  }  
+  /*Index Fortalezas*/
+  .index__sobreNosotros__container div {
+    margin-top: -120px;
+  }
+  .index__sobreNosotros__container div p strong {
+    font-size: 1.6rem;
+  }
+  .botonCentrado__container a {
+    width: 37%;
+  }
+  /*Index Productos*/
+  .index__productos__container div p strong {
+    font-size: 1.6rem;
+  }
+  .index__productosImagen__perroIzq {
+    top: -37%;
+    left: -7%;
+  }
+  .index__productosImagen__perroDer {
+    top: -35%;
+  }
+  .index__DogIdCaption__container h4 {
+    font-size: 58px;
+  }
+  .index__RopaCaption__container h4 {
+    font-size: 58px;
+  }
+  /*Index Reyes y Reinas*/
+  .index__reyesYreinas__container div p strong {
+    font-size: 1.6rem;
+  }
+  /*-----CONTACTO-----*/
+  .contacto__banner__img {
+    height: 25vh;
+  }
+  .contacto__titulo__container h1 {
+    font-size: 55px;
+  }
+  .contacto__icono__card {
+    height: 60px;
+    width: 68px;
+  }
+  .contacto__cards__sectionContainer {
+    height: 110vh;
+}
+/*-----------PREGUNTAS FRECUENTES---------*/
+.preguntasFrecuentes__tituloSeccion__container h1 {
+  font-size: 39px;
+}
+.preguntasFrecuentes__tituloSeccion__container {
+  right: 19%;
+}
+/*------------CHALECOS--------------------*/
+.chalecos__caracteristicasTitulo__container div p strong{
+  font-size: 1.6rem;
+}
+.caracteristica__item__img {
+  width: 190px;
+  height: 190px;
+}
+.caracteristica__card__container {
+  width: 300px;
+  height: 300px;
+}
+.chalecos__tallesTitulo__container div p strong{
+  font-size: 1.6rem;
+}
+.talles__imagen__container img {
+  width: 260px;
+  height: 240px;
+}
 }
 
 @media (max-width: 501px) {
@@ -515,15 +1016,12 @@
     left: 11%;
   }
   .index__carouselImg1__subtitulo {
-    font-size: 0.8rem;
-    line-height: 17px;
-    top:60%;
-    left: 11%;
+    display: none;
   }
   .index__carouselImg2__titulo{
     font-size: 1rem;
     line-height: 20px;
-    width: 45%;
+    width: 48%;
     top: 25%;
     left: 11%;
   }
@@ -534,10 +1032,7 @@
     left: 11%;
   }
   .index__carouselImg3__subtitulo {
-    font-size: 0.8rem;
-    line-height: 17px;
-    top: 53%;
-    left: 11%;
+    display: none;
   }
   /*Tamaño carousel*/
   .index__mainCarousel__carousel{
@@ -545,8 +1040,112 @@
   }
   /*Botones main carousel*/
   #index__btnsCarousel__container {
-    top: 80%;
+    top: 77%;
   }
+  /*Botones de banners*/
+  #index__carouselImg2__btn {
+    height: 30px;
+    font-size: 12px;
+  } 
+  #index__carouselImg3__btn {
+    height: 30px;
+    font-size: 12px;
+  }
+  /*Fortalezas*/
+  .index__sobreNosotros__container div {
+    margin-top: -30px;
+  }
+.index__sobreNosotros__container div p strong {
+  font-size: 1.4rem;
+  }  
+  .index__aboutUs__grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-auto-columns: 1fr;
+    margin-top: -25px;
+    align-items: center;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "index__ProductosDeCalidad__container"
+        "index__AtencionPersonalizada__container"
+        "index__aboutUsMainImg__container"
+        "index__seguridadEnElProceso__container"
+        "index__envios__container"
+  }
+  .index__cardFortaleza__container {
+    width: 50%;
+  }
+  /*Index Productos*/
+  .index__productos__container div p strong {
+    font-size: 1.4rem;
+  }
+  .index__productosImagen__perroIzq {
+    top: -38%;
+    left: -10%;
+    width: 180px;
+    height: 120px;
+  }
+  .index__productosImagen__perroDer {
+    top: -36%;
+    width: 180px;
+    height: 120px;
+  }
+  .index__DogIdCaption__container h4 {
+    right: 25%;
+  }
+  .index__RopaCaption__container h4 {
+    right: 31%;
+  }
+  /*Index Reyes y Reinas*/
+  .index__reyesYreinas__container div p strong {
+    font-size: 1.4rem;
+  } 
+  /*------------CONTACTO---------------*/
+  .contacto__banner__img {
+    height: 23vh;
+  }
+  .contacto__titulo__container {
+  right: 20%;
+  }
+  .contacto__banner__containerGeneral {
+  height: 25vh;
+  }
+  .contacto__titulo__container h1 {
+  font-size: 45px;
+  }
+  .contacto__titulo__container {
+    right: 23%;
+}
+/*--------------PREGUNTAS FRECUENTES---------------*/
+.preguntasFrecuentes__tituloSeccion__container {
+  right: -8%;
+  top: 13%;
+}
+.preguntasFrecuentes__tituloSeccion__container h1 {
+  font-size: 39px;
+  width: 30%;
+  text-align: center;
+}
+/*----------------CHALECOS------------------------*/
+.chalecos__caracteristicasTitulo__container div p strong{
+  font-size: 1.4rem;
+}
+.caracteristica__item__img {
+  width: 185px;
+  height: 185px;
+}
+.caracteristica__card__container {
+  width: 280px;
+  height: 290px;
+}
+.chalecos__tallesTitulo__container div p strong{
+  font-size: 1.4rem;
+}
+.talles__imagen__container img {
+  width: 230px;
+  height: 210px;
+}
 }
 
 @media (max-width: 401px) {
@@ -559,9 +1158,6 @@
     left:11%;
     top: 31%;
     }
-  .index__carouselImg1__subtitulo {
-    display: none;
-  }
   .index__carouselImg2__titulo{
     font-size: 0.8rem;
     line-height: 17px;
@@ -574,23 +1170,116 @@
     top:31%;
     left:11%;
     }
-  .index__carouselImg3__subtitulo {
-    display: none;
-  }
+  
   /*Botones main carousel*/
   #index__btnsCarousel__container {
-    top: 72%;
+    top: 70%;
   }
+  /*Main Carousel Botones de banners*/
+  #index__carouselImg2__btn {
+    height: 25px;
+    font-size: 10px;
+  } 
+  #index__carouselImg3__btn {
+    height: 25px;
+    font-size: 10px;
+  }
+  /*Index Fortalezas*/
+  .index__sobreNosotros__container div p strong {
+    font-size: 1.1rem;
+  }
+  .index__sobreNosotros__container {
+    height: 10vh;
+  }
+  .index__cardFortaleza__container {
+    width: 65%;
+  }
+  .botonCentrado__container a {
+  width: 55%;
+  }
+  /*Index Productos*/
+  .index__productos__container div p strong {
+    font-size: 1.1rem;
+  }
+  .index__productosImagen__perroIzq {
+    top: -44%;
+    left: -10%;
+    width: 160px;
+    height: 110px;
+  }
+  .index__productosImagen__perroDer {
+    top: -42%;
+    width: 160px;
+    height: 110px;
+  }
+  .index__DogIdCaption__container h4 {
+    font-size: 45px;
+  }
+  .index__RopaCaption__container h4 {
+    font-size: 45px;
+  }
+  /*Index Reyes y Reinas*/
+  .index__reyesYreinas__container div p strong {
+    font-size: 1.1rem;
+  }
+  /*----------CONTACTO-----------------*/
+  .contacto__banner__img {
+    height: 17vh;
+  }
+  .contacto__titulo__container h1 {
+    font-size: 45px;
+  }
+  .contacto__banner__containerGeneral {
+    height: 20vh;
+  }
+  .contacto__icono__card {
+    height: 50px;
+    width: 60px;
+  }
+  .contacto__cards__sectionContainer {
+    height: 115vh;
+}
+.contacto__titulo__container h1 {
+  font-size: 38px;
+}
+.contacto__titulo__container {
+  right: 24%;
+}
+/*--------------PREGUNTAS FRECUENTES-----------*/
+.preguntasFrecuentes__tituloSeccion__container h1 {
+  font-size: 30px;
+}
+.preguntasFrecuentes__tituloSeccion__container {
+  right: -5%;
+}
+/*------------------CHALECOS--------------------*/
+.chalecos__caracteristicasTitulo__container div p strong{
+  font-size: 1.1rem;
+}
+.caracteristica__item__img {
+  width: 150px;
+  height: 150px;
+}
+.caracteristica__card__container {
+  width: 260px;
+  height: 280px;
+}
+.caracteristicasRopa__items__container {
+  height: 120vh;
+}
+.chalecos__tallesTitulo__container div p strong{
+  font-size: 1.1rem;
+}
+.talles__imagen__container img {
+  width: 200px;
+  height: 180px;
+}
 }
 
 @media (max-width:321px) {
   .index__carouselImg2__titulo{
-    top: 35%;
-    }
-
-  .index__carouselImg2__titulo{
-    top: 35%;
-    }
+    top: 30%;
+  }
 
   .index__carouselImg3__titulo{
     width:48%;
@@ -601,4 +1290,70 @@
   #index__btnsCarousel__container {
     top: 65%;
   }
+  #index__carouselImg2__btn {
+    height: 20px;
+    font-size: 9px;
+  }
+  #index__carouselImg3__btn {
+    height: 20px;
+    font-size: 9px;
+  }
+  .index__productosImagen__perroIzq {
+    top: -50%;
+    left: 18%;
+    width: 150px;
+    height: 100px;
+  }
+  .index__productosCards__DOGID-container {
+    padding-top: 10px;
+  }
+  .index__DogIdCaption__container h4 {
+    font-size: 40px;
+  }
+  .index__productosImagen__perroDer {
+    top: -48%;
+    left: 25%;
+    width: 150px;
+    height: 100px;
+  }
+  .index__RopaCaption__container h4 {
+    font-size: 40px;
+  }
+  /*---CONTACTO----*/
+  .contacto__banner__img {
+    height: 12vh;
+  }
+  .contacto__titulo__container h1 {
+    font-size: 35px;
+  }
+  .contacto__cards__sectionContainer {
+    height: 80vh;
+}
+.contacto__titulo__container h1 {
+  font-size: 30px;
+}
+/*------------PREGUNTAS FRECUENTES---------------*/
+.preguntasFrecuentes__tituloSeccion__container {
+  right: -18%;
+  top:9%;
+}
+.preguntasFrecuentes__pregunta__container p {
+  font-size: 15px;
+}
+.preguntasFrecuentes__titulosDePregunta__container h3 {
+  font-size: 22px;
+}
+/*--------------------CHALECOS-------------------*/
+.caracteristica__item__img {
+  width: 160px;
+  height: 160px;
+}
+.caracteristica__card__container {
+  width: 250px;
+  height: 270px;
+}
+.talles__imagen__container img {
+  width: 180px;
+  height: 160px;
+}
 }

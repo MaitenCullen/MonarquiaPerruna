@@ -150,7 +150,7 @@ background-color: grey;
   top:20%;
   left: 10%;
   font-size: 2.7rem;
-  width: 41%;
+  width: 43%;
   color: #191919;
 }
 
@@ -188,15 +188,7 @@ background-color: grey;
   color: #191919;
 }
 
-#index__carouselImg3__btn{
-  position:absolute;
-  top:75%;
-  left: 10%;
-  width: 25%;
-  background-color: #A01E12;
-  border: solid 2px #A01E12;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
+
 
 /*Sobre nosotros*/
 
@@ -216,6 +208,7 @@ background-color: grey;
   text-align: center;
   width: 100%;
   line-height: 45px;
+  margin-top: -50px;
 }
 
 .index__sobreNosotros__container div p{
@@ -233,6 +226,7 @@ background-color: grey;
 
 .index__aboutUs__grid {  
   display: grid;
+  margin-top: -50px;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   grid-auto-columns: 1fr;
@@ -366,7 +360,7 @@ background-color: grey;
 .caracteristicasRopa__items__container{
   width: 100vw;
   height: 30vh;
-  margin-top: -25px;
+  margin-top: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -385,6 +379,11 @@ background-color: grey;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.talles__imagen__container img{
+  width: 350px;
+  height: 330px;
 }
 
 .talles__tabla__generalContainer{
