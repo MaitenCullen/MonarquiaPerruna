@@ -360,7 +360,7 @@ background-color: grey;
 .caracteristicasRopa__items__container{
   width: 100vw;
   height: 30vh;
-  margin-top: -25px;
+  margin-top: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -379,6 +379,11 @@ background-color: grey;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.talles__imagen__container img{
+  width: 350px;
+  height: 330px;
 }
 
 .talles__tabla__generalContainer{

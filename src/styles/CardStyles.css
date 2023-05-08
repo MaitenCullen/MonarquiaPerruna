@@ -754,6 +754,7 @@
 
 .caracteristica__cardCaption__container p{
   font-family: "Nunito";
+  text-align: center;
 }
 
 .caracteristica__cardCaption__container p strong{
@@ -762,7 +763,6 @@
   color: #A01E12;
   font-family: "Lato";
 }
-
 
 
 /*---------------Cards de contacto----------------*/

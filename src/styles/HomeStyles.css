@@ -143,8 +143,28 @@
     align-items: center;
     height: 20vh;
   }
+
+  .chalecos__tallesTitulo__container div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    line-height: 45px;
+  }
   
   .index__sobreNosotros__container div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    line-height: 45px;
+  }
+
+  .chalecos__caracteristicasTitulo__container div{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -158,8 +178,28 @@
     color: #A01E12;
     font-size: 1rem;
   }
+
+  .chalecos__caracteristicasTitulo__container div p{
+    color: #A01E12;
+    font-size: 1rem;
+  }
+
+  .chalecos__tallesTitulo__container div p{
+    color: #A01E12;
+    font-size: 1rem;
+  }
   
   .index__sobreNosotros__container div p strong {
+    color: #191919;
+    font-size: 2rem;
+  }
+
+  .chalecos__caracteristicasTitulo__container div p strong{
+    color: #191919;
+    font-size: 2rem;
+  }
+
+  .chalecos__tallesTitulo__container div p strong{
     color: #191919;
     font-size: 2rem;
   }
@@ -270,6 +310,11 @@
   .contacto__titulo__container {
     right: 35%;
 }
+/*------------------CHALECOS-----------------------*/
+.talles__imagen__container img {
+  width: 340px;
+  height: 320px;
+}
 }
 
 @media (max-width: 1101px) {
@@ -326,6 +371,18 @@
   /*-------PREGUNTAS FRECUENTES----------*/
   .preguntasFrecuentes__tituloSeccion__container {
     right: 23%;
+  }
+  /*--------------CHALECOS---------------*/
+  .caracteristica__item__img {
+    width: 190px;
+    height: 190px;
+  }
+  .caracteristicasRopa__items__container {
+    margin-top: 0px;
+  }
+  .talles__imagen__container img {
+    width: 330px;
+    height: 310px;
 }
 }
 
@@ -430,6 +487,24 @@
 .preguntasFrecuentes__tituloSeccion__container h1 {
   font-size: 60px;
 }
+/*----------------CHALECOS--------------------*/
+.caracteristica__item__img {
+  width: 175px;
+  height: 175px;
+}
+.chalecos__caracteristicasTitulo__container div p strong{
+  font-size: 1.8rem;
+}
+.chalecos__caracteristicasTitulo__container div{
+  margin-top: 0px;
+}
+.chalecos__tallesTitulo__container div p strong{
+  font-size: 1.8rem;
+}
+.talles__imagen__container img {
+  width: 320px;
+  height: 300px;
+}
 }
 
 @media (max-width: 901px) {
@@ -506,6 +581,15 @@
 }
 .preguntasFrecuentes__tituloSeccion__container h1 {
   font-size: 55px;
+}
+/*--------------CHALECOS----------------------*/
+.caracteristica__item__img {
+  width: 160px;
+  height: 160px;
+}
+.talles__imagen__container img {
+  width: 310px;
+  height: 290px;
 }
 }
 
@@ -605,6 +689,21 @@
 }
 .preguntasFrecuentes__tituloSeccion__container {
   right: 20%;
+}
+/*-----------------CHALECOS-------------------------*/
+.caracteristica__item__img {
+  width: 140px;
+  height: 140px;
+}
+.chalecos__caracteristicasTitulo__container div p strong{
+  font-size: 1.7rem;
+}
+.chalecos__tallesTitulo__container div p strong{
+  font-size: 1.7rem;
+}
+.talles__imagen__container img {
+  width: 290px;
+  height: 270px;
 }
 }
 
@@ -753,6 +852,24 @@
 .preguntasFrecuentes__tituloSeccion__container h1 {
   font-size: 45px;
 }
+/*---------------------CHALECOS-------------------*/
+.caracteristica__item__img {
+  width: 170px;
+  height: 170px;
+}
+.caracteristicasRopa__items__container {
+  height: 120vh;
+  margin-top: 0px;
+  flex-direction: column;
+}
+.caracteristica__card__container {
+  width: 260px;
+  height: 280px;
+}
+.talles__imagen__container img {
+  width: 280px;
+  height: 260px;
+}
 }
 
 @media (max-width: 601px) {
@@ -857,6 +974,25 @@
 }
 .preguntasFrecuentes__tituloSeccion__container {
   right: 19%;
+}
+/*------------CHALECOS--------------------*/
+.chalecos__caracteristicasTitulo__container div p strong{
+  font-size: 1.6rem;
+}
+.caracteristica__item__img {
+  width: 190px;
+  height: 190px;
+}
+.caracteristica__card__container {
+  width: 300px;
+  height: 300px;
+}
+.chalecos__tallesTitulo__container div p strong{
+  font-size: 1.6rem;
+}
+.talles__imagen__container img {
+  width: 260px;
+  height: 240px;
 }
 }
 
@@ -991,6 +1127,25 @@
   width: 30%;
   text-align: center;
 }
+/*----------------CHALECOS------------------------*/
+.chalecos__caracteristicasTitulo__container div p strong{
+  font-size: 1.4rem;
+}
+.caracteristica__item__img {
+  width: 185px;
+  height: 185px;
+}
+.caracteristica__card__container {
+  width: 280px;
+  height: 290px;
+}
+.chalecos__tallesTitulo__container div p strong{
+  font-size: 1.4rem;
+}
+.talles__imagen__container img {
+  width: 230px;
+  height: 210px;
+}
 }
 
 @media (max-width: 401px) {
@@ -1097,6 +1252,28 @@
 .preguntasFrecuentes__tituloSeccion__container {
   right: -5%;
 }
+/*------------------CHALECOS--------------------*/
+.chalecos__caracteristicasTitulo__container div p strong{
+  font-size: 1.1rem;
+}
+.caracteristica__item__img {
+  width: 150px;
+  height: 150px;
+}
+.caracteristica__card__container {
+  width: 260px;
+  height: 280px;
+}
+.caracteristicasRopa__items__container {
+  height: 120vh;
+}
+.chalecos__tallesTitulo__container div p strong{
+  font-size: 1.1rem;
+}
+.talles__imagen__container img {
+  width: 200px;
+  height: 180px;
+}
 }
 
 @media (max-width:321px) {
@@ -1165,5 +1342,18 @@
 }
 .preguntasFrecuentes__titulosDePregunta__container h3 {
   font-size: 22px;
+}
+/*--------------------CHALECOS-------------------*/
+.caracteristica__item__img {
+  width: 160px;
+  height: 160px;
+}
+.caracteristica__card__container {
+  width: 250px;
+  height: 270px;
+}
+.talles__imagen__container img {
+  width: 180px;
+  height: 160px;
 }
 }
