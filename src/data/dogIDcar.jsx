@@ -1,7 +1,7 @@
 const dogID = [
     {
         id:1,
-        descripcion: 'Con solo acercar tu celular al DOG ID puedes acceder a la información de tu mascota.',
+        descripcion: 'Con solo acercar tu celular al DOG ID puedes acceder a toda su información.',
         icon:'./img/celular.png',
     },
     {
@@ -25,7 +25,7 @@ const dogID = [
     },
     {
         id:5,
-        descripcion: 'Liviano y totalmente inofensivo para tu mascota',
+        descripcion: 'Liviano y totalmente inofensivo.',
         icon:'./img/seguridad.png',
         nfc: 'Los celulares con iOS ya tienen incorporado NFC desde el modelo 7 en adelante.',
         iconNFC:'./img/pata.png'

@@ -10,7 +10,7 @@ const data = [
 const View1 = () => {
     return(
         <div>
-            <img className="animate__animated animate__fadeIn" src="/img/dogIdRosa.png" alt="" />
+            <img className="dogId__selector__perro__img animate__animated animate__fadeIn" src="/img/DogColorRosa.png" alt="" />
         </div>
     )
 }
@@ -18,7 +18,7 @@ const View1 = () => {
 const View2 = () => {
     return(
         <div>
-            <img className="animate__animated animate__fadeIn" src="/img/DogColorVerde.png" alt="" />
+            <img className="dogId__selector__perro__img animate__animated animate__fadeIn" src="/img/DogColorVerde.png" alt="" />
         </div>
     )
 }
@@ -26,7 +26,7 @@ const View2 = () => {
 const View3 = () => {
     return(
         <div>
-            <img className="animate__animated animate__fadeIn" src="/img/DogColorAqua.png" alt="" />
+            <img className="dogId__selector__perro__img animate__animated animate__fadeIn" src="/img/DogColorAqua.png" alt="" />
         </div>
     )
 }
@@ -34,7 +34,7 @@ const View3 = () => {
 const View4 = () => {
     return(
         <div>
-            <img className="animate__animated animate__fadeIn" src="/img/DogColorRojo.png" alt="" />
+            <img className="dogId__selector__perro__img animate__animated animate__fadeIn" src="/img/DogColorRojo.png" alt="" />
         </div>
     )
 }
@@ -64,16 +64,16 @@ const DogIdSelector = () => {
         <div className="dogId__selector__container">
             <div className="dogId__selectors__container">
                 <div className="dogId__imgSelector__container" >
-                    <img className="dogId__selector__img" onClick={() => SetView(1)} src="/img/dogIdRosaProvisorio.jpeg" alt="" />
+                    <img className="dogId__selector__img" onClick={() => SetView(1)} src="/img/IdColorRosaSelected.png" alt="Imagén del producto Dog Id color rosa de Monarquia Perruna" />
                 </div>
                 <div className="dogId__imgSelector__container" >
-                    <img className="dogId__selector__img" onClick={() => SetView(2)} src="/img/dogIdVerdeProvisorio.jpeg" alt="" />
+                    <img className="dogId__selector__img" onClick={() => SetView(2)} src="/img/IdColorVerdeSelected.png" alt="Imagén del producto Dog Id color verde de Monarquia Perruna" />
                 </div>
                 <div className="dogId__imgSelector__container" >
-                    <img className="dogId__selector__img" onClick={() => SetView(3)} src="/img/dogIdCelesteProvisorio.jpeg" alt="" />
+                    <img className="dogId__selector__img" onClick={() => SetView(3)} src="/img/IdColorAquaSelected.png" alt="Imagén del producto Dog Id color aqua de Monarquia Perruna" />
                 </div>
                 <div  className="dogId__imgSelector__container" >
-                    <img className="dogId__selector__img" onClick={() => SetView(4)} src="/img/dogIdRosaProvisorio.jpeg" alt="" />
+                    <img className="dogId__selector__img" onClick={() => SetView(4)} src="/img/IdColorRojoSelected.png" alt="Imagén del producto Dog Id color rojo de Monarquia Perruna" />
                 </div>
             </div>
             <div>

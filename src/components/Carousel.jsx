@@ -29,8 +29,8 @@ export default function Carousel() {
                 </div>
 
 
-                <div className="carouselMobile w-full">
-                <CarouselProvider className="" naturalSlideWidth={100} isIntrinsicHeight={true} naturalSlideHeight={100} totalSlides={16} visibleSlides={2} step={1} infinite={true} currentSlide={3} dragStep={1} interval={4000} isPlaying={true}>
+                <div className="carouselMobile ">
+                <CarouselProvider className="" naturalSlideWidth={100} isIntrinsicHeight={true} naturalSlideHeight={100} totalSlides={16} visibleSlides={1} step={1} infinite={true} currentSlide={3} dragStep={1} interval={4000} isPlaying={true}>
                     <div className="js-flickity flex justify-center items-center w-full">
                         <ButtonBack role="button" aria-label="slide backward" className="w-12 h-12 md:w-14 md:h-14 rounded-full flex justify-center items-center border border-gray-300 hover:bg-gray-400 absolute z-30 left-0 ml-8 focus:outline-none focus:bg-gray-400 focus:ring-2 focus:ring-offset-2 focus:ring-gray-400 cursor-pointer" id="prev">
                             <svg width={8} height={14} viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
