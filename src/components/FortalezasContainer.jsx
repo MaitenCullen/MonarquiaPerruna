@@ -27,7 +27,7 @@ const FortalezasContainer = () => {
             </div>
 
             <div className="index__envios__container animate__animated animate__fadeInRight">
-                <CardFortaleza tituloDeCard="ENVÍOS A TODO EL PAÍS" informacionDeCard="A través del correo enviaremos tu pedido para que llegue lo más pronto posible. " img={ iconoEnvios }/>
+                <CardFortaleza tituloDeCard="ENVÍOS A TODO EL PAÍS" informacionDeCard="A través del correo enviaremos tu pedido para que llegue lo más pronto posible." img={ iconoEnvios }/>
             </div>
         </div>
         

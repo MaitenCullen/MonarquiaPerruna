@@ -430,6 +430,7 @@
   font-family: "Lato";
 }
 
+
 .index__RopaCaption__container h4{
   position: absolute;
   top: 30%;
@@ -787,12 +788,12 @@
   margin-bottom: 50px;
 }
 
-.contacto__icono__card{
+.contacto__icono__card {
   position: absolute;
-  top: -10%;
-  right: 40%;
-  height: 48px;
-  width: 56px;
+  top: -19%;
+  right: 35%;
+  height: 68px;
+  width: 76px;
 }
 
 .tituloCard__contacto{
