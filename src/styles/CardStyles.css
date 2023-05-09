@@ -606,17 +606,23 @@
   background: url('/img/ropa/piloto1H.png');
 }
 #piloto02{
-  background:  url('/img/ropa/gris.png');
+  background:  url('/img/ropa/piloto2.png');
   background-repeat : no-repeat;
   background-size : contain;
 
 }
+#piloto02:hover{
+  background: url('/img/ropa/piloto2H.png');
+}
 
 #piloto03{
-  background:  url('/img/ropa/fuscia.png');
+  background:  url('/img/ropa/piloto3.png');
   background-repeat : no-repeat;
   background-size : contain;
 
+}
+#piloto03:hover{
+  background: url('/img/ropa/piloto3H.png');
 }
 
 /*polar*/
