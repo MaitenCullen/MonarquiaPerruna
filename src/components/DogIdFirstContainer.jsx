@@ -27,7 +27,7 @@ const DogIdFirstContainer = ({ bannerDogId }) => {
     </section>
     <section>
         <div>
-            <div className="index__sobreNosotros__container">
+            <div className="dogId__selectorTitulo__container">
                 <div>
                     <p>Seguridad y protección para los reyes y reinas del hogar</p>
                     <p><strong>Elije tu DOG ID</strong></p>
@@ -36,7 +36,7 @@ const DogIdFirstContainer = ({ bannerDogId }) => {
         </div>
         <DogIdSelector/>
         <div className="width-full flex justify-center items-center mt-10 mb-10">
-        <button className="btn bg-redPrimary w-1/5 hover:bg-yellowPrimary border-current hover:border-current">Comprar</button>
+        <button className="btn bg-redPrimary hover:bg-yellowPrimary border-current hover:border-current dogId__btn__comprar">Comprar</button>
         </div>
     </section>
 

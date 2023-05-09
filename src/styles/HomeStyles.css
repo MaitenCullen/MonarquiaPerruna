@@ -144,7 +144,24 @@
     height: 20vh;
   }
 
+  .dogId__selectorTitulo__container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+  }
+
   .chalecos__tallesTitulo__container div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    line-height: 45px;
+  }
+  .dogId__selectorTitulo__container div{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -179,6 +196,11 @@
     font-size: 1rem;
   }
 
+  .dogId__selectorTitulo__container div p{
+    color: #A01E12;
+    font-size: 1rem;
+  }
+
   .chalecos__caracteristicasTitulo__container div p{
     color: #A01E12;
     font-size: 1rem;
@@ -190,6 +212,11 @@
   }
   
   .index__sobreNosotros__container div p strong {
+    color: #191919;
+    font-size: 2rem;
+  }
+
+  .dogId__selectorTitulo__container div p strong{
     color: #191919;
     font-size: 2rem;
   }
@@ -315,6 +342,10 @@
   width: 340px;
   height: 320px;
 }
+/*-----------------------DOG ID----------------------*/
+.dogId__titleList__container {
+  right: 24%;
+}
 }
 
 @media (max-width: 1101px) {
@@ -383,6 +414,13 @@
   .talles__imagen__container img {
     width: 330px;
     height: 310px;
+}
+/*-------------DOG ID-------------------*/
+.dogId__titleList__container {
+  right: 22%;
+}
+.dogId__bannerCaption__container h2 {
+  right: 22%;
 }
 }
 
@@ -505,6 +543,27 @@
   width: 320px;
   height: 300px;
 }
+/*Tabla de talles*/
+.talles__tablaImg__container img {
+  width: 95%;
+  height: 150px;
+}
+/*--------------------------DOG ID--------------------------------*/
+.dogId__bannerCaption__container h2{
+  font-size: 22px;
+}
+.dogId__bannerCaption__container div ul li {
+  font-size: 60px;
+}
+.dogId__titleList__container {
+  right: 20%;
+}
+.dogId__titleList__container ul {
+  animation:cambiarEn1000 15s infinite;
+}
+.dogId__selectorTitulo__container div p strong{
+  font-size: 1.8rem;
+}
 }
 
 @media (max-width: 901px) {
@@ -590,6 +649,26 @@
 .talles__imagen__container img {
   width: 310px;
   height: 290px;
+}
+.talles__tablaImg__container img {
+  height: 135px;
+}
+/*-----------------DOG ID-----------------------*/
+.dogId__bannerCaption__container div ul li {
+  font-size: 58px;
+}
+.dogId__titleList__container {
+  right: 17%;
+}
+.dogId__bannerCaption__container h2 {
+  font-size: 20px;
+}
+.dogId__bannerCaption__container h2 {
+  font-size: 20px;
+  margin-top: 35px;
+}
+.dogId__titleList__container ul {
+  animation:cambiarEn900 15s infinite;
 }
 }
 
@@ -704,6 +783,19 @@
 .talles__imagen__container img {
   width: 290px;
   height: 270px;
+}
+.talles__tablaImg__container img {
+  height: 125px;
+}
+/*--------------DOG ID------------------*/
+.dogId__bannerCaption__container h2 {
+  font-size: 18px;
+}
+.dogId__bannerCaption__container div ul li {
+  font-size: 56px;
+}
+.dogId__selectorTitulo__container div p strong{
+  font-size: 1.7rem;
 }
 }
 
@@ -870,6 +962,31 @@
   width: 280px;
   height: 260px;
 }
+.talles__tablaImg__container img {
+  width: 100%;
+}
+.talles__tablaImg__container {
+  padding-left: 0px;
+}
+.talles__indicaciones__texto {
+  padding-left: 0px;
+}
+/*----------------DOG ID---------------------------*/
+.dogId__bannerCaption__container div ul li {
+  font-size: 52px;
+}
+.dogId__titleList__container {
+  right: 14%;
+}
+.dogId__titleList__container ul {
+  animation:cambiarEn700 15s infinite;
+}
+.dogId__bannerCaption__container h2 {
+  font-size: 17px;
+}
+.dogId__btn__comprar{
+  width: 25%;
+}
 }
 
 @media (max-width: 601px) {
@@ -993,6 +1110,28 @@
 .talles__imagen__container img {
   width: 260px;
   height: 240px;
+}
+.talles__tablaImg__container img {
+  height: 110px;
+}
+/*--------------------DOG ID---------------------*/
+.dogId__bannerCaption__container div ul li {
+  font-size: 46px;
+}
+.dogId__titleList__container {
+  right: 12%;
+}
+.dogId__titleList__container ul {
+  animation:cambiarEn600 15s infinite;
+}
+.dogId__bannerCaption__container h2 {
+  display: none;
+}
+.dogId__selectorTitulo__container div p strong{
+  font-size: 1.6rem;
+}
+.dogId__selector__img {
+  border-radius: 10px;
 }
 }
 
@@ -1146,6 +1285,29 @@
   width: 230px;
   height: 210px;
 }
+.talles__tabla__container {
+  width: 90%;
+}
+/*---------------DOG ID------------------*/
+.dogId__bannerCaption__container div ul li {
+  font-size: 36px;
+}
+.dogId__titleList__container {
+  height: 45px;
+  top:45%;
+}
+.dogId__titleList__container ul {
+  animation:cambiarEn500 15s infinite;
+}
+.dogId__titleList__container {
+  right: 15%;
+}
+  .dogId__selectorTitulo__container div p strong{
+    font-size: 1.4rem;
+  }
+  .dogId__selector__img {
+    border-radius: 7px;
+}
 }
 
 @media (max-width: 401px) {
@@ -1274,6 +1436,35 @@
   width: 200px;
   height: 180px;
 }
+.talles__tablaImg__container img {
+  height: 100px;
+}
+.talles__tabla__container {
+  width: 95%;
+}
+/*-----------------DOG ID--------------------*/
+.dogId__bannerCaption__container div ul li {
+  font-size: 30px;
+}
+.dogId__titleList__container {
+  right: 13%;
+}
+.dogId__titleList__container ul {
+  animation:cambiarEn400 15s infinite;
+}
+.dogId__titleList__container {
+  height: 30px;
+  top: 45%;
+}
+.dogId__selectorTitulo__container div p strong{
+  font-size: 1.1rem;
+}
+.dogId__selector__img {
+  border-radius: 5px;
+}
+.dogId__btn__comprar{
+  width: 35%;
+}
 }
 
 @media (max-width:321px) {
@@ -1355,5 +1546,24 @@
 .talles__imagen__container img {
   width: 180px;
   height: 160px;
+}
+.talles__tabla__container {
+  width: 97%;
+}
+.talles__tablaImg__container img {
+  height: 90px;
+}
+/*---------------------DOG ID-----------------------------*/
+.dogId__bannerCaption__container div ul li {
+  font-size: 25px;
+}
+.dogId__titleList__container {
+  top: 40%;
+}
+.dogId__titleList__container ul {
+  animation:cambiarEn320 15s infinite;
+}
+.dogId__titleList__container {
+  right: 12%;
 }
 }

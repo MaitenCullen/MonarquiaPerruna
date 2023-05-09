@@ -76,7 +76,7 @@ const DogIdSelector = () => {
                     <img className="dogId__selector__img" onClick={() => SetView(4)} src="/img/IdColorRojoSelected.png" alt="Imagén del producto Dog Id color rojo de Monarquia Perruna" />
                 </div>
             </div>
-            <div>
+            <div className="dogId__selector__activeView">
                 {ActiveView()}
             </div>
         </div>
