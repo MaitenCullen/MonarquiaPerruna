@@ -7,7 +7,7 @@ import instagram from '/img/instagramLoggo.png';
 
 const Navbar = () => {
     return (
-    <div id="navBar" className="navbar bg-base-100">
+    <div id="navBar" className="navbar bg-white ">
         <div className="navbar__seccionIzq__container">
             <Link to="/" className="btn btn-ghost normal-case text-xl navbar__logo__margen">
                 <img src={ logo } alt="Logo de Monarquia Perruna" className="logoNavbar" />
