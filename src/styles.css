@@ -33,16 +33,62 @@
 }
 
 #navBar__menuDesplegable li a:active{
-  background-color: grey;
+  background-color: #A01E12;
 }
 
 #navBar__menu__container li a:active{
-background-color: grey;
+  background-color: #A01E12;
 }
 
 .navbar__logo__margen{
   margin-right: 4rem;
   margin-left: 4rem;
+}
+
+.menuHamburguesa__btnCierre{
+  font-family: "Nunito";
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.menuHamburguesa__btnCierre__container{
+  display: flex;
+  align-items: flex-start;
+}
+
+.menuDesplegable__container div li{
+  width: 100%;
+  border-radius: 3px;
+  height: 25px;
+}
+
+.menuDesplegable__container div li:active{
+  background-color: #A01E12;
+  color: white;
+}
+.menu :where(li:not(.menu-title):not(:empty)) > :where(*:not(ul):focus), .menu :where(li:not(.menu-title):not(:empty)) > :where(*:not(ul):hover) {
+  background-color: hsl(var(--bc) / var(--tw-bg-opacity));
+  --tw-bg-opacity: 0;
+}
+
+/*Menu desplegable*/
+.menuDesplegable__container{
+  top: -23%;
+  right: -27%;
+  height: 200px;
+  width: 200px!important;
+}
+
+.menuDesplegable__container div{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  height: 100%;
+}
+
+.menuDesplegable__container div li{
+  list-style-type: none;
 }
 
 /*------------------------------------INDEX---------------------------------------*/
@@ -150,7 +196,7 @@ background-color: grey;
   top:20%;
   left: 10%;
   font-size: 2.7rem;
-  width: 41%;
+  width: 43%;
   color: #191919;
 }
 
@@ -188,15 +234,7 @@ background-color: grey;
   color: #191919;
 }
 
-#index__carouselImg3__btn{
-  position:absolute;
-  top:75%;
-  left: 10%;
-  width: 25%;
-  background-color: #A01E12;
-  border: solid 2px #A01E12;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
+
 
 /*Sobre nosotros*/
 
@@ -216,6 +254,7 @@ background-color: grey;
   text-align: center;
   width: 100%;
   line-height: 45px;
+  margin-top: -50px;
 }
 
 .index__sobreNosotros__container div p{
@@ -233,6 +272,7 @@ background-color: grey;
 
 .index__aboutUs__grid {  
   display: grid;
+  margin-top: -50px;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   grid-auto-columns: 1fr;
@@ -366,7 +406,8 @@ background-color: grey;
 .caracteristicasRopa__items__container{
   width: 100vw;
   height: 30vh;
-  margin-top: -25px;
+  margin-top: 50px;
+  margin-bottom: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -387,6 +428,11 @@ background-color: grey;
   align-items: center;
 }
 
+.talles__imagen__container img{
+  width: 350px;
+  height: 330px;
+}
+
 .talles__tabla__generalContainer{
   width: 100%;
   display: flex;
@@ -404,6 +450,13 @@ background-color: grey;
 
 .talles__tablaImg__container{
 padding-left: 60px;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+.talles__tablaImg__container img{
+  width: 90%;
+  height: 175px;
 }
 
 .talles__indicaciones__texto{
@@ -415,6 +468,18 @@ padding-left: 60px;
   padding-left: 60px;
 }
 
+.ropa__talles__titulo{
+  color: #191919;
+  font-size: 2rem;
+  font-family: "Nunito";
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+
 
 /*---------------------Seccion DOG ID---------------------------*/
 
@@ -422,13 +487,13 @@ padding-left: 60px;
   position:relative;
 }
 
-.dogId__titleList__container{
+.dogId__titleList__container {
   display: flex;
   position: absolute;
   height: 70px;
-  top:30%;
-  right:26%;
-  font-size:64px;
+  top: 35%;
+  right: 25%;
+  font-size: 64px;
   font-family: "Lato";
   font-weight: 700;
   overflow: hidden;
@@ -440,6 +505,10 @@ padding-left: 60px;
   animation-delay: 1s;
   text-align: center;
   margin-top: -15px;
+}
+
+.dogId__bannerCaption__container div ul li{
+font-size: 64px;
 }
 
 
@@ -485,13 +554,26 @@ padding-left: 60px;
   width: 93%;
 }
 
+.dogId__selector__activeView{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
+.dogId__btn__comprar{
+  width: 20%;
+}
 /*-------------PREGUNTAS FRECUENTES---------------------*/
 
 
 /*Imagen y titulo de seccion*/
 .preguntasFrecuentes__imagenPrincipal__container{
   position: relative;
+  overflow: hidden;
+}
+
+.preguntasFrecuentes__imagenPrincipal__container img{
+  max-width: 101%;
 }
 
 .preguntasFrecuentes__tituloSeccion__container{
@@ -598,7 +680,7 @@ height: 40vh;
 
 .contacto__cards__sectionContainer{
 width: 100%;
-height: 40vh;
+height: 60vh;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -626,7 +708,62 @@ justify-content: space-between;
   50%{ margin-top: -210px}
   75%{ margin-top: -111px }
   100%{ margin-top: -15px }  
+}
+
+@keyframes cambiarEn1000 {
+  0%{ margin-top:-15px }
+  25%{ margin-top:-111px }
+  50%{ margin-top: -195px}
+  75%{ margin-top: -111px }
+  100%{ margin-top: -15px }  
+}
+
+@keyframes cambiarEn900 {
+  0%{ margin-top:-5px }
+  25%{ margin-top:-95px }
+  50%{ margin-top: -185px}
+  75%{ margin-top: -95px }
+  100%{ margin-top: -5px }  
 } 
 
+@keyframes cambiarEn700 {
+  0%{ margin-top:0px }
+  25%{ margin-top:-85px }
+  50%{ margin-top: -165px}
+  75%{ margin-top: -85px }
+  100%{ margin-top: 0px }  
+} 
+
+@keyframes cambiarEn600 {
+  0%{ margin-top:5px }
+  25%{ margin-top:-65px }
+  50%{ margin-top: -140px}
+  75%{ margin-top: -65px }
+  100%{ margin-top: 5px }  
+} 
+
+@keyframes cambiarEn500 {
+  0%{ margin-top:-6px }
+  25%{ margin-top:-65px }
+  50%{ margin-top: -117px}
+  75%{ margin-top: -65px }
+  100%{ margin-top: -6px }  
+} 
+
+@keyframes cambiarEn400 {
+  0%{ margin-top:-5px }
+  25%{ margin-top:-55px }
+  50%{ margin-top: -102px}
+  75%{ margin-top: -55px }
+  100%{ margin-top: -5px }  
+} 
+
+@keyframes cambiarEn320 {
+  0%{ margin-top:-7px }
+  25%{ margin-top:-45px }
+  50%{ margin-top: -80px}
+  75%{ margin-top: -45px }
+  100%{ margin-top: -7px }  
+} 
 
 

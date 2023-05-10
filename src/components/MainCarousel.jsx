@@ -56,6 +56,14 @@ const MainCarousel = () => {
         }
     };
 
+
+    function redirectToDogIdSection() {
+        window.location = '/DogId';
+    }
+
+    function redirectToClothesSection() {
+        window.location = '/Productos';
+    }
     return (
     <>
     <div className='index__mainCarousel__container'>
@@ -65,13 +73,13 @@ const MainCarousel = () => {
                 <h3 className="index__carouselImg1__subtitulo">Para que se sientan felices y seguros en donde se encuentren</h3>
             </div> 
             <div id="item2" className="carousel-item w-full">
-                <h2 className="index__carouselImg2__titulo">Utiliza <strong>DOG ID</strong> para la seguridad de tu mascota y tu tranquilidad</h2>
-                <button id="index__carouselImg2__btn" className="btn">Ver más</button>
+                <h2 className="index__carouselImg2__titulo">Utiliza <strong>DOG ID</strong> para su seguridad y tu tranquilidad</h2>
+                <button onClick={ redirectToDogIdSection } id="index__carouselImg2__btn" className="btn">Ver más</button>
             </div> 
             <div id="item3" className="carousel-item w-full">
-                <h2 className="index__carouselImg3__titulo">¡Completa el armario de tu mascota!</h2>
+                <h2 className="index__carouselImg3__titulo">¡Completa su armario!</h2>
                 <h3 className="index__carouselImg3__subtitulo">Tenemos las prendas más lindas para que tu consentid@ brille y sorprenda</h3>
-                <button id="index__carouselImg3__btn" className="btn">Ver más</button>
+                <button onClick={ redirectToClothesSection } id="index__carouselImg3__btn" className="btn">Ver más</button>
             </div> 
         </div> 
         <div  id="index__btnsCarousel__container" className="flex justify-center w-full py-2 gap-2">

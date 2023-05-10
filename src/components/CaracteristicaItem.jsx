@@ -5,7 +5,7 @@ const CaracteristicaItem = ({ img , numeroDeCaracteristica , infoCaracteristica 
     <>
     <div className="caracteristica__card__container">
         <div>
-            <img className="caracteristica__item__img" src={ img } alt="Imagen que muestra las excelentes cualidades de la ropa de Monarquia Perruna" />
+            <img className="caracteristica__item__img animate__animated animate__zoomIn" src={ img } alt="Imagen que muestra las excelentes cualidades de la ropa de Monarquia Perruna" />
         </div>
         <div className="caracteristica__cardCaption__container">
             <p><strong>{ numeroDeCaracteristica }</strong></p>

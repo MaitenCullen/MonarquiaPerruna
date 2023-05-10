@@ -13,7 +13,7 @@ const IndexReyesYReinas = () => {
                 <p><strong>Nuestros reyes y reinas</strong></p>
         </div>
     </div>
-    <div className="w-100 mb-20">
+    <div className="w-100 mb-20 carousel__reyesYreinas__container">
                 <CarouselProvider className="relative hidden sm:block " naturalSlideWidth={50} isIntrinsicHeight={true} naturalSlideHeight={100} totalSlides={6} visibleSlides={3} step={1} infinite={true} currentSlide={2} dragStep={1} interval={5000} isPlaying={true}>
                     <div className="js-flickity flex justify-center items-center">
                         <ButtonBack role="button" aria-label="slide backward" className="w-12 h-12 flex justify-center items-center absolute z-30 left-0 ml-8 cursor-pointer" id="prev">

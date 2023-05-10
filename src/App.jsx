@@ -22,11 +22,11 @@ function App() {
       <section className='sectionApp'>
           <Routes>
             <Route path='/' element={<Home/>} />
-            <Route path='/Productos' element={<Productos />} />
-            <Route path='/DogID' element={<DogID />} />
-            <Route path='/Nosotros' element={<Nosotros />} />
-            <Route path='/PreguntasFrecuentes' element={<Preguntas />} />
-            <Route path="/Contacto" element={<Contacto />} />
+            <Route path='/Productos' element={<Productos/>} />
+            <Route path='/DogID' element={<DogID/>} />
+            <Route path='/Nosotros' element={<Nosotros/>} />
+            <Route path='/PreguntasFrecuentes' element={<Preguntas/>} />
+            <Route path="/Contacto" element={<Contacto/>} />
           </Routes>
         </section>
         <div className='footerDiv'>

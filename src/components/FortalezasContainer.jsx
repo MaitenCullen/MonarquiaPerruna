@@ -11,7 +11,7 @@ const FortalezasContainer = () => {
         <>
         <div className="index__aboutUs__grid">
             <div className="index__aboutUsMainImg__container">
-                <img src={imgPrincipal} alt="Una dueña disfruta de jugar tranquila con su perro gracias al DOG ID" />
+                <img className="animate__animated animate__zoomIn" src={imgPrincipal} alt="Una dueña disfruta de jugar tranquila con su perro gracias al DOG ID" />
             </div>
 
             <div className="index__ProductosDeCalidad__container animate__animated animate__fadeInLeft">
@@ -27,7 +27,7 @@ const FortalezasContainer = () => {
             </div>
 
             <div className="index__envios__container animate__animated animate__fadeInRight">
-                <CardFortaleza tituloDeCard="ENVÍOS A TODO EL PAÍS" informacionDeCard="A través del correo enviaremos tu pedido para que llegue lo más pronto posible. " img={ iconoEnvios }/>
+                <CardFortaleza tituloDeCard="ENVÍOS A TODO EL PAÍS" informacionDeCard="A través del correo enviaremos tu pedido para que llegue lo más pronto posible." img={ iconoEnvios }/>
             </div>
         </div>
         

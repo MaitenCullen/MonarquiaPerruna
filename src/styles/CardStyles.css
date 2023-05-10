@@ -319,7 +319,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 75%;
+  width: 60%;
   height: 166px;
   text-align: center;
   background: radial-gradient(circle at 100% 100%, #ffffff 0, #ffffff 14px, transparent 14px) 0% 0%/16px 16px no-repeat,
@@ -355,7 +355,7 @@
 
 .icono__fortaleza{
   position: absolute;
-  top: -10%;
+  top: -15%;
   right: 40%;
   height: 48px;
   width: 56px;
@@ -422,13 +422,14 @@
 .index__DogIdCaption__container a{
   position: absolute;
   top: 60%;
-  right: 40%;
+  right: 41%;
   text-decoration: underline grey;
   color: white;
   font-size: 24px;
   font-weight: 500;
   font-family: "Lato";
 }
+
 
 .index__RopaCaption__container h4{
   position: absolute;
@@ -439,7 +440,7 @@
 .index__RopaCaption__container a{
   position: absolute;
   top: 60%;
-  right: 40%;
+  right: 39%;
   text-decoration: underline gray;
   font-family: "Lato";
   color: white;
@@ -605,17 +606,22 @@
   background: url('/img/ropa/piloto1H.png');
 }
 #piloto02{
-  background:  url('/img/ropa/gris.png');
+  background:  url('/img/ropa/piloto2.png');
   background-repeat : no-repeat;
   background-size : contain;
 
 }
-
+#piloto02:hover{
+  background: url('/img/ropa/piloto2H.png');
+}
 #piloto03{
-  background:  url('/img/ropa/fuscia.png');
+  background:  url('/img/ropa/piloto3.png');
   background-repeat : no-repeat;
   background-size : contain;
 
+}
+#piloto03:hover{
+  background: url('/img/ropa/piloto3H.png');
 }
 
 /*polar*/
@@ -753,6 +759,7 @@
 
 .caracteristica__cardCaption__container p{
   font-family: "Nunito";
+  text-align: center;
 }
 
 .caracteristica__cardCaption__container p strong{
@@ -761,7 +768,6 @@
   color: #A01E12;
   font-family: "Lato";
 }
-
 
 
 /*---------------Cards de contacto----------------*/
@@ -787,12 +793,13 @@
   margin-bottom: 50px;
 }
 
-.contacto__icono__card{
+.contacto__icono__card {
   position: absolute;
-  top: -10%;
-  right: 40%;
-  height: 48px;
-  width: 56px;
+  top: -19%;
+  right: 35%;
+  height: 68px;
+  width: 76px;
+  object-fit: contain;
 }
 
 .tituloCard__contacto{
