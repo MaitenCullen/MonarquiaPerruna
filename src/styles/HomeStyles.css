@@ -38,7 +38,7 @@
   
   .index__carouselImg1__titulo{
     position:absolute;
-    top:28%;
+    top:20%;
     left: 10%;
     font-size: 2.7rem;
     width: 45%;
@@ -69,7 +69,7 @@
   
   .index__carouselImg2__titulo{
     position:absolute;
-    top:22%;
+    top:14%;
     left: 10%;
     font-size: 2.7rem;
     width: 43%;
@@ -104,7 +104,7 @@
   
   .index__carouselImg3__titulo{
     position:absolute;
-    top:24%;
+    top:15%;
     left: 9.5%;
     font-size: 2.7rem;
     width: 40%;
@@ -115,7 +115,7 @@
   
   .index__carouselImg3__subtitulo{
     position:absolute;
-    top:40%;
+    top:35%;
     left: 9.5%;
     font-size: 1.7rem;
     font-weight: 400;
@@ -160,6 +160,7 @@
     text-align: center;
     width: 100%;
     line-height: 45px;
+    margin-bottom: 20px;
   }
   .dogId__selectorTitulo__container div{
     display: flex;
@@ -318,7 +319,7 @@
   }
   .index__carouselImg2__titulo{
     font-size: 2.4rem;
-    top:25%;
+    top:15%;
   }
   .index__carouselImg3__titulo{
     font-size: 2.4rem;
@@ -342,6 +343,10 @@
   width: 340px;
   height: 320px;
 }
+.caracteristica__item__img {
+  width: 185px;
+  height: 185px;
+}
 /*-----------------------DOG ID----------------------*/
 .dogId__titleList__container {
   right: 24%;
@@ -354,7 +359,8 @@
   /*Titulos del carrousel*/
   .index__carouselImg1__titulo{
     font-size: 2.2rem;
-    top:31%;
+    top:22%;
+    line-height: 42px;
   }
   .index__carouselImg1__subtitulo {
     font-size: 1.5rem;
@@ -362,23 +368,23 @@
   }
   .index__carouselImg2__titulo{
     font-size: 2.2rem;
-    top: 28%;
+    top: 19%;
   }
   #index__carouselImg2__btn{
-    top: 64%;
+    top: 67%;
   }
   .index__carouselImg3__titulo{
     font-size: 2.2rem;
-    top: 24%;
+    top: 16%;
   }
   .index__carouselImg3__subtitulo {
     font-size: 1.5rem;
   }
   #index__carouselImg3__btn{
-    top: 64%;
+    top: 67%;
   }
   #index__btnsCarousel__container{
-    top:80%;
+    top:87%;
   }
   .tituloCard__fortaleza{
     font-size: 13px;
@@ -405,12 +411,10 @@
   }
   /*--------------CHALECOS---------------*/
   .caracteristica__item__img {
-    width: 190px;
-    height: 190px;
+    width: 175px;
+    height: 175px;
   }
-  .caracteristicasRopa__items__container {
-    margin-top: 0px;
-  }
+
   .talles__imagen__container img {
     width: 330px;
     height: 310px;
@@ -430,31 +434,31 @@
   /*Titulos del carrousel*/
   .index__carouselImg1__titulo{
     font-size: 2rem;
-    line-height: 40px;
-    top:33%;
+    line-height: 35px;
+    top: 28%;
   }
   .index__carouselImg1__subtitulo {
     font-size: 1.4rem;
-    line-height: 27px;
-    top:56%;
+    line-height: 25px;
+    top: 56%;
   }
   .index__carouselImg2__titulo{
     font-size: 2rem;
     line-height: 40px;
-    top:30%;
+    top: 22%;
   }
   .index__carouselImg3__titulo{
     font-size: 2rem;
     line-height: 40px;
-    top:30%;
+    top:20%;
   }
   .index__carouselImg3__subtitulo {
     font-size: 1.4rem;
     line-height: 30px;
-    top: 42%;
+    top: 38%;
   }
   #index__btnsCarousel__container{
-    top:76%;
+    top:85%;
   }
   /*Index Fortalezas*/
   .textoCard__fortaleza {
@@ -467,7 +471,7 @@
     font-size: 1.8rem;
   }
   .index__sobreNosotros__container div{
-  margin-top: -100px;
+  margin-top: 0px;
   }
   .tituloCard__fortaleza{
   font-size: 12px;
@@ -476,7 +480,7 @@
   font-size: 12px;
   }
   .index__aboutUs__grid {
-  margin-top: -100px;
+  margin-top: 0px;
   }
   /*Index Productos*/
   .index__productosImagen__perroIzq {
@@ -510,8 +514,8 @@
     height: 35vh;
   }
   .contacto__cards__sectionContainer {
-    height: 45vh;
-  }
+    height: 55vh;
+}
   .contacto__card__container {
     width: 270px;
   }
@@ -527,14 +531,15 @@
 }
 /*----------------CHALECOS--------------------*/
 .caracteristica__item__img {
-  width: 175px;
-  height: 175px;
+    width: 155px;
+    height: 155px;
 }
 .chalecos__caracteristicasTitulo__container div p strong{
   font-size: 1.8rem;
 }
 .chalecos__caracteristicasTitulo__container div{
   margin-top: 0px;
+  margin-bottom: 50px;
 }
 .chalecos__tallesTitulo__container div p strong{
   font-size: 1.8rem;
@@ -547,6 +552,9 @@
 .talles__tablaImg__container img {
   width: 95%;
   height: 150px;
+}
+.ropa__talles__titulo {
+  font-size: 1.6rem;
 }
 /*--------------------------DOG ID--------------------------------*/
 .dogId__bannerCaption__container h2{
@@ -580,27 +588,21 @@
   }
   .index__carouselImg2__titulo{
     font-size: 1.8rem;
-    top:33%;
+    top:24%;
   }
   .index__carouselImg3__titulo{
     font-size: 1.8rem;
-    top:33%
+    top:23%
   }
   .index__carouselImg3__subtitulo {
     font-size: 1.3rem;
     line-height: 30px;
-    top: 44%;
-    width: 45%;
-  }
-  #index__btnsCarousel__container{
-    top:70%;
+    top: 40%;
+    width: 44%;
   }
   /*Index Fortalezas*/
   .tituloCard__fortaleza {
     font-size: 13px;
-  }
-  .index__sobreNosotros__container div{
-  margin-top: -150px;
   }
   .index__sobreNosotros__container {
   height: 15vh;
@@ -618,13 +620,19 @@
   .index__DogIdCaption__container h4 {
     font-size: 50px;
   }
+  .index__DogIdCaption__container a {
+    right: 40%;
+  }
+  .index__RopaCaption__container a {
+    right: 37%;
+}
   /*--------------CONTACTO--------------*/
   .contacto__banner__img {
     height: 30vh;
   }
   .contacto__cards__sectionContainer {
-    height: 42vh
-  }
+    height: 50vh;
+}
   .contacto__card__container {
     width: 260px;
   }
@@ -643,8 +651,8 @@
 }
 /*--------------CHALECOS----------------------*/
 .caracteristica__item__img {
-  width: 160px;
-  height: 160px;
+  width: 140px;
+  height: 140px;
 }
 .talles__imagen__container img {
   width: 310px;
@@ -652,6 +660,9 @@
 }
 .talles__tablaImg__container img {
   height: 135px;
+}
+.ropa__talles__titulo {
+  font-size: 1.4rem;
 }
 /*-----------------DOG ID-----------------------*/
 .dogId__bannerCaption__container div ul li {
@@ -679,8 +690,8 @@
   .index__carouselImg1__titulo{
     font-size: 1.6rem;
     width: 50%;
-    line-height: 35px;
-    top:35%;
+    line-height: 30px;
+    top: 31%;
   }
   .index__carouselImg1__subtitulo {
     font-size: 1.2rem;
@@ -689,7 +700,7 @@
   .index__carouselImg2__titulo{
     font-size: 1.6rem;
     line-height: 35px;
-    top:35%;
+    top:29%;
     width: 44%;
   }
   #index__carouselImg2__btn{
@@ -699,7 +710,7 @@
     font-size: 1.6rem;
     width: 50%;
     line-height: 35px;
-    top:35%;
+    top:26%;
   }
   .index__carouselImg3__subtitulo {
     font-size: 1.2rem;
@@ -708,7 +719,7 @@
     top: 62%;
   }
   #index__btnsCarousel__container{
-    top:70%;
+    top:80%;
   }
 
   /*Index Fortalezas*/
@@ -787,6 +798,15 @@
 .talles__tablaImg__container img {
   height: 125px;
 }
+.ropa__talles__titulo {
+  font-size: 1.2rem;
+}
+.index__DogIdCaption__container a {
+  right: 37%;
+}
+.index__RopaCaption__container a {
+  right: 35%;
+}
 /*--------------DOG ID------------------*/
 .dogId__bannerCaption__container h2 {
   font-size: 18px;
@@ -840,7 +860,7 @@
   .index__carouselImg1__titulo{
     font-size: 1.4rem;
     line-height: 28px;
-    top: 39%;
+    top: 32%;
   }
   .index__carouselImg1__subtitulo {
     font-size: 1rem;
@@ -849,7 +869,7 @@
   .index__carouselImg2__titulo{
     font-size: 1.4rem;
     line-height: 28px;
-    top:37%;
+    top:32%;
   }
   #index__carouselImg2__btn{
     top: 60%;
@@ -857,32 +877,34 @@
   .index__carouselImg3__titulo{
     font-size: 1.4rem;
     line-height: 28px;
-    top:36%;
+    top:31%;
   }
   .index__carouselImg3__subtitulo {
     font-size: 1rem;
     line-height: 24px;
-    top: 45%;
-  }
-  #index__carouselImg3__btn{
-    top: 60%;
+    top: 43%;
   }
   /*Botones de banners*/
   #index__carouselImg2__btn {
     min-height: 0rem!important;
-    height: 40px;
+    height: 35px;
   } 
   #index__carouselImg3__btn {
     min-height: 0rem!important;
-    height: 45px;
+    height: 35px;
+    top: 65%;
   } 
   #index__btnsCarousel__container{
-    top:68%;
+    top:75%;
   }
   /*Index Fortalezas*/
   .index__sobreNosotros__container div {
-    margin-top: -180px;
+    margin-top: -50px;
   }
+  .icono__fortaleza {
+    height: 45px;
+    width: 55px;
+}
   /*Index Productos*/
   .index__productosImagen__perroIzq {
     top: -32%;
@@ -917,6 +939,7 @@
     width: 100%;
     margin-bottom: 0px;
     flex-direction: column;
+    margin-bottom: 50px;
   }
   .index__DogIdCaption__container h4 {
     font-size: 64px;
@@ -925,14 +948,21 @@
     font-size: 64px;
   }
   .index__DogIdCaption__container h4 {
-    right: 33%;
+    right: 31%;
   }
   .index__RopaCaption__container h4 {
-    right: 37%;
+    right: 36%;
+}
+  /*Index carousel de reyes y reinas*/
+  .index__reyesYreinas__container {
+    display: none;
+  }
+  .carousel__reyesYreinas__container{
+    display: none;
   }
   /*------------CONTACTO--------------*/
   .contacto__cards__sectionContainer {
-    height: 83vh;
+    height: 110vh;
   }
   .contacto__cards__container {
     flex-direction: column;
@@ -950,8 +980,7 @@
   height: 170px;
 }
 .caracteristicasRopa__items__container {
-  height: 120vh;
-  margin-top: 0px;
+  height: 135vh;
   flex-direction: column;
 }
 .caracteristica__card__container {
@@ -970,6 +999,15 @@
 }
 .talles__indicaciones__texto {
   padding-left: 0px;
+}
+.ropa__talles__titulo {
+  font-size: 1rem;
+}
+.index__DogIdCaption__container a {
+  right: 43%;
+}
+.index__RopaCaption__container a {
+  right: 43%;
 }
 /*----------------DOG ID---------------------------*/
 .dogId__bannerCaption__container div ul li {
@@ -1004,24 +1042,25 @@
   .index__carouselImg1__titulo{
     font-size: 1.2rem;
     line-height: 22px;
-    top: 36%;
+    top: 33%;
     left: 11%;
   }
   .index__carouselImg1__subtitulo {
     font-size: 0.9rem;
     line-height: 18px;
     left:11%;
+    top: 57%;
   }
   .index__carouselImg2__titulo{
     font-size: 1.2rem;
-    top: 32%;
+    top: 28%;
     left: 11%;
     width:46%;
   }
   .index__carouselImg3__titulo{
     font-size: 1.2rem;
     line-height: 20px;
-    top: 33%;
+    top: 28%;
     left: 10%;
   }
   .index__carouselImg3__subtitulo {
@@ -1031,7 +1070,7 @@
     left: 10%;
   }
   #index__btnsCarousel__container{
-    top:69%;
+    top:77%;
   }
   /*Botones de banners*/
   #index__carouselImg2__btn {
@@ -1041,9 +1080,6 @@
     height: 35px;
   }  
   /*Index Fortalezas*/
-  .index__sobreNosotros__container div {
-    margin-top: -120px;
-  }
   .index__sobreNosotros__container div p strong {
     font-size: 1.6rem;
   }
@@ -1082,9 +1118,6 @@
     height: 60px;
     width: 68px;
   }
-  .contacto__cards__sectionContainer {
-    height: 110vh;
-}
 /*-----------PREGUNTAS FRECUENTES---------*/
 .preguntasFrecuentes__tituloSeccion__container h1 {
   font-size: 39px;
@@ -1113,6 +1146,9 @@
 }
 .talles__tablaImg__container img {
   height: 110px;
+}
+.caracteristicasRopa__items__container {
+  height: 145vh;
 }
 /*--------------------DOG ID---------------------*/
 .dogId__bannerCaption__container div ul li {
@@ -1215,6 +1251,10 @@
   .index__cardFortaleza__container {
     width: 50%;
   }
+  .icono__fortaleza {
+    height: 55px;
+    width: 65px;
+}
   /*Index Productos*/
   .index__productos__container div p strong {
     font-size: 1.4rem;
@@ -1242,7 +1282,7 @@
   } 
   /*------------CONTACTO---------------*/
   .contacto__banner__img {
-    height: 23vh;
+    height: 20vh;
   }
   .contacto__titulo__container {
   right: 20%;
@@ -1288,6 +1328,12 @@
 .talles__tabla__container {
   width: 90%;
 }
+.index__DogIdCaption__container a {
+  right: 40%;
+}
+.index__RopaCaption__container a {
+  right: 40%;
+}
 /*---------------DOG ID------------------*/
 .dogId__bannerCaption__container div ul li {
   font-size: 36px;
@@ -1311,6 +1357,14 @@
 }
 
 @media (max-width: 401px) {
+  /*--NAVBAR---*/
+  .menuDesplegable__container {
+    top: -26%;
+    right: -23%;
+    height: 190px;
+    width: 190px!important;
+}
+
   /*---INDEX---*/
 
   /*Titulos del carrousel*/
@@ -1345,8 +1399,12 @@
   #index__carouselImg3__btn {
     height: 25px;
     font-size: 10px;
+    top: 55%;
   }
   /*Index Fortalezas*/
+  .index__sobreNosotros__container div {
+    margin-top: 0px;
+}
   .index__sobreNosotros__container div p strong {
     font-size: 1.1rem;
   }
@@ -1442,6 +1500,12 @@
 .talles__tabla__container {
   width: 95%;
 }
+.index__DogIdCaption__container a {
+  right: 36%;
+}
+.index__RopaCaption__container a {
+  right: 39%;
+}
 /*-----------------DOG ID--------------------*/
 .dogId__bannerCaption__container div ul li {
   font-size: 30px;
@@ -1468,6 +1532,14 @@
 }
 
 @media (max-width:321px) {
+  /*-----NAVBAR-----*/
+  .menuDesplegable__container {
+    top: -26%;
+    right: -19%;
+    height: 180px;
+    width: 180px!important;
+}
+
   .index__carouselImg2__titulo{
     top: 30%;
   }
@@ -1510,6 +1582,12 @@
   .index__RopaCaption__container h4 {
     font-size: 40px;
   }
+  /*Fortalezas*/
+.icono__fortaleza {
+  height: 50px;
+  width: 60px;
+  right: 35%;
+}
   /*---CONTACTO----*/
   .contacto__banner__img {
     height: 12vh;
@@ -1553,6 +1631,9 @@
 .talles__tablaImg__container img {
   height: 90px;
 }
+.caracteristicasRopa__items__container {
+  height: 130vh;
+}
 /*---------------------DOG ID-----------------------------*/
 .dogId__bannerCaption__container div ul li {
   font-size: 25px;
@@ -1566,4 +1647,5 @@
 .dogId__titleList__container {
   right: 12%;
 }
+
 }

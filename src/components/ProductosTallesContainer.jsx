@@ -23,16 +23,16 @@ const ProductosTallesContainer = () => {
         </div>
         <div className="talles__tabla__generalContainer">
             <div className="talles__tabla__container">
-                <div className="talles__tablaImg__container mt-10">
-                    <h3>Chalecos</h3>
+                <div className="talles__tablaImg__container">
+                    <strong><h3 className="ropa__talles__titulo">Chalecos:</h3></strong>
                     <img src={ tablaDeTallesChaleco } alt="Tabla de talles de Monarquia Perruna" />
                 </div>
-                <div className="talles__tablaImg__container mt-10">
-                    <h3>Polar</h3>
+                <div className="talles__tablaImg__container">
+                    <strong><h3 className="ropa__talles__titulo">Polar:</h3></strong>
                     <img src={ tablaDeTallesPolar } alt="Tabla de talles de Monarquia Perruna" />
                 </div>
-                <div className="talles__tablaImg__container mt-10">
-                    <h3>Piloto</h3>
+                <div className="talles__tablaImg__container">
+                    <strong><h3 className="ropa__talles__titulo">Piloto:</h3></strong>
                     <img src={ tablaDeTallesPiloto } alt="Tabla de talles de Monarquia Perruna" />
                 </div>
                 <p className="talles__indicaciones__texto">** Estas medidas son aproximadas y puede haber un mínimo de variación.</p>

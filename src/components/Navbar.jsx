@@ -45,11 +45,17 @@ const Navbar = () => {
             </ul>
         </div>
         <div id="navBar__menuMobile__container">
-            <div className="dropdown dropdown-end">
-                <label tabIndex={0} className="btn btn-ghost btn-circle">
+        {/* The button to open modal */}
+
+        <label htmlFor="my-modal-3" tabIndex={0} className="btn btn-ghost btn-circle">
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
-                </label>
-                <ul tabIndex={0} className="mt-3 shadow menu menu-compact dropdown-content bg-base-100 rounded-box w-52">
+        </label>
+        {/* Put this part before </body> tag */}
+        <input type="checkbox" id="my-modal-3" className="modal-toggle" />
+        <div className="modal">
+            <div className="modal-box relative menuDesplegable__container">
+                <div>
+                    <label htmlFor="my-modal-3" className="absolute right-3 top-2 menuHamburguesa__btnCierre">✕</label>
                     <li>
                         <Link to="/Nosotros" className="justify-between">Nosotros</Link>
                     </li>
@@ -62,8 +68,9 @@ const Navbar = () => {
                     <li>
                         <Link to="/Contacto">Contáctanos</Link>
                     </li>
-                </ul>
+                </div>
             </div>
+        </div>
         </div>
     </div>
     )

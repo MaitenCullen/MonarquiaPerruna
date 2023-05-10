@@ -33,16 +33,62 @@
 }
 
 #navBar__menuDesplegable li a:active{
-  background-color: grey;
+  background-color: #A01E12;
 }
 
 #navBar__menu__container li a:active{
-background-color: grey;
+  background-color: #A01E12;
 }
 
 .navbar__logo__margen{
   margin-right: 4rem;
   margin-left: 4rem;
+}
+
+.menuHamburguesa__btnCierre{
+  font-family: "Nunito";
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.menuHamburguesa__btnCierre__container{
+  display: flex;
+  align-items: flex-start;
+}
+
+.menuDesplegable__container div li{
+  width: 100%;
+  border-radius: 3px;
+  height: 25px;
+}
+
+.menuDesplegable__container div li:active{
+  background-color: #A01E12;
+  color: white;
+}
+.menu :where(li:not(.menu-title):not(:empty)) > :where(*:not(ul):focus), .menu :where(li:not(.menu-title):not(:empty)) > :where(*:not(ul):hover) {
+  background-color: hsl(var(--bc) / var(--tw-bg-opacity));
+  --tw-bg-opacity: 0;
+}
+
+/*Menu desplegable*/
+.menuDesplegable__container{
+  top: -23%;
+  right: -27%;
+  height: 200px;
+  width: 200px!important;
+}
+
+.menuDesplegable__container div{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  height: 100%;
+}
+
+.menuDesplegable__container div li{
+  list-style-type: none;
 }
 
 /*------------------------------------INDEX---------------------------------------*/
@@ -360,7 +406,8 @@ background-color: grey;
 .caracteristicasRopa__items__container{
   width: 100vw;
   height: 30vh;
-  margin-top: 10px;
+  margin-top: 50px;
+  margin-bottom: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -403,6 +450,8 @@ background-color: grey;
 
 .talles__tablaImg__container{
 padding-left: 60px;
+margin-top: 20px;
+margin-bottom: 20px;
 }
 
 .talles__tablaImg__container img{
@@ -418,6 +467,18 @@ padding-left: 60px;
   padding-top: 15px;
   padding-left: 60px;
 }
+
+.ropa__talles__titulo{
+  color: #191919;
+  font-size: 2rem;
+  font-family: "Nunito";
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
 
 
 /*---------------------Seccion DOG ID---------------------------*/
@@ -508,6 +569,11 @@ font-size: 64px;
 /*Imagen y titulo de seccion*/
 .preguntasFrecuentes__imagenPrincipal__container{
   position: relative;
+  overflow: hidden;
+}
+
+.preguntasFrecuentes__imagenPrincipal__container img{
+  max-width: 101%;
 }
 
 .preguntasFrecuentes__tituloSeccion__container{
@@ -614,7 +680,7 @@ height: 40vh;
 
 .contacto__cards__sectionContainer{
 width: 100%;
-height: 40vh;
+height: 60vh;
 display: flex;
 justify-content: center;
 align-items: center;

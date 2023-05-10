@@ -24,7 +24,7 @@ export const Preguntas = () => {
               <h3>Envíos,cambios y devoluciones</h3>
             </div>
             <PreguntaDesplegable pregunta="¿Puedo hacer algún cambio o devolución de mi pedido?" respuesta="Puedes hacer un cambio de talle en un plazo máximo de 7 días de haber recibido el pedido. Recuerda que deberás asumir los costos de devolución y envío; por ello, te recomendamos que revises las medidas de nuestros talles antes de realizar la compra."/>
-            <PreguntaDesplegable pregunta="¿Cuál es la cobertura de envío?" respuesta="Hacemos envíos a todo el país."/>
+            <PreguntaDesplegable pregunta="¿Cuál es la cobertura de envío y puntos de encuentro?" respuesta="Hacemos envíos a todo el país."/>
             <PreguntaDesplegable pregunta="¿En cuánto tiempo entregan mi pedido?" respuesta="El tiempo de envío dependerá del lugar en donde te encuentres. Si el pedido ha sido enviado por correo, puedes hacer seguimiento con el código generado."/>
           </div>
           <div>

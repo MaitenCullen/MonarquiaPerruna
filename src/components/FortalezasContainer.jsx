@@ -11,7 +11,7 @@ const FortalezasContainer = () => {
         <>
         <div className="index__aboutUs__grid">
             <div className="index__aboutUsMainImg__container">
-                <img src={imgPrincipal} alt="Una dueña disfruta de jugar tranquila con su perro gracias al DOG ID" />
+                <img className="animate__animated animate__zoomIn" src={imgPrincipal} alt="Una dueña disfruta de jugar tranquila con su perro gracias al DOG ID" />
             </div>
 
             <div className="index__ProductosDeCalidad__container animate__animated animate__fadeInLeft">

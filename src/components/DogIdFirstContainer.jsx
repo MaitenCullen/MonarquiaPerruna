@@ -2,6 +2,11 @@ import React from 'react'
 import DogIdSelector from './DogIdSelector'
 
 const DogIdFirstContainer = ({ bannerDogId }) => {
+
+    function redirectToWapp() {
+        window.location = "https://wa.me/5491123041275"
+    }
+
   return (
     <>
     <section>
@@ -36,7 +41,7 @@ const DogIdFirstContainer = ({ bannerDogId }) => {
         </div>
         <DogIdSelector/>
         <div className="width-full flex justify-center items-center mt-10 mb-10">
-        <button className="btn bg-redPrimary hover:bg-yellowPrimary border-current hover:border-current dogId__btn__comprar">Comprar</button>
+        <button onClick={ redirectToWapp } className="btn bg-redPrimary hover:bg-yellowPrimary border-current hover:border-current dogId__btn__comprar">Comprar</button>
         </div>
     </section>
 
