@@ -56,8 +56,8 @@ const Navbar = () => {
             <div className="modal-box relative menuDesplegable__container">
                 <div>
                     <label htmlFor="my-modal-3" className="absolute right-3 top-2 menuHamburguesa__btnCierre">✕</label>
-                    <li>
-                        <Link to="/Nosotros" className="justify-between">Nosotros</Link>
+                    <li >
+                        <Link to="/Nosotros" className="justify-between ">Nosotros</Link>
                     </li>
                     <li>
                         <Link to="/Productos">Chalecos</Link>
