@@ -83,13 +83,10 @@
     width: 25%;
     background-color: #A01E12;
     border: solid 2px #A01E12;
+    color: white;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
   
-  #index__carouselImg2__btn:hover{
-    background-color: #E9B900;
-    border: solid 2px #191919;
-  }
   
   /*Item 3*/
   
@@ -130,6 +127,7 @@
     width: 25%;
     background-color: #A01E12;
     border: solid 2px #A01E12;
+    color:white;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
 
@@ -1469,7 +1467,10 @@
     width: 60px;
   }
   .contacto__cards__sectionContainer {
-    height: 115vh;
+    height: 185vh;
+}
+.contacto__titulo__container {
+  top: 13%;
 }
 .contacto__titulo__container h1 {
   font-size: 38px;
