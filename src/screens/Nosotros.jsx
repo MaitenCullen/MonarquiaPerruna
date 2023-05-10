@@ -46,7 +46,7 @@ export const Nosotros = () => {
         <div className='divCardDogId'>
           <div className='divDogID'>
             <div className="textNosotros">
-              <p>Proporcionar productos para mascotas que sean funcionales, cómodos, seguros y con estilo, que mejoren su calidad de vida y la de sus dueños o dueñas.</p>
+              <p className='text-darkPrimary'>Proporcionar productos para mascotas que sean funcionales, cómodos, seguros y con estilo, que mejoren su calidad de vida y la de sus dueños o dueñas.</p>
             </div>
           </div>
         </div>
