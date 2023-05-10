@@ -466,6 +466,7 @@ margin-bottom: 20px;
   width: 90%;
   padding-top: 15px;
   padding-left: 60px;
+  color:#191919;
 }
 
 .ropa__talles__titulo{
@@ -505,6 +506,11 @@ margin-bottom: 20px;
   animation-delay: 1s;
   text-align: center;
   margin-top: -15px;
+}
+
+.dogId__titleList__container ul li{
+  color: #191919;
+  font-family: "Nunito";
 }
 
 .dogId__bannerCaption__container div ul li{
@@ -562,6 +568,7 @@ font-size: 64px;
 
 .dogId__btn__comprar{
   width: 20%;
+  color:white;
 }
 /*-------------PREGUNTAS FRECUENTES---------------------*/
 
@@ -676,6 +683,7 @@ height: 40vh;
   font-family:"Lato";
   font-weight: 700;
   font-size: 64px;
+  color: #191919;
 }
 
 .contacto__cards__sectionContainer{

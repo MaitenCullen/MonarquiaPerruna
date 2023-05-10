@@ -4,6 +4,7 @@ import img2 from "/img/Home-BannerDogId2.png";
 import img3 from "/img/Home-BannerRopa3.png";
 import carouselDotGrey from "/img/greyCircle.png";
 import carouselDotWhite from "/img/whiteCircle.png";
+import { Link } from 'react-router-dom';
 
 
 
@@ -56,14 +57,6 @@ const MainCarousel = () => {
         }
     };
 
-
-    function redirectToDogIdSection() {
-        window.location = '/DogId';
-    }
-
-    function redirectToClothesSection() {
-        window.location = '/Productos';
-    }
     return (
     <>
     <div className='index__mainCarousel__container'>
@@ -74,12 +67,12 @@ const MainCarousel = () => {
             </div> 
             <div id="item2" className="carousel-item w-full">
                 <h2 className="index__carouselImg2__titulo">Utiliza <strong>DOG ID</strong> para su seguridad y tu tranquilidad</h2>
-                <button onClick={ redirectToDogIdSection } id="index__carouselImg2__btn" className="btn">Ver más</button>
+                <Link to="/DogID" id="index__carouselImg2__btn" className="btn">Ver más</Link>
             </div> 
             <div id="item3" className="carousel-item w-full">
                 <h2 className="index__carouselImg3__titulo">¡Completa su armario!</h2>
                 <h3 className="index__carouselImg3__subtitulo">Tenemos las prendas más lindas para que tu consentid@ brille y sorprenda</h3>
-                <button onClick={ redirectToClothesSection } id="index__carouselImg3__btn" className="btn">Ver más</button>
+                <Link to="/Productos" id="index__carouselImg3__btn" className="btn">Ver más</Link>
             </div> 
         </div> 
         <div  id="index__btnsCarousel__container" className="flex justify-center w-full py-2 gap-2">
