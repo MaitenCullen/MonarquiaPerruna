@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 const BotonCentrado = () => {
   return (
     <div className="botonCentrado__container">
-        <Link to="/PreguntasFrecuentes" className="btn">Conócenos</Link>
+        <Link to="/Nosotros" className="btn">Conócenos</Link>
     </div>
   )
 }
