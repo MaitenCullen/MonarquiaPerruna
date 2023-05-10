@@ -300,8 +300,20 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    
-}
+  }
+
+  @media (max-width:781px) {
+    .divCardContacto {
+      width: 60%;
+    }
+  }
+
+
+  @media (max-width:481px) {
+    .divCardContacto {
+      width: 80%;
+    }
+  }
 
 
 
