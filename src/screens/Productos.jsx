@@ -53,11 +53,11 @@ export const Productos = () => {
       <div className='flex w-full justify-around  p-4 '>
         <div className='flex items-center flex-col cursor-pointer divCirculo  navLink' id='1' onClick={()=> {seleccionar('chalecos'), action(1)}}>
           <img src={img1}/>
-          <h4 className='leading-6 text-xl font-normal not-italic p-2.5 font-Nunito' >Chalecos</h4>
+          <h4 className='leading-6 text-xl font-normal not-italic p-2.5 font-Nunito text-black' >Chalecos</h4>
         </div>
         <div className='flex items-center flex-col cursor-pointer divCirculo  navLink ' id='2' onClick={()=> {seleccionar('polar'),  action(2)}}>
            <img src={img2}/>
-           <h4 className='leading-6 text-xl font-normal not-italic font-Nunito  p-2.5'>Polar</h4>
+           <h4 className='leading-6 text-xl font-normal not-italic font-Nunito text-black p-2.5'>Polar</h4>
         </div>
         <div className='flex items-center flex-col cursor-pointer divCirculo  navLink ' id='3' onClick={()=> {seleccionar('pilotos'),  action(3)}}>
           <img src={img3} />
@@ -69,7 +69,7 @@ export const Productos = () => {
           <h4 className='text-redLetters leading-6 text-xl font-normal not-italic p-2.5 font-Lato'>
           Para que tu consentid@ se sienta abrigado, cómodo y con el mejor estilo
           </h4>
-          <h3 className='not-italic font-semibold p-2.5 font-Nunito '>
+          <h3 className='not-italic font-semibold p-2.5 font-Nunito text-black'>
           Elije el modelo para tu mascota
           </h3>
         </div>

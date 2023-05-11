@@ -26,7 +26,7 @@ const [ appData, setAppData] = useState([])
                 <img src={app.img} className=''/>
               </div>
               <div className=' h-1/4 flex  sm:w-full w-10/12'> 
-                <p className='sm:text-base text-sm font-Nunito text-center'>{app.descripcion}</p>
+                <p className='sm:text-base text-sm font-Nunito text-center text-black'>{app.descripcion}</p>
               </div>
             </div>
           </div>
@@ -46,7 +46,7 @@ const [ appData, setAppData] = useState([])
                   </div>
                   <div className=' flex p-1 m-1.5 h-1/3 sm:w-full w-10/12'>
                       <h4 className='m-1 sm:text-lg text-base text-center'>{dog.num}</h4>
-                      <p className='flex sm:items-start items-center font-Nunito text-center sm:text-base text-sm'>{dog.descripcion2}</p>
+                      <p className='flex sm:items-start items-center font-Nunito text-center sm:text-base text-sm text-black'>{dog.descripcion2}</p>
                   </div>
                 </div>                
               ) : null

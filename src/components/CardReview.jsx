@@ -25,7 +25,7 @@ export const CardReview = () => {
             <img src={review.img} className='imgDogReview'/>
               <div className='divCardReview '>
                 <div className="divTextReview">
-                    <p>
+                    <p className='text-black'>
                   {review.descripcion}
                     </p>
                 </div>

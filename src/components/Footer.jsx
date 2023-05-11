@@ -15,7 +15,7 @@ export const Footer = () => {
         <img src={logo} alt="logoMonarquia" />
         </div>
         <div> 
-          <p>
+          <p >
           Atención al cliente
           </p>
             <Link to="/PreguntasFrecuentes">

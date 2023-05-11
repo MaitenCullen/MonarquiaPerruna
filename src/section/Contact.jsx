@@ -10,7 +10,7 @@ export const Contact = () => {
            <img src={img3}/>
         </div>
         <div className='divPContacto'>
-          <p className='font-Nunito'>Si tienes alguna duda o consulta, comunícate con nosotros. Estaremos gustosos de atenderte.</p>
+          <p className='font-Nunito text-black'>Si tienes alguna duda o consulta, comunícate con nosotros. Estaremos gustosos de atenderte.</p>
           <button className=" font-Lato btn bg-redPrimary buttonClass hover:bg-yellowPrimary border-current hover:border-current" ><a className='font-Lato sm:text-lg text-base' href='https://wa.me/5491123041275'>Contáctanos</a></button>
         </div>
       </div>

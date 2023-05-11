@@ -11,7 +11,7 @@ const ProductosIndex = () => {
         <div className="index__productos__container">
             <div>
                 <p>Cada mascota es única y especial</p>
-                <p><strong>Nuestros Productos</strong></p>
+                <p className='text-black'><strong>Nuestros Productos</strong></p>
             </div>
         </div>
         <div className='index__productosCards__container'>

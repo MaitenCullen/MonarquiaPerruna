@@ -15,10 +15,10 @@ const DogIdFirstContainer = ({ bannerDogId }) => {
             <div className="dogId__bannerCaption__container">
                 <div className="dogId__titleList__container">
                     <ul>
-                        <li>
+                        <li className='text-black'>
                             DOG ID
                         </li>
-                        <li>
+                        <li className='text-black'>
                             Identificación Digital
                         </li>
                         <li>
@@ -26,7 +26,7 @@ const DogIdFirstContainer = ({ bannerDogId }) => {
                         </li>
                     </ul>
                 </div>
-                <h2>SEGURIDAD para tu mascota, TRANQUILIDAD para vos</h2>
+                <h2 className='text-black'>SEGURIDAD para tu mascota, TRANQUILIDAD para vos</h2>
             </div>
         </div>
     </section>
@@ -34,8 +34,8 @@ const DogIdFirstContainer = ({ bannerDogId }) => {
         <div>
             <div className="dogId__selectorTitulo__container">
                 <div>
-                    <p>Seguridad y protección para los reyes y reinas del hogar</p>
-                    <p><strong>Elije tu DOG ID</strong></p>
+                    <p className='text-black'>Seguridad y protección para los reyes y reinas del hogar</p>
+                    <p className='text-black'><strong>Elije tu DOG ID</strong></p>
                 </div>
             </div>
         </div>

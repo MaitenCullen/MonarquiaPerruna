@@ -16,7 +16,7 @@ const Contacto = () => {
         <div className="contacto__banner__container">
             <img className="contacto__banner__img" src={ imgPrincipal } alt="" />
             <div className="contacto__titulo__container">
-                <h1>
+                <h1 className='text-black'>
                     Contáctanos
                 </h1>
             </div>
