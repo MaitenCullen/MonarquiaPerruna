@@ -10,7 +10,7 @@ export const CardDogs = () => {
             <img src={perritos} className='imgDOGID'/>
               <div className='divDogID '>
                 <div className="divTextDogID">
-                    <p>
+                    <p className='text-black'>
                     DOG ID es una identificación digital con tecnología NFC que permite que los reyes y reinas del hogar estén seguros en todo momento ya que siempre llevarán toda su información para poder identificarlos, cuidarlos y poder contactarte en caso de que se necesite.                    
                     </p>
                 </div>

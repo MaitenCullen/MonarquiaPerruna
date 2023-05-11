@@ -13,8 +13,8 @@ const CaracteristicasRopaContainer = () => {
             <div>
                 <div className="chalecos__caracteristicasTitulo__container">
                     <div>
-                        <p>¿Qué más necesitamos saber sobre los chalecos?</p>
-                        <p><strong>Características</strong></p>
+                        <p className='text-black'>¿Qué más necesitamos saber sobre los chalecos?</p>
+                        <p className='text-black'><strong>Características</strong></p>
                     </div>
                 </div>
             </div>

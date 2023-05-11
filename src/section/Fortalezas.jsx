@@ -6,8 +6,8 @@ const Fortalezas = () => {
     <>
     <div className="index__sobreNosotros__container">
         <div>
-                <p>Sobre nosotros</p>
-                <p><strong>¿Por qué elegir Monarquía Perruna?</strong></p>
+                <p className='text-black'>Sobre nosotros</p>
+                <p className='text-black'><strong>¿Por qué elegir Monarquía Perruna?</strong></p>
         </div>
     </div>
     <FortalezasContainer/>

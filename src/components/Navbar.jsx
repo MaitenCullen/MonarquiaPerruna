@@ -56,16 +56,16 @@ const Navbar = () => {
             <div className="modal-box relative menuDesplegable__container">
                 <div>
                     <label htmlFor="my-modal-3" className="absolute right-3 top-2 menuHamburguesa__btnCierre">✕</label>
-                    <li >
+                    <li className='text-black'>
                         <Link to="/Nosotros" className="justify-between ">Nosotros</Link>
                     </li>
-                    <li>
+                    <li className='text-black'>
                         <Link to="/Productos">Chalecos</Link>
                     </li>
-                    <li>
+                    <li className='text-black'>
                         <Link to="/dogId">Dog ID</Link>
                     </li>
-                    <li>
+                    <li className='text-black'>
                         <Link to="/Contacto">Contáctanos</Link>
                     </li>
                 </div>

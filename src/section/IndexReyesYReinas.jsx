@@ -9,8 +9,8 @@ const IndexReyesYReinas = () => {
     <>
     <div className="index__reyesYreinas__container">
         <div>
-                <p>Ell@s nunca dejan de brillas</p>
-                <p><strong>Nuestros reyes y reinas</strong></p>
+                <p >Ell@s nunca dejan de brillar</p>
+                <p className='text-black'><strong>Nuestros reyes y reinas</strong></p>
         </div>
     </div>
     <div className="w-100 mb-20 carousel__reyesYreinas__container">

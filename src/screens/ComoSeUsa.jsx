@@ -28,7 +28,7 @@ const [ appData, setAppData] = useState([])
                   <img src={app.img} className='laimagen'/>
                 </div>
                 <div className=' items-center flex'> 
-                  <p className=''>{app.descripcion}</p>
+                  <p className='text-black'>{app.descripcion}</p>
                 </div>
               </div>
             </div>

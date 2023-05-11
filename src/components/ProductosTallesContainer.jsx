@@ -12,8 +12,8 @@ const ProductosTallesContainer = () => {
             <div>
                 <div className="chalecos__tallesTitulo__container">
                     <div>
-                        <p>¿Cómo medir a tu mascota?</p>
-                        <p><strong>Nuestros talles</strong></p>
+                        <p className='text-black'>¿Cómo medir a tu mascota?</p>
+                        <p className='text-black'><strong>Nuestros talles</strong></p>
                     </div>
                 </div>
             </div>
@@ -24,15 +24,15 @@ const ProductosTallesContainer = () => {
         <div className="talles__tabla__generalContainer">
             <div className="talles__tabla__container">
                 <div className="talles__tablaImg__container">
-                    <strong><h3 className="ropa__talles__titulo">Chalecos:</h3></strong>
+                    <strong><h3 className="ropa__talles__titulo text-black">Chalecos:</h3></strong>
                     <img src={ tablaDeTallesChaleco } alt="Tabla de talles de Monarquia Perruna" />
                 </div>
                 <div className="talles__tablaImg__container">
-                    <strong><h3 className="ropa__talles__titulo">Polar:</h3></strong>
+                    <strong><h3 className="ropa__talles__titulo text-black">Polar:</h3></strong>
                     <img src={ tablaDeTallesPolar } alt="Tabla de talles de Monarquia Perruna" />
                 </div>
                 <div className="talles__tablaImg__container">
-                    <strong><h3 className="ropa__talles__titulo">Piloto:</h3></strong>
+                    <strong><h3 className="ropa__talles__titulo text-black">Piloto:</h3></strong>
                     <img src={ tablaDeTallesPiloto } alt="Tabla de talles de Monarquia Perruna" />
                 </div>
                 <p className="talles__indicaciones__texto">** Estas medidas son aproximadas y puede haber un mínimo de variación.</p>
