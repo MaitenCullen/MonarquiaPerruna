@@ -27,7 +27,7 @@ export const Footer = () => {
           Contáctanos
           </p>
             <a href='mailto:monarquiaperruna@gmail.com'>
-            <img  src={mail}/>Correo: monarquiaperruna@gmail.com
+            <img  src={mail}/>Correo: monarquia.perruna@gmail.com
             </a>
             <a href='https://wa.me/5491123041275'>
             <img  src={wApp}/>Teléfono: 1123041275 

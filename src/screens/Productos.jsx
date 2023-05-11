@@ -77,7 +77,7 @@ export const Productos = () => {
              {renderComponents()}
           </div>
         <div>
-        <button className="btn bg-redPrimary buttonClass hover:bg-yellowPrimary border-current hover:border-current">Comprar</button>
+        <button className="btn bg-redPrimary hover:bg-yellowPrimary border-current hover:border-current"><a className="buttonClass" href="https://wa.me/5491123041275">Comprar</a> </button>
         </div>
       </div>
     

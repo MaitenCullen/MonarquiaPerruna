@@ -91,6 +91,14 @@
   list-style-type: none;
 }
 
+#menuDesplegable{
+  background-color: #fff;
+}
+
+.index__texto__btnContactanos{
+  color: white;
+}
+
 /*------------------------------------INDEX---------------------------------------*/
 /*--------------------------------------------------------------------------------*/
 
@@ -337,6 +345,7 @@
   width: 20%;
   background-color: #A01E12;
   border: solid 2px #A01E12;
+  color:white;
 }
 
 /*SECCION PRODUCTOS INDEX*/

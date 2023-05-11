@@ -52,18 +52,18 @@ const Navbar = () => {
         </label>
         {/* Put this part before </body> tag */}
         <input type="checkbox" id="my-modal-3" className="modal-toggle" />
-        <div className="modal">
-            <div className="modal-box relative menuDesplegable__container">
+        <div  className="modal">
+            <div id="menuDesplegable" className="modal-box relative menuDesplegable__container">
                 <div>
                     <label htmlFor="my-modal-3" className="absolute right-3 top-2 menuHamburguesa__btnCierre">✕</label>
                     <li className='text-black'>
                         <Link to="/Nosotros" className="justify-between ">Nosotros</Link>
                     </li>
                     <li className='text-black'>
-                        <Link to="/Productos">Chalecos</Link>
+                        <Link htmlFor="my-modal-3" to="/Productos">Chalecos</Link>
                     </li>
                     <li className='text-black'>
-                        <Link to="/dogId">Dog ID</Link>
+                        <Link htmlFor="my-modal-3" to="/dogId">Dog ID</Link>
                     </li>
                     <li className='text-black'>
                         <Link to="/Contacto">Contáctanos</Link>
