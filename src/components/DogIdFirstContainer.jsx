@@ -41,7 +41,7 @@ const DogIdFirstContainer = ({ bannerDogId }) => {
         </div>
         <DogIdSelector/>
         <div className="width-full flex justify-center items-center mt-10 mb-10">
-        <button onClick={ redirectToWapp } className="btn bg-redPrimary hover:bg-yellowPrimary border-current hover:border-current dogId__btn__comprar">Comprar</button>
+        <button className="btn bg-redPrimary hover:bg-yellowPrimary border-current hover:border-current dogId__btn__comprar"><a className="buttonClass" href="https://wa.me/5491123041275">Comprar</a></button>
         </div>
     </section>
 

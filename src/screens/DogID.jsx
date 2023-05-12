@@ -41,8 +41,8 @@ const seleccionar = (nombre) => {
      <div className='divNavBarID'>
       <div className='borderBottom'>
         <ul className='navBarDogId'>
-          <li className='link' id='1' onClick={()=> {seleccionar("queEs?"), activado(1)}}>Que es?</li>
-          <li className='link' id='2' onClick={()=>{seleccionar('Usar'), activado(2)}}>Como se usa?</li>
+          <li className='link' id='1' onClick={()=> {seleccionar("queEs?"), activado(1)}}>Qué es?</li>
+          <li className='link' id='2' onClick={()=>{seleccionar('Usar'), activado(2)}}>Cómo se usa?</li>
           <li className='link' id='3' onClick={()=> {seleccionar('App'), activado(3)}}>App Dog Id</li>
         </ul>
       </div>
