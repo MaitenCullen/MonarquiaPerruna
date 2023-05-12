@@ -559,6 +559,8 @@
 }
 #chaleco01:hover{
   background: url('/img/ropa/ropa00a.png');
+  background-size: cover;
+  background-repeat : no-repeat;
 }
 #chaleco02{
   background:  url('/img/ropa/ropa01.png');
@@ -568,6 +570,8 @@
 }
 #chaleco02:hover{
   background: url('/img/ropa/ropa01a.png');
+  background-size: cover;
+  background-repeat : no-repeat;
 }
 #chaleco03{
   background:  url('/img/ropa/ropa02.png');
@@ -577,6 +581,8 @@
 }
 #chaleco03:hover{
   background: url('/img/ropa/ropa02a.png');
+  background-size: cover;
+  background-repeat : no-repeat;
 }
 #chaleco04{
   background:  url('/img/ropa/ropa03.png');
@@ -586,6 +592,8 @@
 }
 #chaleco04:hover{
   background: url('/img/ropa/ropa03a.png');
+  background-size: cover;
+  background-repeat : no-repeat;
 }
 #chaleco05{
   background:  url('/img/ropa/ropa04.png');
@@ -595,6 +603,8 @@
 }
 #chaleco05:hover{
   background: url('/img/ropa/ropa04a.png');
+  background-size: cover;
+  background-repeat : no-repeat;
 }
 #chaleco06{
   background:  url('/img/ropa/ropa05.png');
@@ -604,6 +614,8 @@
 }
 #chaleco06:hover{
   background: url('/img/ropa/ropa05a.png');
+  background-size: cover;
+  background-repeat : no-repeat;
 }
 /*Pilotos*/
 
@@ -615,6 +627,8 @@
 }
 #piloto01:hover{
   background: url('/img/ropa/piloto1H.png');
+  background-size: cover;
+  background-repeat : no-repeat;
 }
 #piloto02{
   background:  url('/img/ropa/piloto2.png');
@@ -624,6 +638,8 @@
 }
 #piloto02:hover{
   background: url('/img/ropa/piloto2H.png');
+  background-size: cover;
+  background-repeat : no-repeat;
 }
 #piloto03{
   background:  url('/img/ropa/piloto3.png');
@@ -633,6 +649,8 @@
 }
 #piloto03:hover{
   background: url('/img/ropa/piloto3H.png');
+  background-size: cover;
+  background-repeat : no-repeat;
 }
 
 /*polar*/
@@ -645,6 +663,8 @@
 }
 #polar01:hover{
   background: url('/img/ropa/polar1H.png');
+  background-size: cover;
+  background-repeat : no-repeat;
 }
 
 #polar02{
@@ -655,6 +675,8 @@
 }
 #polar02:hover{
   background: url('/img/ropa/polar2H.png');
+  background-size: cover;
+  background-repeat : no-repeat;
 }
 
 #polar03{
@@ -684,6 +706,7 @@
     width: 150px;
     height: 150px;
   }
+  
 }
 
 @media(max-width:480px){
