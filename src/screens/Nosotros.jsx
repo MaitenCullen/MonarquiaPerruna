@@ -56,9 +56,9 @@ export const Nosotros = () => {
           <h5 className='p-2 text-redLetters text-black'>¿Qué nos define?</h5>
           <h4 className='p-2 text-black'>Nuestros valores</h4>
         </div>
-        <div className='flex items-end justify-center'>
+        {/* <div className='flex items-end justify-center'>
           <img src={perrito1} alt='perrito1'/>
-          {/* <div className='divNosotros'>
+          <div className='divNosotros'>
           <div className='divAPPNos'>
             <div  className='APPdogID'>
               <div className='divAPPInfo '>
@@ -107,9 +107,9 @@ export const Nosotros = () => {
               </div>
             </div>
           </div>
-          </div> */}
+          </div>
           <img src={perrito2} alt='perrito2'/>
-        </div>
+        </div> */}
       </div>
     </div>
   )
