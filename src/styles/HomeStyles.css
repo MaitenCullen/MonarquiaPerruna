@@ -192,23 +192,25 @@
   
   .index__sobreNosotros__container div p{
     color: #A01E12;
-    font-size: 1rem;
+    font-size: 20px;
   }
 
   .dogId__selectorTitulo__container div p{
     color: #A01E12;
-    font-size: 1rem;
+    font-size: 20px;
   }
 
   .chalecos__caracteristicasTitulo__container div p{
     color: #A01E12;
-    font-size: 1rem;
+    font-size: 20px;
   }
 
   .chalecos__tallesTitulo__container div p{
     color: #A01E12;
-    font-size: 1rem;
+    font-size: 20px;
   }
+
+  
   
   .index__sobreNosotros__container div p strong {
     color: #191919;
@@ -512,6 +514,25 @@
   .index__RopaCaption__container h4 {
     font-size: 56px;
   }
+  .index__sobreNosotros__container div p{
+    font-size: 19px;
+  }
+
+  .dogId__selectorTitulo__container div p{
+    font-size: 19px;
+  }
+
+  .chalecos__caracteristicasTitulo__container div p{
+    font-size: 19px;
+  }
+
+  .chalecos__tallesTitulo__container div p{
+    font-size: 19px;
+  }
+
+  .index__productos__container div p{
+    font-size: 19px;
+  }
   /*------------CONTACTO-----------------*/
   .contacto__cards__container {
     width: 100%;
@@ -763,6 +784,25 @@
   /*Index Reyes y Reinas*/
   .index__reyesYreinas__container div p strong {
     font-size: 1.7rem;
+  }
+  .index__sobreNosotros__container div p{
+    font-size: 18px;
+  }
+
+  .dogId__selectorTitulo__container div p{
+    font-size: 18px;
+  }
+
+  .chalecos__caracteristicasTitulo__container div p{
+    font-size: 18px;
+  }
+
+  .chalecos__tallesTitulo__container div p{
+    font-size: 18px;
+  }
+
+  .index__productos__container div p{
+    font-size: 18px;
   }
   /*----------CONTACTO--------------*/
   .contacto__card__container {
@@ -1290,6 +1330,25 @@
   .index__reyesYreinas__container div p strong {
     font-size: 1.4rem;
   } 
+  .index__sobreNosotros__container div p{
+    font-size: 18px;
+  }
+
+  .dogId__selectorTitulo__container div p{
+    font-size: 18px;
+  }
+
+  .chalecos__caracteristicasTitulo__container div p{
+    font-size: 18px;
+  }
+
+  .chalecos__tallesTitulo__container div p{
+    font-size: 18px;
+  }
+
+  .index__productos__container div p{
+    font-size: 18px;
+  }
   /*------------CONTACTO---------------*/
   .contacto__banner__img {
     height: 20vh;
@@ -1600,6 +1659,25 @@
   height: 50px;
   width: 60px;
   right: 35%;
+}
+.index__sobreNosotros__container div p{
+  font-size: 17px;
+}
+
+.dogId__selectorTitulo__container div p{
+  font-size: 17px;
+}
+
+.chalecos__caracteristicasTitulo__container div p{
+  font-size: 17px;
+}
+
+.chalecos__tallesTitulo__container div p{
+  font-size: 17px;
+}
+
+.index__productos__container div p{
+  font-size: 17px;
 }
   /*---CONTACTO----*/
   .contacto__banner__img {
